@@ -1,0 +1,5 @@
+Forward: Y
+Up: Z
+
+Error in UE4 that may occur:
+* degenerated tangent space. Fix: Object must have a UV map on it before exporting.
