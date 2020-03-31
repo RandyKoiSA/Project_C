@@ -1,7 +1,7 @@
 Export Settings from Blender to UE4
 When exporting to UE4 from blender. Rename the armature to something that is not "Armature". 
 In the export settings set the following:
-* "Geometry->Smooth" = Face. 
+* "Geometry->Smooth" = Face or edge. 
 * "Geometry-> Tagent Space" = (Checked)
 * "Armature -> turn off "deform bones" and "add leaf bones"
 * "Animation -> disable "NLA strips and all actions"

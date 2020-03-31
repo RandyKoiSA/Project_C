@@ -1,0 +1,5 @@
+setting up the camera arm, camera, and character rotating in the right direction.
+
+in the 'CharacterMovement' component, section 'Character Movement (Rotation Settings)' set 'Orient Rotation to Movement' to True.
+
+in the 'SpringArm' component, section 'Camera Settings' uncheck all boxes.
