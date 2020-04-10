@@ -1246,3 +1246,58 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.10-23.07.28:292][ 23]AssetCheck: New page: Asset Save: multiple assets
 [2020.04.10-23.07.28:292][ 23]LogContentValidation: Display: Validating SkeletalMesh /Game/Project_C/PlayerCharacter/character2_skeleton.character2_skeleton
 [2020.04.10-23.07.28:292][ 23]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.04.10-23.09.40:629][407]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2020.04.10-23.09.41:804][407]LogSlate: Window 'Project_C - Unreal Editor' being destroyed
+[2020.04.10-23.09.43:812][408]Cmd: QUIT_EDITOR
+[2020.04.10-23.09.43:812][408]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.04.10-23.09.43:853][408]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.04.10-23.09.43:854][408]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.10-23.09.46:443][408]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.04.10-23.09.46:449][408]LogExit: Preparing to exit.
+[2020.04.10-23.09.49:691][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:691][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:691][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:691][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:692][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:692][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:692][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:692][408]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.04.10-23.09.49:694][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:694][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:694][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:694][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:694][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:694][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:694][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:694][408]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.04.10-23.09.49:695][408]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.04.10-23.09.49:697][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:697][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:697][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:697][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:697][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:697][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:697][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:697][408]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.04.10-23.09.49:698][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:698][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:698][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:698][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:698][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:698][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:698][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:698][408]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.04.10-23.09.49:699][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:699][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:699][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:699][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:699][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:699][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:699][408]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.04.10-23.09.49:699][408]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.04.10-23.09.50:476][408]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.04.10-23.09.50:476][408]LogExit: Editor shut down
+[2020.04.10-23.09.50:477][408]LogExit: Transaction tracking system shut down
+[2020.04.10-23.09.50:480][408]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.04.10-23.10.06:523][408]LogExit: Object subsystem successfully closed.
+[2020.04.10-23.10.07:209][408]LogShaderCompilers: Display: Shaders left to compile 0
