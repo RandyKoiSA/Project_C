@@ -5455,3 +5455,34 @@ handIK_R
 [2020.04.12-05.38.08:569][754]LogContentValidation: Display: Validating Material /Game/Project_C/CuteCharacter/CuteCharacter1.CuteCharacter1
 [2020.04.12-05.38.08:569][754]LogContentValidation: Display: Validating Skeleton /Game/Project_C/CuteCharacter/CuteCharacter_Skeleton.CuteCharacter_Skeleton
 [2020.04.12-05.38.08:569][754]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.04.12-05.41.07:714][862]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Project_C/CuteCharacter/Animations/cute_character_running.cute_character_running
+[2020.04.12-05.41.07:724][862]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_82:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.04.12-05.41.08:084][862]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.04.12-05.48.43:668][635]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2020.04.12-05.48.43:979][635]LogSlate: Window 'cute_character_running' being destroyed
+[2020.04.12-05.48.43:982][635]LogWorld: UWorld::CleanupWorld for World_82, bSessionEnded=true, bCleanupResources=true
+[2020.04.12-05.48.43:982][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.12-05.48.44:006][635]LogWorld: UWorld::CleanupWorld for World_84, bSessionEnded=true, bCleanupResources=true
+[2020.04.12-05.48.44:006][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.12-05.48.44:070][635]LogWorld: UWorld::CleanupWorld for World_83, bSessionEnded=true, bCleanupResources=true
+[2020.04.12-05.48.44:070][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.12-05.48.44:084][635]LogSlate: Window 'Project_C - Unreal Editor' being destroyed
+[2020.04.12-05.48.44:091][635]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.04.12-05.48.44:644][636]Cmd: QUIT_EDITOR
+[2020.04.12-05.48.44:644][636]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.04.12-05.48.44:720][636]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.04.12-05.48.44:739][636]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.12-05.48.45:144][636]LogExit: Preparing to exit.
+[2020.04.12-05.48.46:318][636]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2020.04.12-05.48.46:319][636]LogWorld: UWorld::CleanupWorld for World_72, bSessionEnded=true, bCleanupResources=true
+[2020.04.12-05.48.46:320][636]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.04.12-05.48.46:321][636]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.04.12-05.48.46:322][636]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.04.12-05.48.46:323][636]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.04.12-05.48.46:324][636]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2020.04.12-05.48.46:325][636]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2020.04.12-05.48.46:326][636]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.04.12-05.48.46:751][636]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.04.12-05.48.46:751][636]LogExit: Editor shut down
+[2020.04.12-05.48.46:758][636]LogExit: Transaction tracking system shut down
+[2020.04.12-05.48.46:811][636]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
