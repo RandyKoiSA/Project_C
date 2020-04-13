@@ -1,0 +1,1185 @@
+﻿Log file open, 04/13/20 00:13:35
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Project_C
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.201909
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GameplayAbilities
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1809) (), CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: E:/Program Files/Epic Games/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.04.13-07.13.36:946][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.04.13-07.13.36:946][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.04.13-07.13.36:946][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Engine.ini]
+[2020.04.13-07.13.36:946][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.04.13-07.13.36:947][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Engine.ini]
+[2020.04.13-07.13.36:947][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Engine.ini]
+[2020.04.13-07.13.36:947][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.04.13-07.13.36:947][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.04.13-07.13.36:947][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.04.13-07.13.36:947][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.04.13-07.13.36:947][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.04.13-07.13.36:947][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.04.13-07.13.36:947][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.04.13-07.13.36:947][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.04.13-07.13.36:947][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.04.13-07.13.36:947][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.04.13-07.13.36:947][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.04.13-07.13.36:947][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.04.13-07.13.36:947][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.04.13-07.13.36:947][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.04.13-07.13.36:947][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Engine.ini]
+[2020.04.13-07.13.36:947][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.04.13-07.13.36:947][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.04.13-07.13.36:947][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.04.13-07.13.36:947][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.04.13-07.13.36:947][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.04.13-07.13.36:947][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.04.13-07.13.36:947][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.04.13-07.13.36:947][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.04.13-07.13.36:947][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.04.13-07.13.36:947][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.04.13-07.13.36:947][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.04.13-07.13.36:947][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.04.13-07.13.36:947][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.04.13-07.13.36:947][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Engine.ini]
+[2020.04.13-07.13.36:947][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Engine.ini]
+[2020.04.13-07.13.36:950][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Scalability.ini]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Scalability.ini]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Scalability.ini]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Scalability.ini]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.13-07.13.36:950][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Scalability.ini]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Scalability.ini]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Scalability.ini]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Scalability.ini]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.13-07.13.36:951][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.13-07.13.36:951][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.13-07.13.36:951][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.13-07.13.36:964][  0]LogHAL: Display: Platform has ~ 16 GB [17041510400 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.13-07.13.36:964][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.13-07.13.36:964][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Scalability.ini]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Scalability.ini]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Scalability.ini]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Scalability.ini]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Scalability.ini]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Scalability.ini]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.13-07.13.36:964][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.13-07.13.36:965][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.13-07.13.36:965][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.13-07.13.36:965][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.13-07.13.36:965][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.13-07.13.36:965][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.13-07.13.36:965][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.13-07.13.36:965][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.13-07.13.36:965][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.13-07.13.36:965][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.13-07.13.36:965][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.13-07.13.36:965][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.13-07.13.36:965][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.13-07.13.36:965][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.13-07.13.36:965][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.13-07.13.36:965][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Scalability.ini]
+[2020.04.13-07.13.36:965][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.13-07.13.36:965][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.13-07.13.36:965][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Scalability.ini]
+[2020.04.13-07.13.36:965][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.13-07.13.36:965][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.13-07.13.36:965][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.13-07.13.36:965][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.04.13-07.13.36:969][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.04.13-07.13.36:969][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.04.13-07.13.36:969][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Engine.ini]
+[2020.04.13-07.13.36:969][  0]LogInit: Computer: DESKTOP-RDHKLDC
+[2020.04.13-07.13.36:969][  0]LogInit: User: Randy
+[2020.04.13-07.13.36:969][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.04.13-07.13.36:969][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.13-07.13.36:970][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.04.13-07.13.36:970][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.13-07.13.36:970][  0]LogMemory: Process Physical Memory: 105.70 MB used, 105.70 MB peak
+[2020.04.13-07.13.36:970][  0]LogMemory: Process Virtual Memory: 100.45 MB used, 100.45 MB peak
+[2020.04.13-07.13.36:970][  0]LogMemory: Physical Memory: 7231.96 MB used,  9020.09 MB free, 16252.05 MB total
+[2020.04.13-07.13.36:970][  0]LogMemory: Virtual Memory: 5152.00 MB used,  134212576.00 MB free, 134217728.00 MB total
+[2020.04.13-07.13.36:974][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.04.13-07.13.37:279][  0]LogInit: Using OS detected language (en-US).
+[2020.04.13-07.13.37:279][  0]LogInit: Using OS detected locale (en-US).
+[2020.04.13-07.13.37:280][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.04.13-07.13.37:768][  0]LogInit: Setting process to per monitor DPI aware
+[2020.04.13-07.13.37:992][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.13-07.13.37:992][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.13-07.13.42:526][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.13-07.13.42:526][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.04.13-07.13.42:526][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.04.13-07.13.42:526][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.13-07.13.42:600][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2020.04.13-07.13.42:600][  0]LogD3D11RHI:       6052/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.04.13-07.13.42:630][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2020.04.13-07.13.42:630][  0]LogD3D11RHI:       128/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2020.04.13-07.13.42:633][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.13-07.13.42:633][  0]LogD3D11RHI:       0/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.13-07.13.42:633][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.13-07.13.42:642][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.13-07.13.42:642][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2020.04.13-07.13.42:642][  0]LogWindows: EnumDisplayDevices:
+[2020.04.13-07.13.42:642][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:0 D:1)
+[2020.04.13-07.13.42:642][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.04.13-07.13.42:642][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.04.13-07.13.42:643][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2020.04.13-07.13.42:643][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.04.13-07.13.42:643][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.04.13-07.13.42:643][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.04.13-07.13.42:644][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.04.13-07.13.42:644][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2020.04.13-07.13.42:644][  0]LogD3D11RHI:   Driver Version: 432.00 (internal:26.21.14.3200, unified:432.00)
+[2020.04.13-07.13.42:644][  0]LogD3D11RHI:      Driver Date: 7-24-2019
+[2020.04.13-07.13.42:644][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2020.04.13-07.13.42:709][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.04.13-07.13.42:709][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.13-07.13.42:768][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.04.13-07.13.43:593][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.04.13-07.13.43:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.04.13-07.13.43:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.04.13-07.13.43:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.04.13-07.13.43:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.04.13-07.13.43:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.04.13-07.13.43:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.04.13-07.13.43:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.04.13-07.13.43:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.04.13-07.13.43:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.04.13-07.13.43:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.04.13-07.13.43:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.04.13-07.13.43:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.04.13-07.13.43:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.04.13-07.13.43:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.04.13-07.13.43:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.04.13-07.13.43:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.04.13-07.13.43:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.04.13-07.13.43:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.04.13-07.13.43:691][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.04.13-07.13.43:691][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.04.13-07.13.43:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.04.13-07.13.43:714][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.04.13-07.13.43:720][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.04.13-07.13.43:728][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.04.13-07.13.43:743][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.04.13-07.13.43:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.04.13-07.13.43:781][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.04.13-07.13.43:781][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.04.13-07.13.43:809][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.04.13-07.13.43:809][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.04.13-07.13.43:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.04.13-07.13.43:844][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.04.13-07.13.43:850][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.04.13-07.13.43:856][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.04.13-07.13.43:856][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.13-07.13.43:897][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.04.13-07.13.44:188][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Intermediate/Shaders/WorkingDirectory/17820/).
+[2020.04.13-07.13.44:189][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Randy/AppData/Local/Temp/UnrealShaderWorkingDir/68F8AE3646DE11ACE7D629A9A0DA4678/'.
+[2020.04.13-07.13.44:196][  0]LogXGEController: Cleaning working directory: C:/Users/Randy/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.04.13-07.13.44:196][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.13-07.13.44:196][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.13-07.13.44:196][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.13-07.13.48:389][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.13-07.13.48:550][  0]LogDerivedDataCache: Loaded boot cache 0.16s 78MB C:/Users/Randy/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.13-07.13.48:551][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Randy/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.04.13-07.13.48:551][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Users/Randy/Desktop/Project_C/Project_C_UE4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.13-07.13.48:551][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.13-07.13.48:551][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Users/Randy/Desktop/Project_C/Project_C_UE4/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.13-07.13.48:551][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.13-07.13.48:567][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.13-07.13.48:567][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.13-07.13.48:567][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.04.13-07.13.48:568][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Randy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.13-07.13.48:568][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.13-07.13.48:568][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.13-07.13.48:598][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.13-07.13.48:601][  0]LogSlate: Using FreeType 2.10.0
+[2020.04.13-07.13.48:679][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.13-07.13.49:220][  0]LogAssetRegistry: FAssetRegistry took 0.0019 seconds to start up
+[2020.04.13-07.13.49:639][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.13-07.13.50:053][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.13-07.13.50:053][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.04.13-07.13.50:053][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.13-07.13.50:053][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.04.13-07.13.50:053][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.04.13-07.13.50:085][  0]LogNetVersion: Project_C 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 3451845409)
+[2020.04.13-07.13.51:688][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.035522 seconds
+[2020.04.13-07.13.51:695][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.04.13-07.13.51:695][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.04.13-07.13.51:696][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.13-07.13.53:386][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.13-07.13.53:400][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.13-07.13.53:472][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.04.13-07.13.53:825][  0]SourceControl: Source control is disabled
+[2020.04.13-07.13.53:825][  0]SourceControl: Source control is disabled
+[2020.04.13-07.13.53:861][  0]SourceControl: Source control is disabled
+[2020.04.13-07.13.53:875][  0]SourceControl: Source control is disabled
+[2020.04.13-07.13.53:884][  0]SourceControl: Source control is disabled
+[2020.04.13-07.13.54:379][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.13-07.13.54:450][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.13-07.13.54:450][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.13-07.13.54:635][  0]LogOcInput: OculusInput pre-init called
+[2020.04.13-07.13.54:663][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.04.13-07.13.54:663][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.04.13-07.13.54:788][  0]LogEngine: Initializing Engine...
+[2020.04.13-07.13.54:789][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.13-07.13.55:084][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.13-07.13.55:129][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.13-07.13.55:167][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.13-07.13.55:167][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.13-07.13.55:167][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.13-07.13.55:167][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.13-07.13.55:167][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.13-07.13.55:167][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.13-07.13.55:167][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.13-07.13.55:167][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.13-07.13.55:167][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.13-07.13.55:167][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.13-07.13.55:262][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.13-07.13.55:262][  0]LogAudioMixer: Display: Name: Headphones w/o mic (WH-CH700N Stereo)
+[2020.04.13-07.13.55:262][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.04.13-07.13.55:262][  0]LogAudioMixer: Display: Sample Rate: 44100
+[2020.04.13-07.13.55:262][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.13-07.13.55:262][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.13-07.13.55:262][  0]LogAudioMixer: Display: Channel Order:
+[2020.04.13-07.13.55:262][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.13-07.13.55:262][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.04.13-07.13.55:279][  0]LogAudioMixer: Display: Using Audio Device Headphones w/o mic (WH-CH700N Stereo)
+[2020.04.13-07.13.55:284][  0]LogInit: FAudioDevice initialized.
+[2020.04.13-07.13.55:284][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.13-07.13.55:404][  0]LogDerivedDataCache: Saved boot cache 0.12s 78MB C:/Users/Randy/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.13-07.13.55:408][  0]LogInit: Texture streaming: Enabled
+[2020.04.13-07.13.55:452][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.13-07.13.55:452][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.04.13-07.13.55:453][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.04.13-07.13.55:597][  0]LogInit: Transaction tracking system initialized
+[2020.04.13-07.13.55:741][  0]BlueprintLog: New page: Editor Load
+[2020.04.13-07.13.56:138][  0]LocalizationService: Localization service is disabled
+[2020.04.13-07.13.56:679][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/' took 0.00s
+[2020.04.13-07.13.56:679][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.13-07.13.56:679][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.13-07.13.56:687][  0]LogStats: FGameplayAbilitiesEditorModule::GameplayTagTreeChanged -  0.000 s
+[2020.04.13-07.13.57:186][  0]SourceControl: Source control is disabled
+[2020.04.13-07.13.57:186][  0]Cmd: MAP LOAD FILE="D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.13-07.13.57:186][  0]LightingResults: New page: Lighting Build
+[2020.04.13-07.13.57:187][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.04.13-07.13.57:187][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.13-07.13.57:187][  0]MapCheck: New page: Map Check
+[2020.04.13-07.13.57:187][  0]LightingResults: New page: Lighting Build
+[2020.04.13-07.13.57:210][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2020.04.13-07.13.57:518][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.04.13-07.13.57:530][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.13-07.13.57:554][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2020.04.13-07.13.57:555][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.13-07.13.57:555][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.085ms to complete.
+[2020.04.13-07.13.57:555][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.369
+[2020.04.13-07.13.57:685][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-07.13.57:690][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-07.13.57:695][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-07.13.57:700][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-07.13.57:703][  0]LogCollectionManager: Loaded 0 collections in 0.000540 seconds
+[2020.04.13-07.13.57:712][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Collections/' took 0.00s
+[2020.04.13-07.13.57:712][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Developers/Randy/Collections/' took 0.00s
+[2020.04.13-07.13.57:712][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Collections/' took 0.00s
+[2020.04.13-07.13.57:712][  0]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 3101 classes and 727 folders.
+[2020.04.13-07.13.57:714][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.04.13-07.13.57:754][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.04.13-07.13.57:759][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2020.04.13-07.13.57:837][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.13-07.13.57:838][  0]LogSlate: Took 0.000103 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.13-07.13.57:842][  0]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.13-07.13.57:902][  0]LogRenderer: Reallocating scene render targets to support 976x576 Format 10 NumSamples 1 (Frame:1).
+[2020.04.13-07.13.57:980][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.04.13-07.13.57:980][  0]LogLoad: (Engine Initialization) Total time: 36.69 seconds
+[2020.04.13-07.13.57:980][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.13-07.13.58:020][  0]LogAssetRegistry: Asset discovery search completed in 8.8003 seconds
+[2020.04.13-07.13.58:024][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000007 seconds (updated 0 objects)
+[2020.04.13-07.13.58:025][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.04.13-07.13.58:048][  0]LogSlate: Took 0.000107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.13-07.16.47:419][790]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.13-07.16.47:534][790]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Users/Randy/Desktop/Project_C/fbx/cute_character_equipment/shirt.fbx)
+[2020.04.13-07.16.47:659][790]LogFbx: Loading FBX Scene from D:/Users/Randy/Desktop/Project_C/fbx/cute_character_equipment/shirt.fbx
+[2020.04.13-07.16.47:694][790]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.13-07.17.02:091][790]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.04.13-07.17.02:172][790]LogFbx: Warning: Not valid bind pose for Pose (Cube.003) - Node CuteCharacter.002 : The relative matrices do not match
+[2020.04.13-07.17.02:172][790]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2020.04.13-07.17.02:172][790]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - CuteCharacter.002
+[2020.04.13-07.17.02:172][790]LogFbx: Warning: Recreating bind pose succeeded.
+[2020.04.13-07.17.02:305][790]LogMaterial: Display: Material /Game/Project_C/CuteCharacter/Equipment/CuteCharacter.CuteCharacter needed to have new flag set bUsedWithSkeletalMesh !
+[2020.04.13-07.17.02:316][790]LogMaterial: Display: Missing cached shader map for material CuteCharacter, compiling. 
+[2020.04.13-07.17.02:422][790]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 39
+[2020.04.13-07.17.02:422][790]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 29
+[2020.04.13-07.17.02:422][790]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2020.04.13-07.17.02:422][790]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.04.13-07.17.02:452][790]LogLinker: Failed to load '/Game/Project_C/CuteCharacter/Equipment/CuteBase': Can't find file.
+[2020.04.13-07.17.02:452][790]LogLinker: Failed to load '/Game/Project_C/CuteCharacter/Equipment/CuteBase': Can't find file.
+[2020.04.13-07.17.02:549][790]LogTexture: Display: Building textures: CuteBase (AutoDXT, 512X512)
+[2020.04.13-07.17.02:646][790]LogMaterial: Display: Missing cached shader map for material CuteCharacter, compiling. 
+[2020.04.13-07.17.02:860][790]LogFbx: Triangulating skeletal mesh CuteCharacter.002
+[2020.04.13-07.17.03:178][790]LogFbx: Warning: Bones digested - 30  Depth of hierarchy - 9
+[2020.04.13-07.17.03:194][790]LogLODUtilities: Warning: Warning skeletal mesh influence count of 10 exceeds max count of 8. Influence truncation will occur. Maximum Ignored Weight 0.010045
+[2020.04.13-07.17.03:358][790]LogSkeletalMesh: Section 0: 1072 vertices, 14 active bones
+[2020.04.13-07.17.03:358][790]LogSkeletalMesh: Section 0: Material=0, 956 triangles
+[2020.04.13-07.17.03:382][790]LogSkeletalMesh: Building Skeletal Mesh shirt...
+[2020.04.13-07.17.03:395][790]LogSkeletalMesh: Section 0: 1072 vertices, 14 active bones
+[2020.04.13-07.17.03:395][790]LogSkeletalMesh: Section 0: Material=0, 956 triangles
+[2020.04.13-07.17.03:434][790]LogSkeletalMesh: Built Skeletal Mesh [0.04s] /Game/Project_C/CuteCharacter/Equipment/shirt.shirt
+[2020.04.13-07.17.03:461][790]LogLinker: Failed to load '/Game/Project_C/CuteCharacter/Equipment/shirt_PhysicsAsset': Can't find file.
+[2020.04.13-07.17.03:461][790]LogLinker: Failed to load '/Game/Project_C/CuteCharacter/Equipment/shirt_PhysicsAsset': Can't find file.
+[2020.04.13-07.17.03:525][790]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.04.13-07.17.03:525][790]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.13-07.17.03:548][790]LogFbx: SortedLinks :(0) Skeleton
+[2020.04.13-07.17.03:548][790]LogFbx: SortedLinks :(1) Hips
+[2020.04.13-07.17.03:548][790]LogFbx: SortedLinks :(2) LowerSpine
+[2020.04.13-07.17.03:548][790]LogFbx: SortedLinks :(3) Chest
+[2020.04.13-07.17.03:548][790]LogFbx: SortedLinks :(4) Neck
+[2020.04.13-07.17.03:548][790]LogFbx: SortedLinks :(5) Head
+[2020.04.13-07.17.03:548][790]LogFbx: SortedLinks :(6) ShoulderConnector_L
+[2020.04.13-07.17.03:548][790]LogFbx: SortedLinks :(7) Shoulder_L
+[2020.04.13-07.17.03:548][790]LogFbx: SortedLinks :(8) UpperArm_L
+[2020.04.13-07.17.03:548][790]LogFbx: SortedLinks :(9) LowerArm_L
+[2020.04.13-07.17.03:548][790]LogFbx: SortedLinks :(10) Hand_L
+[2020.04.13-07.17.03:548][790]LogFbx: SortedLinks :(11) ShoulderConnector_R
+[2020.04.13-07.17.03:548][790]LogFbx: SortedLinks :(12) Shoulder_R
+[2020.04.13-07.17.03:548][790]LogFbx: SortedLinks :(13) UpperArm_R
+[2020.04.13-07.17.03:548][790]LogFbx: SortedLinks :(14) LowerArm_R
+[2020.04.13-07.17.03:548][790]LogFbx: SortedLinks :(15) Hand_R
+[2020.04.13-07.17.03:548][790]LogFbx: SortedLinks :(16) UpperLeg_L
+[2020.04.13-07.17.03:548][790]LogFbx: SortedLinks :(17) LowerLeg_L
+[2020.04.13-07.17.03:548][790]LogFbx: SortedLinks :(18) Foot_L
+[2020.04.13-07.17.03:548][790]LogFbx: SortedLinks :(19) UpperLeg_R
+[2020.04.13-07.17.03:548][790]LogFbx: SortedLinks :(20) LowerLeg_R
+[2020.04.13-07.17.03:548][790]LogFbx: SortedLinks :(21) Foot_R
+[2020.04.13-07.17.03:548][790]LogFbx: SortedLinks :(22) FootIK_L
+[2020.04.13-07.17.03:548][790]LogFbx: SortedLinks :(23) KneeController_L
+[2020.04.13-07.17.03:548][790]LogFbx: SortedLinks :(24) ElbowController_L
+[2020.04.13-07.17.03:548][790]LogFbx: SortedLinks :(25) handIK_L
+[2020.04.13-07.17.03:548][790]LogFbx: SortedLinks :(26) FootIK_R
+[2020.04.13-07.17.03:548][790]LogFbx: SortedLinks :(27) KneeController_R
+[2020.04.13-07.17.03:548][790]LogFbx: SortedLinks :(28) ElbowController_R
+[2020.04.13-07.17.03:548][790]LogFbx: SortedLinks :(29) handIK_R
+[2020.04.13-07.17.03:553][790]LogFbx: Parsing AnimStack Scene
+[2020.04.13-07.17.03:553][790]LogLinker: Failed to load '/Game/Project_C/CuteCharacter/Equipment/shirt_Anim': Can't find file.
+[2020.04.13-07.17.03:553][790]LogLinker: Failed to load '/Game/Project_C/CuteCharacter/Equipment/shirt_Anim': Can't find file.
+[2020.04.13-07.17.03:646][790]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Project_C/CuteCharacter/Equipment/shirt_Anim.shirt_Anim
+[2020.04.13-07.17.03:656][790]LogAnimationCompression: Recompressing (AnimSequence /Game/Project_C/CuteCharacter/Equipment/shirt_Anim.shirt_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.04.13-07.17.07:796][127]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 39
+[2020.04.13-07.17.08:798][211]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 29
+[2020.04.13-07.17.08:986][227]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 21
+[2020.04.13-07.17.09:491][270]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.04.13-07.17.11:713][458]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2020.04.13-07.17.12:137][493]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2020.04.13-07.17.13:433][599]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2020.04.13-07.17.13:447][600]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2020.04.13-07.17.13:934][639]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.04.13-07.17.13:983][643]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2020.04.13-07.17.15:127][749]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt
+[2020.04.13-07.17.15:206][749]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.04.13-07.17.15:860][749]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.04.13-07.17.15:928][749]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2020.04.13-07.17.16:319][749]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.04.13-07.17.16:877][749]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Player_C /Engine/Transient.World_7:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Player_C_0
+	Function /Game/Project_C/Blueprints/Player/ABP_Player.ABP_Player_C:ExecuteUbergraph_ABP_Player:00BF
+[2020.04.13-07.17.21:022][135]LogRenderer: Reallocating scene render targets to support 1056x884 Format 10 NumSamples 1 (Frame:1).
+[2020.04.13-07.17.27:987][759]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace /Game/Project_C/CuteCharacter/Animations/BS_IdleRun.BS_IdleRun
+[2020.04.13-07.17.28:039][759]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.04.13-07.17.28:080][759]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.04.13-07.17.28:429][759]LogRenderer: Reallocating scene render targets to support 1144x884 Format 10 NumSamples 1 (Frame:1).
+[2020.04.13-07.17.28:429][759]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.04.13-07.17.30:339][925]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Project_C/Blueprints/Player/ABP_Player.ABP_Player
+[2020.04.13-07.17.30:389][925]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.04.13-07.17.30:389][925]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Player_C /Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Player_C_0
+	Function /Game/Project_C/Blueprints/Player/ABP_Player.ABP_Player_C:ExecuteUbergraph_ABP_Player:00BF
+[2020.04.13-07.17.30:894][925]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 121 classes and 0 folders.
+[2020.04.13-07.17.32:105][925]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.04.13-07.17.32:428][925]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Player_C /Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Player_C_0
+	Function /Game/Project_C/Blueprints/Player/ABP_Player.ABP_Player_C:ExecuteUbergraph_ABP_Player:00BF
+[2020.04.13-07.17.32:466][925]LogSlate: Took 0.015268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.04.13-07.17.32:846][925]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.04.13-07.17.32:871][926]LogSlate: Took 0.011299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.04.13-07.17.32:900][928]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Player_C /Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Player_C_0
+	Function /Game/Project_C/Blueprints/Player/ABP_Player.ABP_Player_C:ExecuteUbergraph_ABP_Player:00BF
+[2020.04.13-07.17.32:910][929]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Player_C /Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Player_C_0
+	Function /Game/Project_C/Blueprints/Player/ABP_Player.ABP_Player_C:ExecuteUbergraph_ABP_Player:00BF
+[2020.04.13-07.17.32:918][930]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Player_C /Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Player_C_0
+	Function /Game/Project_C/Blueprints/Player/ABP_Player.ABP_Player_C:ExecuteUbergraph_ABP_Player:00BF
+[2020.04.13-07.17.32:929][931]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Player_C /Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Player_C_0
+	Function /Game/Project_C/Blueprints/Player/ABP_Player.ABP_Player_C:ExecuteUbergraph_ABP_Player:00BF
+[2020.04.13-07.17.32:942][932]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Player_C /Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Player_C_0
+	Function /Game/Project_C/Blueprints/Player/ABP_Player.ABP_Player_C:ExecuteUbergraph_ABP_Player:00BF
+[2020.04.13-07.17.32:950][933]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Player_C /Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Player_C_0
+	Function /Game/Project_C/Blueprints/Player/ABP_Player.ABP_Player_C:ExecuteUbergraph_ABP_Player:00BF
+[2020.04.13-07.17.32:961][934]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Player_C /Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Player_C_0
+	Function /Game/Project_C/Blueprints/Player/ABP_Player.ABP_Player_C:ExecuteUbergraph_ABP_Player:00BF
+[2020.04.13-07.17.32:970][935]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Player_C /Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Player_C_0
+	Function /Game/Project_C/Blueprints/Player/ABP_Player.ABP_Player_C:ExecuteUbergraph_ABP_Player:00BF
+[2020.04.13-07.17.32:979][936]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Player_C /Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Player_C_0
+	Function /Game/Project_C/Blueprints/Player/ABP_Player.ABP_Player_C:ExecuteUbergraph_ABP_Player:00BF
+[2020.04.13-07.17.32:991][937]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Player_C /Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Player_C_0
+	Function /Game/Project_C/Blueprints/Player/ABP_Player.ABP_Player_C:ExecuteUbergraph_ABP_Player:00BF
+[2020.04.13-07.17.33:002][938]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Player_C /Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Player_C_0
+	Function /Game/Project_C/Blueprints/Player/ABP_Player.ABP_Player_C:ExecuteUbergraph_ABP_Player:00BF
+[2020.04.13-07.17.33:012][939]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Player_C /Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Player_C_0
+	Function /Game/Project_C/Blueprints/Player/ABP_Player.ABP_Player_C:ExecuteUbergraph_ABP_Player:00BF
+[2020.04.13-07.17.33:023][940]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Player_C /Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Player_C_0
+	Function /Game/Project_C/Blueprints/Player/ABP_Player.ABP_Player_C:ExecuteUbergraph_ABP_Player:00BF
+[2020.04.13-07.17.33:032][941]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Player_C /Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_Player_C_0
+	Function /Game/Project_C/Blueprints/Player/ABP_Player.ABP_Player_C:ExecuteUbergraph_ABP_Player:00BF
+[2020.04.13-07.17.35:519][146]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.04.13-07.18.36:439][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2020.04.13-07.18.37:244][ 59]LogSlate: Window 'Delete Assets' being destroyed
+[2020.04.13-07.18.37:373][ 59]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Project_C/CuteCharacter/Equipment/shirt_Anim.shirt_Anim
+[2020.04.13-07.18.38:878][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2020.04.13-07.18.42:913][499]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.04.13-07.18.44:147][499]LogSlate: Window 'Delete Assets' being destroyed
+[2020.04.13-07.18.46:917][499]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.04.13-07.18.46:917][499]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.13-07.18.46:958][499]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Project_C/CuteCharacter/Equipment/CuteBase.CuteBase
+[2020.04.13-07.18.47:131][499]LogMaterial: Display: Missing cached shader map for material CuteCharacter, compiling. 
+[2020.04.13-07.18.47:142][499]LogMaterial: Warning: /Game/Project_C/CuteCharacter/Equipment/CuteCharacter.CuteCharacter (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.04.13-07.18.47:142][499]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.04.13-07.18.47:147][499]LogMaterial: Display: Missing cached shader map for material CuteCharacter, compiling. 
+[2020.04.13-07.18.47:148][499]LogMaterial: Warning: /Game/Project_C/CuteCharacter/Equipment/CuteCharacter.CuteCharacter (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.04.13-07.18.47:148][499]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.04.13-07.18.47:356][499]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2020.04.13-07.18.48:366][581]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.04.13-07.18.49:630][581]LogSlate: Window 'Delete Assets' being destroyed
+[2020.04.13-07.18.50:847][581]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Project_C/CuteCharacter/Equipment/CuteCharacter.CuteCharacter
+[2020.04.13-07.18.51:195][581]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2020.04.13-07.18.52:063][670]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt
+[2020.04.13-07.18.52:066][670]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.04.13-07.18.52:106][670]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.04.13-07.19.11:278][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Project_C/CuteCharacter/Equipment/shirt" FILE="D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/CuteCharacter/Equipment/shirt.uasset" SILENT=true
+[2020.04.13-07.19.11:301][355]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/shirtDEF16C4E4AF7AA5F8C4DAEA9C1EAC1CA.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/CuteCharacter/Equipment/shirt.uasset'
+[2020.04.13-07.19.11:336][355]AssetCheck: New page: Asset Save: shirt
+[2020.04.13-07.19.11:336][355]LogContentValidation: Display: Validating SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt
+[2020.04.13-07.19.19:115][139]LogAssetEditorSubsystem: Opening Asset editor for PhysicsAsset /Game/Project_C/CuteCharacter/Equipment/shirt_PhysicsAsset.shirt_PhysicsAsset
+[2020.04.13-07.19.19:205][139]LogContentBrowser: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0003 seconds. Added 7 classes and 3 folders.
+[2020.04.13-07.19.19:219][139]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2020.04.13-07.22.02:377][ 60]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Project_C/Blueprints/Player/BP_Player.BP_Player
+[2020.04.13-07.22.43:148][874]BlueprintLog: New page: Compile BP_Player
+[2020.04.13-07.22.43:566][874]LogUObjectHash: Compacting FUObjectHashTables data took   4.17ms
+[2020.04.13-07.22.52:752][631]BlueprintLog: New page: Compile BP_Player
+[2020.04.13-07.22.53:047][631]LogUObjectHash: Compacting FUObjectHashTables data took   4.72ms
+[2020.04.13-07.23.58:331][692]LogUObjectHash: Compacting FUObjectHashTables data took   6.10ms
+[2020.04.13-07.23.58:644][692]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/ThirdPersonExampleMap_Auto1F7CB940F4A8D96CC8FE937ABA9A1F957.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2020.04.13-07.23.58:648][692]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.357
+[2020.04.13-07.23.58:648][692]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.357
+[2020.04.13-07.23.58:648][692]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Project_C/Blueprints/Player/BP_Player] ([1] browsable assets)...
+[2020.04.13-07.23.58:656][692]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Project_C/Blueprints/Player/BP_Player.BP_Player]
+[2020.04.13-07.23.58:657][692]OBJ SavePackage: Finished generating thumbnails for package [/Game/Project_C/Blueprints/Player/BP_Player]
+[2020.04.13-07.23.58:796][692]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/BP_Player_Auto12E53720243E0AB53052DF4A0225AE816.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Autosaves/Game/Project_C/Blueprints/Player/BP_Player_Auto1.uasset'
+[2020.04.13-07.23.58:850][692]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Project_C/CuteCharacter/CuteCharacter_Skeleton] ([1] browsable assets)...
+[2020.04.13-07.23.58:850][692]OBJ SavePackage: Finished generating thumbnails for package [/Game/Project_C/CuteCharacter/CuteCharacter_Skeleton]
+[2020.04.13-07.23.58:866][692]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/CuteCharacter_Skeleton_Auto1B4371A6841F574A6B7001483239C2CF0.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Autosaves/Game/Project_C/CuteCharacter/CuteCharacter_Skeleton_Auto1.uasset'
+[2020.04.13-07.23.58:868][692]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Project_C/CuteCharacter/Equipment/shirt_PhysicsAsset] ([1] browsable assets)...
+[2020.04.13-07.23.58:878][692]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/Project_C/CuteCharacter/Equipment/shirt_PhysicsAsset.shirt_PhysicsAsset]
+[2020.04.13-07.23.58:878][692]OBJ SavePackage: Finished generating thumbnails for package [/Game/Project_C/CuteCharacter/Equipment/shirt_PhysicsAsset]
+[2020.04.13-07.23.58:890][692]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/shirt_PhysicsAsset_Auto18BA6014440A2612FBCC73A855FEC5896.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Autosaves/Game/Project_C/CuteCharacter/Equipment/shirt_PhysicsAsset_Auto1.uasset'
+[2020.04.13-07.23.58:890][692]LogFileHelpers: Auto-saving content packages took 0.242
+[2020.04.13-07.31.25:553][877]BlueprintLog: New page: Compile BP_Player
+[2020.04.13-07.31.25:811][877]LogUObjectHash: Compacting FUObjectHashTables data took   4.89ms
+[2020.04.13-07.33.58:758][315]LogUObjectHash: Compacting FUObjectHashTables data took   4.21ms
+[2020.04.13-07.33.58:995][315]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/ThirdPersonExampleMap_Auto23357638248D5E0D2F4C38FB95B023094.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2020.04.13-07.33.58:996][315]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.277
+[2020.04.13-07.33.58:996][315]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.277
+[2020.04.13-07.33.58:996][315]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Project_C/Blueprints/Enemies/BP_Enemy] ([1] browsable assets)...
+[2020.04.13-07.33.59:011][315]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Project_C/Blueprints/Enemies/BP_Enemy.BP_Enemy]
+[2020.04.13-07.33.59:011][315]OBJ SavePackage: Finished generating thumbnails for package [/Game/Project_C/Blueprints/Enemies/BP_Enemy]
+[2020.04.13-07.33.59:038][315]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/BP_Enemy_Auto2D741293648568084BC7B68B1613BACE7.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Autosaves/Game/Project_C/Blueprints/Enemies/BP_Enemy_Auto2.uasset'
+[2020.04.13-07.33.59:078][315]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Project_C/Blueprints/Player/BP_Player] ([1] browsable assets)...
+[2020.04.13-07.33.59:087][315]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Project_C/Blueprints/Player/BP_Player.BP_Player]
+[2020.04.13-07.33.59:088][315]OBJ SavePackage: Finished generating thumbnails for package [/Game/Project_C/Blueprints/Player/BP_Player]
+[2020.04.13-07.33.59:120][315]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/BP_Player_Auto29B7AA7794043E19897DF159C1D99BB8F.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Autosaves/Game/Project_C/Blueprints/Player/BP_Player_Auto2.uasset'
+[2020.04.13-07.33.59:121][315]LogFileHelpers: Auto-saving content packages took 0.125
+[2020.04.13-07.34.32:294][280]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.04.13-07.34.32:315][280]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.13-07.34.32:534][280]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.04.13-07.34.32:540][280]LogPlayLevel: [PlayLevel] Compiling BP_Player before play...
+[2020.04.13-07.34.32:540][280]LogPlayLevel: [PlayLevel]   Compiling BP_Enemy as a dependent...
+[2020.04.13-07.34.32:797][280]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2020.04.13-07.34.32:799][280]LogPlayLevel: PlayLevel: Blueprint regeneration took 265 ms (2 blueprints)
+[2020.04.13-07.34.32:800][280]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 12, 2020, 5:34:32 PM)
+[2020.04.13-07.34.32:801][280]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.04.13-07.34.32:802][280]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.04.13-07.34.32:802][280]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.04.13-07.34.32:815][280]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012150s)
+[2020.04.13-07.34.32:816][280]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.04.13-07.34.32:816][280]LogPlayLevel: PIE: World Init took: (0.001129s)
+[2020.04.13-07.34.32:816][280]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013536s)
+[2020.04.13-07.34.32:848][280]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2020.04.13-07.34.32:848][280]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.13-07.34.32:848][280]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.13-07.34.32:848][280]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.13-07.34.32:848][280]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.13-07.34.32:848][280]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.13-07.34.32:848][280]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.13-07.34.32:848][280]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.13-07.34.32:848][280]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.13-07.34.32:849][280]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.13-07.34.32:849][280]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.13-07.34.32:914][280]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.13-07.34.32:914][280]LogAudioMixer: Display: Name: Headphones w/o mic (WH-CH700N Stereo)
+[2020.04.13-07.34.32:914][280]LogAudioMixer: Display: Is Default: Yes
+[2020.04.13-07.34.32:914][280]LogAudioMixer: Display: Sample Rate: 44100
+[2020.04.13-07.34.32:914][280]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.13-07.34.32:914][280]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.13-07.34.32:914][280]LogAudioMixer: Display: Channel Order:
+[2020.04.13-07.34.32:914][280]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.13-07.34.32:914][280]LogAudioMixer: Display: 1: FrontRight
+[2020.04.13-07.34.32:925][280]LogAudioMixer: Display: Using Audio Device Headphones w/o mic (WH-CH700N Stereo)
+[2020.04.13-07.34.32:926][280]LogInit: FAudioDevice initialized.
+[2020.04.13-07.34.32:953][280]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-07.34.32:954][280]LogLoad: Game class is 'GM_Project_C_C'
+[2020.04.13-07.34.32:959][280]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.04.13-00.34.32
+[2020.04.13-07.34.32:959][280]LogWorld: Bringing up level for play took: 0.004924
+[2020.04.13-07.34.32:960][280]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2020.04.13-07.34.33:005][280]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.04.13-07.34.33:038][280]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.904
+[2020.04.13-07.34.33:050][280]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.13-07.34.33:098][281]LogRenderer: Reallocating scene render targets to support 1280x884 Format 10 NumSamples 1 (Frame:1).
+[2020.04.13-07.34.33:359][281]LogStats: UGameplayCueManager::InitializeEditorObjectLibrary -  0.004 s
+[2020.04.13-07.34.33:359][281]LogAbilitySystem: Warning: No GameplayCueNotifyPaths were specified in DefaultGame.ini under [/Script/GameplayAbilities.AbilitySystemGlobals]. Falling back to using all of /Game/. This may be slow on large projects. Consider specifying which paths are to be searched.
+[2020.04.13-07.34.46:346][824]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-07.34.46:346][824]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-07.34.46:346][824]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.13-07.34.46:346][824]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-07.34.46:346][824]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.04.13-07.34.46:372][824]LogSlate: Window 'Project_C Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.13-07.34.46:376][824]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-07.34.46:377][824]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.13-07.34.46:377][824]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.13-07.34.46:386][824]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.13-07.34.46:386][824]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.13-07.34.46:391][824]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.13-07.34.46:429][824]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-07.34.46:452][824]LogUObjectHash: Compacting FUObjectHashTables data took   4.78ms
+[2020.04.13-07.34.46:469][825]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2020.04.13-07.35.09:824][889]LogEditorFactories: Performing atomic reimport of [D:/Users/Randy/Desktop/Project_C/fbx/cute_character_equipment/shirt.fbx]
+[2020.04.13-07.35.09:849][889]LogFbx: Loading FBX Scene from D:/Users/Randy/Desktop/Project_C/fbx/cute_character_equipment/shirt.fbx
+[2020.04.13-07.35.09:854][889]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.13-07.35.09:873][889]LogFbx: Triangulating skeletal mesh CuteCharacter.002
+[2020.04.13-07.35.09:918][889]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2020.04.13-07.35.09:931][889]LogSkeletalMesh: Section 0: 1072 vertices, 1 active bones
+[2020.04.13-07.35.09:931][889]LogSkeletalMesh: Section 0: Material=0, 956 triangles
+[2020.04.13-07.35.11:823][889]LogSlate: Window 'Message' being destroyed
+[2020.04.13-07.35.11:849][889]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Project_C/CuteCharacter/Animations/cute_character_idle.cute_character_idle
+[2020.04.13-07.35.11:849][889]LogAnimationCompression: Compression Requested for Empty Animation cute_character_idle
+[2020.04.13-07.35.13:142][889]LogSlate: Window 'Message' being destroyed
+[2020.04.13-07.35.13:238][889]LogEditorFactories: -- imported successfully
+[2020.04.13-07.35.13:241][889]LogSkeletalMesh: Building Skeletal Mesh shirt...
+[2020.04.13-07.35.13:364][889]LogSkeletalMesh: Section 0: 1072 vertices, 1 active bones
+[2020.04.13-07.35.13:364][889]LogSkeletalMesh: Section 0: Material=0, 956 triangles
+[2020.04.13-07.35.13:426][889]LogSkeletalMesh: Built Skeletal Mesh [0.19s] /Game/Project_C/CuteCharacter/Equipment/shirt.shirt
+[2020.04.13-07.35.13:444][889]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Enemy4.ChestMesh'
+[2020.04.13-07.35.13:444][889]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Enemy5_7.ChestMesh'
+[2020.04.13-07.35.13:444][889]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Enemy_2.ChestMesh'
+[2020.04.13-07.35.13:444][889]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Enemy3.ChestMesh'
+[2020.04.13-07.35.13:445][889]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Enemy2_2.ChestMesh'
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(1) out of range of SpaceBases for /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(2) out of range of SpaceBases for /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(3) out of range of SpaceBases for /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(4) out of range of SpaceBases for /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(5) out of range of SpaceBases for /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(6) out of range of SpaceBases for /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(7) out of range of SpaceBases for /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(8) out of range of SpaceBases for /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(9) out of range of SpaceBases for /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(10) out of range of SpaceBases for /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(11) out of range of SpaceBases for /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(12) out of range of SpaceBases for /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(13) out of range of SpaceBases for /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(14) out of range of SpaceBases for /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(15) out of range of SpaceBases for /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(16) out of range of SpaceBases for /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(17) out of range of SpaceBases for /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(18) out of range of SpaceBases for /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(19) out of range of SpaceBases for /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(20) out of range of SpaceBases for /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(21) out of range of SpaceBases for /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(22) out of range of SpaceBases for /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(23) out of range of SpaceBases for /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(24) out of range of SpaceBases for /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(25) out of range of SpaceBases for /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(26) out of range of SpaceBases for /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(27) out of range of SpaceBases for /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(28) out of range of SpaceBases for /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(29) out of range of SpaceBases for /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogAnimation: Warning: FBoneReference::Initialize BoneIndex for Bone 'Shoulder_R' does not exist in Skeleton 'CuteCharacter_Skeleton'
+[2020.04.13-07.35.13:445][889]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0'
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(1) out of range of SpaceBases for /Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(2) out of range of SpaceBases for /Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(3) out of range of SpaceBases for /Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(4) out of range of SpaceBases for /Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(5) out of range of SpaceBases for /Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(6) out of range of SpaceBases for /Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(7) out of range of SpaceBases for /Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(8) out of range of SpaceBases for /Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(9) out of range of SpaceBases for /Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(10) out of range of SpaceBases for /Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(11) out of range of SpaceBases for /Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(12) out of range of SpaceBases for /Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(13) out of range of SpaceBases for /Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(14) out of range of SpaceBases for /Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(15) out of range of SpaceBases for /Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(16) out of range of SpaceBases for /Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(17) out of range of SpaceBases for /Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(18) out of range of SpaceBases for /Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(19) out of range of SpaceBases for /Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(20) out of range of SpaceBases for /Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:445][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(21) out of range of SpaceBases for /Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(22) out of range of SpaceBases for /Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(23) out of range of SpaceBases for /Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(24) out of range of SpaceBases for /Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(25) out of range of SpaceBases for /Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(26) out of range of SpaceBases for /Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(27) out of range of SpaceBases for /Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(28) out of range of SpaceBases for /Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(29) out of range of SpaceBases for /Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0'
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(1) out of range of SpaceBases for /Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(2) out of range of SpaceBases for /Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(3) out of range of SpaceBases for /Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(4) out of range of SpaceBases for /Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(5) out of range of SpaceBases for /Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(6) out of range of SpaceBases for /Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(7) out of range of SpaceBases for /Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(8) out of range of SpaceBases for /Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(9) out of range of SpaceBases for /Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(10) out of range of SpaceBases for /Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(11) out of range of SpaceBases for /Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(12) out of range of SpaceBases for /Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(13) out of range of SpaceBases for /Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(14) out of range of SpaceBases for /Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(15) out of range of SpaceBases for /Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(16) out of range of SpaceBases for /Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(17) out of range of SpaceBases for /Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(18) out of range of SpaceBases for /Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(19) out of range of SpaceBases for /Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(20) out of range of SpaceBases for /Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(21) out of range of SpaceBases for /Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(22) out of range of SpaceBases for /Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(23) out of range of SpaceBases for /Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(24) out of range of SpaceBases for /Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(25) out of range of SpaceBases for /Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(26) out of range of SpaceBases for /Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(27) out of range of SpaceBases for /Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(28) out of range of SpaceBases for /Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkinnedMeshComp: Warning: GetBoneMatrix : BoneIndex(29) out of range of SpaceBases for /Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0 (SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt)
+[2020.04.13-07.35.13:446][889]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0'
+[2020.04.13-07.35.13:446][889]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2020.04.13-07.35.13:449][889]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Enemy4.ChestMesh'
+[2020.04.13-07.35.13:449][889]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Enemy5_7.ChestMesh'
+[2020.04.13-07.35.13:449][889]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Enemy_2.ChestMesh'
+[2020.04.13-07.35.13:449][889]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Enemy3.ChestMesh'
+[2020.04.13-07.35.13:449][889]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Enemy2_2.ChestMesh'
+[2020.04.13-07.35.13:449][889]LogAnimation: Warning: FBoneReference::Initialize BoneIndex for Bone 'Shoulder_R' does not exist in Skeleton 'CuteCharacter_Skeleton'
+[2020.04.13-07.35.13:449][889]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0'
+[2020.04.13-07.35.13:449][889]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0'
+[2020.04.13-07.35.13:449][889]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0'
+[2020.04.13-07.35.14:805][889]LogSlate: Window 'Message' being destroyed
+[2020.04.13-07.35.14:808][889]LoadErrors: Error: The Skeleton  CuteCharacter_Skeleton is missing bones that SkeletalMesh  CuteCharacter needs. They will be added now. Please save the Skeleton!
+[2020.04.13-07.35.16:133][ 28]LogSlate: Window 'Message Log' being destroyed
+[2020.04.13-07.35.16:137][ 28]LogSlate: Window 'Message Log' being destroyed
+[2020.04.13-07.35.18:550][275]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2020.04.13-07.35.19:574][275]LogSlate: Window 'Delete Assets' being destroyed
+[2020.04.13-07.36.19:557][275]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{ff9bd0ce-50bc-4c36-8042-a2a6d231e611}.
+[2020.04.13-07.36.19:701][275]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.04.13-07.36.19:701][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.13-07.36.19:768][275]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.04.13-07.36.19:768][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.13-07.36.19:911][275]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.04.13-07.36.19:912][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.13-07.36.19:937][275]LogUObjectGlobals: Force Deleting 2 Package(s):
+	Asset Name: /Game/Project_C/CuteCharacter/Equipment/shirt.shirt
+	Asset Name: /Game/Project_C/CuteCharacter/Equipment/shirt_PhysicsAsset.shirt_PhysicsAsset
+[2020.04.13-07.36.20:773][275]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2020.04.13-07.36.20:820][275]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2020.04.13-07.36.20:849][275]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.04.13-07.36.20:916][275]LogTemp: Resetting audio stream to device id 
+[2020.04.13-07.36.20:966][275]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.13-07.36.20:966][275]LogAudioMixer: Display: Name: Logitech Speakers (Realtek High Definition Audio)
+[2020.04.13-07.36.20:966][275]LogAudioMixer: Display: Is Default: Yes
+[2020.04.13-07.36.20:966][275]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.13-07.36.20:966][275]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.13-07.36.20:966][275]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.13-07.36.20:966][275]LogAudioMixer: Display: Channel Order:
+[2020.04.13-07.36.20:966][275]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.13-07.36.20:967][275]LogAudioMixer: Display: 1: FrontRight
+[2020.04.13-07.36.31:086][307]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.04.13-07.36.32:756][307]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.671 s
+[2020.04.13-07.36.32:756][307]LogOutputDevice: Error: === Handled ensure: ===
+[2020.04.13-07.36.32:756][307]LogOutputDevice: Error: 
+[2020.04.13-07.36.32:756][307]LogOutputDevice: Error: Ensure condition failed: SkeletonBoneIndex != INDEX_NONE [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/AnimGraphRuntime/Private/AnimNodes/AnimNode_LayeredBoneBlend.cpp] [Line: 68]
+[2020.04.13-07.36.32:756][307]LogOutputDevice: Error: 
+[2020.04.13-07.36.32:756][307]LogOutputDevice: Error: Stack: 
+[2020.04.13-07.36.32:756][307]LogOutputDevice: Error: [Callstack] 0x00007ff845f04e18 UE4Editor-AnimGraphRuntime.dll!UnknownFunction []
+[2020.04.13-07.36.32:756][307]LogOutputDevice: Error: [Callstack] 0x00007ff845eabe5f UE4Editor-AnimGraphRuntime.dll!UnknownFunction []
+[2020.04.13-07.36.32:756][307]LogOutputDevice: Error: [Callstack] 0x00007ff845e558d0 UE4Editor-AnimGraphRuntime.dll!UnknownFunction []
+[2020.04.13-07.36.32:756][307]LogOutputDevice: Error: [Callstack] 0x00007ff84c992930 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.13-07.36.32:756][307]LogOutputDevice: Error: [Callstack] 0x00007ff84c992930 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.13-07.36.32:756][307]LogOutputDevice: Error: [Callstack] 0x00007ff84c992930 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.13-07.36.32:756][307]LogOutputDevice: Error: [Callstack] 0x00007ff845e55719 UE4Editor-AnimGraphRuntime.dll!UnknownFunction []
+[2020.04.13-07.36.32:756][307]LogOutputDevice: Error: [Callstack] 0x00007ff84c992930 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.13-07.36.32:756][307]LogOutputDevice: Error: [Callstack] 0x00007ff84c99288f UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.13-07.36.32:756][307]LogOutputDevice: Error: [Callstack] 0x00007ff84c9d0533 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.13-07.36.32:756][307]LogOutputDevice: Error: [Callstack] 0x00007ff84c9cfd03 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.13-07.36.32:756][307]LogOutputDevice: Error: [Callstack] 0x00007ff84c969b61 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.13-07.36.32:756][307]LogOutputDevice: Error: [Callstack] 0x00007ff84ccf1998 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.13-07.36.32:756][307]LogOutputDevice: Error: [Callstack] 0x00007ff84ccf117b UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.13-07.36.32:756][307]LogOutputDevice: Error: [Callstack] 0x00007ff84ccdf6b6 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.13-07.36.32:756][307]LogOutputDevice: Error: [Callstack] 0x00007ff84ccf6404 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.13-07.36.32:756][307]LogOutputDevice: Error: [Callstack] 0x00007ff84aa8dbc6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.13-07.36.32:756][307]LogOutputDevice: Error: [Callstack] 0x00007ff84cd64819 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.13-07.36.32:756][307]LogOutputDevice: Error: [Callstack] 0x00007ff84cd05671 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.13-07.36.32:756][307]LogOutputDevice: Error: [Callstack] 0x00007ff84aaa9818 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.13-07.36.32:756][307]LogOutputDevice: Error: [Callstack] 0x00007ff84cbe1cc8 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.13-07.36.32:756][307]LogOutputDevice: Error: [Callstack] 0x00007ff84cc12c74 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.13-07.36.32:756][307]LogOutputDevice: Error: [Callstack] 0x00007ff84d987223 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.13-07.36.32:757][307]LogOutputDevice: Error: [Callstack] 0x00007ff84d995256 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.13-07.36.32:757][307]LogOutputDevice: Error: [Callstack] 0x00007ff84f609ff2 UE4Editor-Core.dll!UnknownFunction []
+[2020.04.13-07.36.32:757][307]LogOutputDevice: Error: [Callstack] 0x00007ff84f60a393 UE4Editor-Core.dll!UnknownFunction []
+[2020.04.13-07.36.32:757][307]LogOutputDevice: Error: [Callstack] 0x00007ff84f61aa68 UE4Editor-Core.dll!UnknownFunction []
+[2020.04.13-07.36.32:757][307]LogOutputDevice: Error: [Callstack] 0x00007ff84d9b38b0 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.13-07.36.32:757][307]LogOutputDevice: Error: [Callstack] 0x00007ff84d9b97c2 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.13-07.36.32:757][307]LogOutputDevice: Error: [Callstack] 0x00007ff84d13a25f UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.13-07.36.32:757][307]LogOutputDevice: Error: [Callstack] 0x00007ff84d145127 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.13-07.36.32:757][307]LogOutputDevice: Error: [Callstack] 0x00007ff83aabc7bd UE4Editor-Persona.dll!UnknownFunction []
+[2020.04.13-07.36.32:757][307]LogOutputDevice: Error: [Callstack] 0x00007ff84a9e86fd UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.13-07.36.32:757][307]LogOutputDevice: Error: [Callstack] 0x00007ff84ad99fcd UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.13-07.36.32:757][307]LogOutputDevice: Error: [Callstack] 0x00007ff84b5fe476 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.13-07.36.32:757][307]LogOutputDevice: Error: [Callstack] 0x00007ff6320e7f62 UE4Editor.exe!UnknownFunction []
+[2020.04.13-07.36.32:757][307]LogOutputDevice: Error: [Callstack] 0x00007ff6320fc3ec UE4Editor.exe!UnknownFunction []
+[2020.04.13-07.36.32:757][307]LogOutputDevice: Error: [Callstack] 0x00007ff6320fc4ca UE4Editor.exe!UnknownFunction []
+[2020.04.13-07.36.32:757][307]LogOutputDevice: Error: [Callstack] 0x00007ff63210ceae UE4Editor.exe!UnknownFunction []
+[2020.04.13-07.36.32:757][307]LogOutputDevice: Error: [Callstack] 0x00007ff63210fcbe UE4Editor.exe!UnknownFunction []
+[2020.04.13-07.36.32:757][307]LogOutputDevice: Error: [Callstack] 0x00007ff8cc247974 KERNEL32.DLL!UnknownFunction []
+[2020.04.13-07.36.32:757][307]LogOutputDevice: Error: [Callstack] 0x00007ff8cc66a261 ntdll.dll!UnknownFunction []
+[2020.04.13-07.36.32:757][307]LogOutputDevice: Error: 
+[2020.04.13-07.36.32:798][307]LogStats:                SubmitErrorReport -  0.000 s
+[2020.04.13-07.36.40:571][307]LogStats:                    SendNewReport -  7.772 s
+[2020.04.13-07.36.40:571][307]LogStats:             FDebug::EnsureFailed -  9.486 s
+[2020.04.13-07.36.40:572][307]LogTemp: Resetting audio stream to device id 
+[2020.04.13-07.36.40:629][307]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.13-07.36.40:629][307]LogAudioMixer: Display: Name: Logitech Speakers (Realtek High Definition Audio)
+[2020.04.13-07.36.40:629][307]LogAudioMixer: Display: Is Default: Yes
+[2020.04.13-07.36.40:629][307]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.13-07.36.40:629][307]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.13-07.36.40:629][307]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.13-07.36.40:629][307]LogAudioMixer: Display: Channel Order:
+[2020.04.13-07.36.40:629][307]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.13-07.36.40:629][307]LogAudioMixer: Display: 1: FrontRight
+[2020.04.13-07.36.47:399][782]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Users/Randy/Desktop/Project_C/fbx/cute_character_equipment/shirt.fbx)
+[2020.04.13-07.36.47:406][782]LogFbx: Loading FBX Scene from D:/Users/Randy/Desktop/Project_C/fbx/cute_character_equipment/shirt.fbx
+[2020.04.13-07.36.47:425][782]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.13-07.37.00:725][782]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.04.13-07.37.00:757][782]LogFbx: Warning: Not valid bind pose for Pose (Cube.003) - Node CuteCharacter.002 : The relative matrices do not match
+[2020.04.13-07.37.00:757][782]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2020.04.13-07.37.00:757][782]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - CuteCharacter.002
+[2020.04.13-07.37.00:757][782]LogFbx: Warning: Recreating bind pose succeeded.
+[2020.04.13-07.37.00:761][782]LogMaterial: Display: Material /Game/Project_C/CuteCharacter/Equipment/CuteCharacter.CuteCharacter needed to have new flag set bUsedWithSkeletalMesh !
+[2020.04.13-07.37.00:764][782]LogMaterial: Display: Missing cached shader map for material CuteCharacter, compiling. 
+[2020.04.13-07.37.00:785][782]LogTexture: Display: Building textures: CuteBase (AutoDXT, 512X512)
+[2020.04.13-07.37.00:797][782]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 39
+[2020.04.13-07.37.00:797][782]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 29
+[2020.04.13-07.37.00:797][782]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2020.04.13-07.37.00:797][782]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.04.13-07.37.00:802][782]LogMaterial: Display: Missing cached shader map for material CuteCharacter, compiling. 
+[2020.04.13-07.37.00:829][782]LogFbx: Triangulating skeletal mesh CuteCharacter.002
+[2020.04.13-07.37.00:868][782]LogFbx: Warning: Bones digested - 30  Depth of hierarchy - 9
+[2020.04.13-07.37.00:869][782]LogLODUtilities: Warning: Warning skeletal mesh influence count of 10 exceeds max count of 8. Influence truncation will occur. Maximum Ignored Weight 0.010045
+[2020.04.13-07.37.00:885][782]LogSkeletalMesh: Section 0: 1072 vertices, 14 active bones
+[2020.04.13-07.37.00:885][782]LogSkeletalMesh: Section 0: Material=0, 956 triangles
+[2020.04.13-07.37.00:886][782]LogSkeletalMesh: Building Skeletal Mesh shirt...
+[2020.04.13-07.37.00:907][782]LogSkeletalMesh: Section 0: 1072 vertices, 14 active bones
+[2020.04.13-07.37.00:907][782]LogSkeletalMesh: Section 0: Material=0, 956 triangles
+[2020.04.13-07.37.00:911][782]LogSkeletalMesh: Built Skeletal Mesh [0.03s] /Game/Project_C/CuteCharacter/Equipment/shirt.shirt
+[2020.04.13-07.37.03:258][782]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 39
+[2020.04.13-07.37.03:818][782]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 29
+[2020.04.13-07.37.03:835][782]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 21
+[2020.04.13-07.37.04:158][782]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.04.13-07.37.05:347][782]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2020.04.13-07.37.05:534][782]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2020.04.13-07.37.06:178][782]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2020.04.13-07.37.06:196][782]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2020.04.13-07.37.06:400][782]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.04.13-07.37.06:468][782]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2020.04.13-07.37.07:809][782]LogSlate: Window 'Message' being destroyed
+[2020.04.13-07.37.07:813][782]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Project_C/CuteCharacter/Animations/cute_character_idle.cute_character_idle
+[2020.04.13-07.37.07:813][782]LogAnimationCompression: Compression Requested for Empty Animation cute_character_idle
+[2020.04.13-07.37.08:963][782]LogSlate: Window 'Message' being destroyed
+[2020.04.13-07.37.09:052][782]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.04.13-07.37.09:052][782]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.13-07.37.10:416][891]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Project_C/CuteCharacter/Equipment/shirt.shirt
+[2020.04.13-07.37.10:419][891]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.04.13-07.37.10:459][891]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.04.13-07.37.26:345][501]LogWindows: Error: === Critical error: ===
+[2020.04.13-07.37.26:345][501]LogWindows: Error: 
+[2020.04.13-07.37.26:345][501]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x000003c8
+[2020.04.13-07.37.26:345][501]LogWindows: Error: 
+[2020.04.13-07.37.26:345][501]LogWindows: Error: [Callstack] 0x00007ff83aa51290 UE4Editor-Persona.dll!UnknownFunction []
+[2020.04.13-07.37.26:345][501]LogWindows: Error: [Callstack] 0x00007ff84ade2221 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.13-07.37.26:345][501]LogWindows: Error: [Callstack] 0x00007ff83aa51206 UE4Editor-Persona.dll!UnknownFunction []
+[2020.04.13-07.37.26:345][501]LogWindows: Error: [Callstack] 0x00007ff84b5edff4 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.13-07.37.26:345][501]LogWindows: Error: [Callstack] 0x00007ff84ae39308 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.13-07.37.26:346][501]LogWindows: Error: [Callstack] 0x00007ff83aa09e41 UE4Editor-Persona.dll!UnknownFunction []
+[2020.04.13-07.37.26:346][501]LogWindows: Error: [Callstack] 0x00007ff84549136e UE4Editor-Renderer.dll!UnknownFunction []
+[2020.04.13-07.37.26:346][501]LogWindows: Error: [Callstack] 0x00007ff84502e0a5 UE4Editor-Renderer.dll!UnknownFunction []
+[2020.04.13-07.37.26:346][501]LogWindows: Error: [Callstack] 0x00007ff8454ae436 UE4Editor-Renderer.dll!UnknownFunction []
+[2020.04.13-07.37.26:346][501]LogWindows: Error: [Callstack] 0x00007ff8454a2f61 UE4Editor-Renderer.dll!UnknownFunction []
+[2020.04.13-07.37.26:346][501]LogWindows: Error: [Callstack] 0x00007ff84ae38ead UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.13-07.37.26:346][501]LogWindows: Error: [Callstack] 0x00007ff84d9882d6 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.13-07.37.26:346][501]LogWindows: Error: [Callstack] 0x00007ff84ad9dad2 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.13-07.37.26:346][501]LogWindows: Error: [Callstack] 0x00007ff84ad9b418 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.13-07.37.26:346][501]LogWindows: Error: [Callstack] 0x00007ff84b5fe476 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.13-07.37.26:346][501]LogWindows: Error: [Callstack] 0x00007ff6320e7f62 UE4Editor.exe!UnknownFunction []
+[2020.04.13-07.37.26:346][501]LogWindows: Error: [Callstack] 0x00007ff6320fc3ec UE4Editor.exe!UnknownFunction []
+[2020.04.13-07.37.26:346][501]LogWindows: Error: [Callstack] 0x00007ff6320fc4ca UE4Editor.exe!UnknownFunction []
+[2020.04.13-07.37.26:346][501]LogWindows: Error: [Callstack] 0x00007ff63210ceae UE4Editor.exe!UnknownFunction []
+[2020.04.13-07.37.26:346][501]LogWindows: Error: [Callstack] 0x00007ff63210fcbe UE4Editor.exe!UnknownFunction []
+[2020.04.13-07.37.26:346][501]LogWindows: Error: [Callstack] 0x00007ff8cc247974 KERNEL32.DLL!UnknownFunction []
+[2020.04.13-07.37.26:346][501]LogWindows: Error: [Callstack] 0x00007ff8cc66a261 ntdll.dll!UnknownFunction []
+[2020.04.13-07.37.26:346][501]LogWindows: Error: 
+[2020.04.13-07.37.26:396][501]LogExit: Executing StaticShutdownAfterError
+[2020.04.13-07.37.26:451][501]LogWindows: FPlatformMisc::RequestExit(1)
+[2020.04.13-07.37.26:451][501]LogCore: Engine exit requested (reason: Win RequestExit)
+[2020.04.13-07.37.26:508][501]Log file closed, 04/13/20 00:37:26
