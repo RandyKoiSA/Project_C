@@ -1,0 +1,17 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Users\Randy\Desktop\Project_C).
+  Parsing headers for Project_CEditor
+    Running UnrealHeaderTool "D:\Users\Randy\Desktop\Project_C\Project_C_UE4\Project_C.uproject" "D:\Users\Randy\Desktop\Project_C\Project_C_UE4\Intermediate\Build\Win64\Project_CEditor\Development\Project_CEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for Project_CEditor in 5.2248733 seconds
+  Building Project_CEditor...
+  Using Visual Studio 2019 14.22.27905 toolchain (E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 6 actions with 8 processes...
+    [1/6] Project_C.init.gen.cpp
+    [2/6] PlayerCharacter.cpp
+    [3/6] PlayerCharacter.gen.cpp
+    [4/6] UE4Editor-Project_C-0022.lib
+       Creating library D:\Users\Randy\Desktop\Project_C\Project_C_UE4\Intermediate\Build\Win64\UE4Editor\Development\Project_C\UE4Editor-Project_C-0022.lib and object D:\Users\Randy\Desktop\Project_C\Project_C_UE4\Intermediate\Build\Win64\UE4Editor\Development\Project_C\UE4Editor-Project_C-0022.exp
+    [5/6] UE4Editor-Project_C-0022.dll
+       Creating library D:\Users\Randy\Desktop\Project_C\Project_C_UE4\Intermediate\Build\Win64\UE4Editor\Development\Project_C\UE4Editor-Project_C-0022.suppressed.lib and object D:\Users\Randy\Desktop\Project_C\Project_C_UE4\Intermediate\Build\Win64\UE4Editor\Development\Project_C\UE4Editor-Project_C-0022.suppressed.exp
+    [6/6] Project_CEditor.target
+  Total time in Parallel executor: 3.99 seconds
+  Total execution time: 9.89 seconds

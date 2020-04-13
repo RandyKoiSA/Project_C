@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Project_C",
+			"Path": "D:\\Users\\Randy\\Desktop\\Project_C\\Project_C_UE4\\Source\\Project_C.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Project_CEditor",
+			"Path": "D:\\Users\\Randy\\Desktop\\Project_C\\Project_C_UE4\\Source\\Project_CEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
