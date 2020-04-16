@@ -163,12 +163,14 @@ void APlayerCharacter::EquipHeadSlot(TSubclassOf<UGameplayAbility> Ability)
 void APlayerCharacter::EquipChestSlot(TSubclassOf<UGameplayAbility> Ability)
 {
 	this->ChestSlot = Ability;
+	AcquireAbility(ChestSlot);
 	RefreshAbilities();
 }
 
 void APlayerCharacter::EquipArmsSlot(TSubclassOf<UGameplayAbility> Ability)
 {
 	this->ArmsSlot = Ability;
+	AcquireAbility(ArmsSlot);
 	RefreshAbilities();
 }
 
@@ -199,7 +201,7 @@ void APlayerCharacter::EquipSkillThreeSlot(TSubclassOf<UGameplayAbility> Ability
 void APlayerCharacter::EquipSkillFourSlot(TSubclassOf<UGameplayAbility> Ability)
 {
 	this->SkillFourSlot = Ability;
-	RefreshAbilities();
+	//RefreshAbilities();
 }
 
 uint8 APlayerCharacter::GetTeamID() const

@@ -39,7 +39,7 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "CharacterBase")
 		UAttributeSetBase* AttributeBaseComp;
 
-	UFUNCTION(BlueprintCallable, Category = "CharacterBase")
+	UFUNCTION(Category = "CharacterBase")
 		void AcquireAbility(TSubclassOf<UGameplayAbility> AbilityToAcquire);
 
 	/* Health Attribute Functions */
