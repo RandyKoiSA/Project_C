@@ -8,8 +8,8 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class APlayerCharacter;
 class UGameplayAbility;
+class APlayerCharacter;
 #ifdef PROJECT_C_PlayerCharacter_generated_h
 #error "PlayerCharacter.generated.h already included, missing '#pragma once' in PlayerCharacter.h"
 #endif
@@ -18,12 +18,130 @@ class UGameplayAbility;
 #define Project_C_UE4_Source_Project_C_Public_PlayerCharacter_h_17_SPARSE_DATA
 #define Project_C_UE4_Source_Project_C_Public_PlayerCharacter_h_17_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execEquipSkillFourSlot) \
+	{ \
+		P_GET_OBJECT(UClass,Z_Param_Ability); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->EquipSkillFourSlot(Z_Param_Ability); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execEquipSkillThreeSlot) \
+	{ \
+		P_GET_OBJECT(UClass,Z_Param_Ability); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->EquipSkillThreeSlot(Z_Param_Ability); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execEquipSkillTwoSlot) \
+	{ \
+		P_GET_OBJECT(UClass,Z_Param_Ability); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->EquipSkillTwoSlot(Z_Param_Ability); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execEquipSkillOneSlot) \
+	{ \
+		P_GET_OBJECT(UClass,Z_Param_Ability); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->EquipSkillOneSlot(Z_Param_Ability); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execEquipLegsSlot) \
+	{ \
+		P_GET_OBJECT(UClass,Z_Param_Ability); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->EquipLegsSlot(Z_Param_Ability); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execEquipArmsSlot) \
+	{ \
+		P_GET_OBJECT(UClass,Z_Param_Ability); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->EquipArmsSlot(Z_Param_Ability); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execEquipChestSlot) \
+	{ \
+		P_GET_OBJECT(UClass,Z_Param_Ability); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->EquipChestSlot(Z_Param_Ability); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execEquipHeadSlot) \
+	{ \
+		P_GET_OBJECT(UClass,Z_Param_Ability); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->EquipHeadSlot(Z_Param_Ability); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execEquipSecondaryAbility) \
+	{ \
+		P_GET_OBJECT(UClass,Z_Param_Ability); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->EquipSecondaryAbility(Z_Param_Ability); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execEquipPrimaryAbility) \
+	{ \
+		P_GET_OBJECT(UClass,Z_Param_Ability); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->EquipPrimaryAbility(Z_Param_Ability); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execRefreshAbilities) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->RefreshAbilities(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execIsOtherHostile) \
 	{ \
 		P_GET_OBJECT(APlayerCharacter,Z_Param_Other); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(bool*)Z_Param__Result=P_THIS->IsOtherHostile(Z_Param_Other); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnStrengthChanged) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Strength); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_MaxStrength); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnStrengthChanged(Z_Param_Strength,Z_Param_MaxStrength); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnManaChanged) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Mana); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_MaxMana); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnManaChanged(Z_Param_Mana,Z_Param_MaxMana); \
 		P_NATIVE_END; \
 	} \
  \
@@ -37,24 +155,142 @@ class UGameplayAbility;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execAcquireAbillity) \
+	DECLARE_FUNCTION(execAcquireAbility) \
 	{ \
 		P_GET_OBJECT(UClass,Z_Param_AbilityToAcquire); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->AcquireAbillity(Z_Param_AbilityToAcquire); \
+		P_THIS->AcquireAbility(Z_Param_AbilityToAcquire); \
 		P_NATIVE_END; \
 	}
 
 
 #define Project_C_UE4_Source_Project_C_Public_PlayerCharacter_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execEquipSkillFourSlot) \
+	{ \
+		P_GET_OBJECT(UClass,Z_Param_Ability); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->EquipSkillFourSlot(Z_Param_Ability); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execEquipSkillThreeSlot) \
+	{ \
+		P_GET_OBJECT(UClass,Z_Param_Ability); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->EquipSkillThreeSlot(Z_Param_Ability); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execEquipSkillTwoSlot) \
+	{ \
+		P_GET_OBJECT(UClass,Z_Param_Ability); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->EquipSkillTwoSlot(Z_Param_Ability); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execEquipSkillOneSlot) \
+	{ \
+		P_GET_OBJECT(UClass,Z_Param_Ability); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->EquipSkillOneSlot(Z_Param_Ability); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execEquipLegsSlot) \
+	{ \
+		P_GET_OBJECT(UClass,Z_Param_Ability); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->EquipLegsSlot(Z_Param_Ability); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execEquipArmsSlot) \
+	{ \
+		P_GET_OBJECT(UClass,Z_Param_Ability); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->EquipArmsSlot(Z_Param_Ability); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execEquipChestSlot) \
+	{ \
+		P_GET_OBJECT(UClass,Z_Param_Ability); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->EquipChestSlot(Z_Param_Ability); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execEquipHeadSlot) \
+	{ \
+		P_GET_OBJECT(UClass,Z_Param_Ability); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->EquipHeadSlot(Z_Param_Ability); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execEquipSecondaryAbility) \
+	{ \
+		P_GET_OBJECT(UClass,Z_Param_Ability); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->EquipSecondaryAbility(Z_Param_Ability); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execEquipPrimaryAbility) \
+	{ \
+		P_GET_OBJECT(UClass,Z_Param_Ability); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->EquipPrimaryAbility(Z_Param_Ability); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execRefreshAbilities) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->RefreshAbilities(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execIsOtherHostile) \
 	{ \
 		P_GET_OBJECT(APlayerCharacter,Z_Param_Other); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(bool*)Z_Param__Result=P_THIS->IsOtherHostile(Z_Param_Other); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnStrengthChanged) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Strength); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_MaxStrength); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnStrengthChanged(Z_Param_Strength,Z_Param_MaxStrength); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnManaChanged) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Mana); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_MaxMana); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnManaChanged(Z_Param_Mana,Z_Param_MaxMana); \
 		P_NATIVE_END; \
 	} \
  \
@@ -68,12 +304,12 @@ class UGameplayAbility;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execAcquireAbillity) \
+	DECLARE_FUNCTION(execAcquireAbility) \
 	{ \
 		P_GET_OBJECT(UClass,Z_Param_AbilityToAcquire); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->AcquireAbillity(Z_Param_AbilityToAcquire); \
+		P_THIS->AcquireAbility(Z_Param_AbilityToAcquire); \
 		P_NATIVE_END; \
 	}
 
@@ -83,6 +319,16 @@ class UGameplayAbility;
 	{ \
 		float Health; \
 		float Maxhealth; \
+	}; \
+	struct PlayerCharacter_eventBP_OnManaChanged_Parms \
+	{ \
+		float Mana; \
+		float MaxMana; \
+	}; \
+	struct PlayerCharacter_eventBP_OnStrengthChanged_Parms \
+	{ \
+		float Strength; \
+		float MaxStrength; \
 	};
 
 
@@ -131,7 +377,19 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlayerCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APlayerCharacter)
 
 
-#define Project_C_UE4_Source_Project_C_Public_PlayerCharacter_h_17_PRIVATE_PROPERTY_OFFSET
+#define Project_C_UE4_Source_Project_C_Public_PlayerCharacter_h_17_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__PrimarySlot() { return STRUCT_OFFSET(APlayerCharacter, PrimarySlot); } \
+	FORCEINLINE static uint32 __PPO__SecondarySlot() { return STRUCT_OFFSET(APlayerCharacter, SecondarySlot); } \
+	FORCEINLINE static uint32 __PPO__HeadSlot() { return STRUCT_OFFSET(APlayerCharacter, HeadSlot); } \
+	FORCEINLINE static uint32 __PPO__ChestSlot() { return STRUCT_OFFSET(APlayerCharacter, ChestSlot); } \
+	FORCEINLINE static uint32 __PPO__ArmsSlot() { return STRUCT_OFFSET(APlayerCharacter, ArmsSlot); } \
+	FORCEINLINE static uint32 __PPO__LegsSlot() { return STRUCT_OFFSET(APlayerCharacter, LegsSlot); } \
+	FORCEINLINE static uint32 __PPO__SkillOneSlot() { return STRUCT_OFFSET(APlayerCharacter, SkillOneSlot); } \
+	FORCEINLINE static uint32 __PPO__SkillTwoSlot() { return STRUCT_OFFSET(APlayerCharacter, SkillTwoSlot); } \
+	FORCEINLINE static uint32 __PPO__SkillThreeSlot() { return STRUCT_OFFSET(APlayerCharacter, SkillThreeSlot); } \
+	FORCEINLINE static uint32 __PPO__SkillFourSlot() { return STRUCT_OFFSET(APlayerCharacter, SkillFourSlot); }
+
+
 #define Project_C_UE4_Source_Project_C_Public_PlayerCharacter_h_14_PROLOG \
 	Project_C_UE4_Source_Project_C_Public_PlayerCharacter_h_17_EVENT_PARMS
 

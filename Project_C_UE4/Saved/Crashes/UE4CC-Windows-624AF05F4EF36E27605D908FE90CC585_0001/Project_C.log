@@ -1,0 +1,1614 @@
+﻿Log file open, 04/14/20 11:59:35
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Project_C
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 5.441455
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GameplayAbilities
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1809) (), CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: E:/Program Files/Epic Games/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.04.14-18.59.38:818][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.04.14-18.59.38:818][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.04.14-18.59.38:819][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Engine.ini]
+[2020.04.14-18.59.38:819][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.04.14-18.59.38:819][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Engine.ini]
+[2020.04.14-18.59.38:819][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Engine.ini]
+[2020.04.14-18.59.38:819][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.04.14-18.59.38:819][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.04.14-18.59.38:819][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.04.14-18.59.38:819][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.04.14-18.59.38:819][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.04.14-18.59.38:819][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.04.14-18.59.38:819][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.04.14-18.59.38:819][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.04.14-18.59.38:819][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.04.14-18.59.38:819][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.04.14-18.59.38:819][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.04.14-18.59.38:819][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.04.14-18.59.38:819][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.04.14-18.59.38:819][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.04.14-18.59.38:819][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Engine.ini]
+[2020.04.14-18.59.38:819][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.04.14-18.59.38:819][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.04.14-18.59.38:819][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.04.14-18.59.38:819][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.04.14-18.59.38:819][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.04.14-18.59.38:819][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.04.14-18.59.38:819][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.04.14-18.59.38:819][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.04.14-18.59.38:819][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.04.14-18.59.38:819][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.04.14-18.59.38:819][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.04.14-18.59.38:819][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.04.14-18.59.38:819][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.04.14-18.59.38:819][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Engine.ini]
+[2020.04.14-18.59.38:819][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Engine.ini]
+[2020.04.14-18.59.38:880][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Scalability.ini]
+[2020.04.14-18.59.38:880][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.14-18.59.38:880][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.14-18.59.38:880][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Scalability.ini]
+[2020.04.14-18.59.38:880][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.14-18.59.38:880][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Scalability.ini]
+[2020.04.14-18.59.38:880][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.14-18.59.38:880][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.14-18.59.38:880][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.14-18.59.38:880][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.14-18.59.38:880][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.14-18.59.38:880][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.14-18.59.38:880][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.14-18.59.38:880][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.14-18.59.38:880][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.14-18.59.38:880][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.14-18.59.38:880][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Scalability.ini]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Scalability.ini]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Scalability.ini]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Scalability.ini]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Scalability.ini]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.14-18.59.38:881][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.14-18.59.38:882][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.14-18.59.38:882][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.14-18.59.38:918][  0]LogHAL: Display: Platform has ~ 16 GB [17041510400 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.14-18.59.38:918][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.14-18.59.38:919][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Scalability.ini]
+[2020.04.14-18.59.38:919][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.14-18.59.38:919][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.14-18.59.38:919][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Scalability.ini]
+[2020.04.14-18.59.38:919][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.14-18.59.38:919][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Scalability.ini]
+[2020.04.14-18.59.38:919][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.14-18.59.38:919][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.14-18.59.38:919][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.14-18.59.38:919][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.14-18.59.38:919][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.14-18.59.38:919][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.14-18.59.38:919][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.14-18.59.38:919][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.14-18.59.38:919][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.14-18.59.38:919][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.14-18.59.38:919][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.14-18.59.38:919][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.14-18.59.38:919][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.14-18.59.38:919][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.14-18.59.38:919][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.14-18.59.38:919][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.14-18.59.38:919][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.14-18.59.38:919][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.14-18.59.38:919][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Scalability.ini]
+[2020.04.14-18.59.38:919][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.14-18.59.38:919][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.14-18.59.38:919][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.14-18.59.38:919][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.14-18.59.38:919][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.14-18.59.38:919][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.14-18.59.38:919][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.14-18.59.38:919][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.14-18.59.38:919][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.14-18.59.38:919][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Scalability.ini]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Scalability.ini]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Scalability.ini]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Scalability.ini]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.14-18.59.38:920][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.04.14-18.59.38:924][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.04.14-18.59.38:924][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.04.14-18.59.38:924][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Engine.ini]
+[2020.04.14-18.59.38:941][  0]LogInit: Computer: DESKTOP-RDHKLDC
+[2020.04.14-18.59.38:941][  0]LogInit: User: Randy
+[2020.04.14-18.59.38:941][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.04.14-18.59.38:941][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.14-18.59.38:950][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.04.14-18.59.38:957][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.14-18.59.38:957][  0]LogMemory: Process Physical Memory: 105.37 MB used, 105.37 MB peak
+[2020.04.14-18.59.38:957][  0]LogMemory: Process Virtual Memory: 100.37 MB used, 100.37 MB peak
+[2020.04.14-18.59.38:957][  0]LogMemory: Physical Memory: 7008.98 MB used,  9243.07 MB free, 16252.05 MB total
+[2020.04.14-18.59.38:958][  0]LogMemory: Virtual Memory: 5152.00 MB used,  134212576.00 MB free, 134217728.00 MB total
+[2020.04.14-18.59.38:962][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.04.14-18.59.40:111][  0]LogInit: Using OS detected language (en-US).
+[2020.04.14-18.59.40:111][  0]LogInit: Using OS detected locale (en-US).
+[2020.04.14-18.59.40:139][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.04.14-18.59.40:795][  0]LogInit: Setting process to per monitor DPI aware
+[2020.04.14-18.59.41:479][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.14-18.59.41:479][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.14-18.59.49:436][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.14-18.59.49:436][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.04.14-18.59.49:436][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.04.14-18.59.49:436][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.14-18.59.49:511][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2020.04.14-18.59.49:511][  0]LogD3D11RHI:       6052/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.04.14-18.59.49:529][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2020.04.14-18.59.49:529][  0]LogD3D11RHI:       128/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2020.04.14-18.59.49:530][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.14-18.59.49:530][  0]LogD3D11RHI:       0/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.14-18.59.49:530][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.14-18.59.49:574][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.14-18.59.49:575][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2020.04.14-18.59.49:575][  0]LogWindows: EnumDisplayDevices:
+[2020.04.14-18.59.49:575][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:0 D:1)
+[2020.04.14-18.59.49:575][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.04.14-18.59.49:575][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.04.14-18.59.49:576][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2020.04.14-18.59.49:576][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.04.14-18.59.49:576][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.04.14-18.59.49:576][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.04.14-18.59.49:576][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.04.14-18.59.49:576][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2020.04.14-18.59.49:576][  0]LogD3D11RHI:   Driver Version: 432.00 (internal:26.21.14.3200, unified:432.00)
+[2020.04.14-18.59.49:576][  0]LogD3D11RHI:      Driver Date: 7-24-2019
+[2020.04.14-18.59.49:576][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2020.04.14-18.59.49:614][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.04.14-18.59.49:614][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.14-18.59.49:866][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.04.14-18.59.50:738][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.04.14-18.59.50:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.04.14-18.59.50:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.04.14-18.59.50:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.04.14-18.59.50:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.04.14-18.59.50:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.04.14-18.59.50:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.04.14-18.59.50:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.04.14-18.59.50:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.04.14-18.59.50:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.04.14-18.59.50:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.04.14-18.59.50:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.04.14-18.59.50:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.04.14-18.59.50:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.04.14-18.59.50:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.04.14-18.59.50:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.04.14-18.59.50:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.04.14-18.59.50:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.04.14-18.59.50:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.04.14-18.59.51:020][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.04.14-18.59.51:020][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.04.14-18.59.51:062][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.04.14-18.59.51:118][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.04.14-18.59.51:137][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.04.14-18.59.51:168][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.04.14-18.59.51:191][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.04.14-18.59.51:210][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.04.14-18.59.51:265][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.04.14-18.59.51:265][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.04.14-18.59.51:303][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.04.14-18.59.51:303][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.04.14-18.59.51:351][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.04.14-18.59.51:382][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.04.14-18.59.51:402][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.04.14-18.59.51:422][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.04.14-18.59.51:422][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.14-18.59.51:656][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.04.14-18.59.52:454][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Intermediate/Shaders/WorkingDirectory/8344/).
+[2020.04.14-18.59.52:455][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Randy/AppData/Local/Temp/UnrealShaderWorkingDir/9C1B885042ECCACCCD58E2854187D9C3/'.
+[2020.04.14-18.59.52:466][  0]LogXGEController: Cleaning working directory: C:/Users/Randy/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.04.14-18.59.52:466][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.14-18.59.52:467][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.14-18.59.52:467][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.14-18.59.58:711][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.14-18.59.59:042][  0]LogDerivedDataCache: Loaded boot cache 0.33s 78MB C:/Users/Randy/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.14-18.59.59:042][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Randy/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.04.14-18.59.59:042][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Users/Randy/Desktop/Project_C/Project_C_UE4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.14-18.59.59:042][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.14-18.59.59:042][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Users/Randy/Desktop/Project_C/Project_C_UE4/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.14-18.59.59:042][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.14-18.59.59:144][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.14-18.59.59:145][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.14-18.59.59:145][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.04.14-18.59.59:146][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Randy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.14-18.59.59:146][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.14-18.59.59:146][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.14-18.59.59:240][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.14-18.59.59:340][  0]LogSlate: Using FreeType 2.10.0
+[2020.04.14-18.59.59:499][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.14-19.00.01:184][  0]LogAssetRegistry: FAssetRegistry took 0.0043 seconds to start up
+[2020.04.14-19.00.06:125][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.14-19.00.09:048][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.14-19.00.09:048][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.04.14-19.00.09:048][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.14-19.00.09:048][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.04.14-19.00.09:048][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.04.14-19.00.09:382][  0]LogNetVersion: Project_C 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 3451845409)
+[2020.04.14-19.00.37:390][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.093982 seconds
+[2020.04.14-19.00.37:424][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.04.14-19.00.37:424][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.04.14-19.00.37:424][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.14-19.00.42:870][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.14-19.00.42:937][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.14-19.00.43:127][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.009 s
+[2020.04.14-19.00.44:304][  0]SourceControl: Source control is disabled
+[2020.04.14-19.00.44:308][  0]SourceControl: Source control is disabled
+[2020.04.14-19.00.44:387][  0]SourceControl: Source control is disabled
+[2020.04.14-19.00.44:431][  0]SourceControl: Source control is disabled
+[2020.04.14-19.00.44:474][  0]SourceControl: Source control is disabled
+[2020.04.14-19.00.46:005][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.14-19.00.46:177][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.14-19.00.46:177][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.14-19.00.46:773][  0]LogOcInput: OculusInput pre-init called
+[2020.04.14-19.00.46:886][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.04.14-19.00.46:886][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.04.14-19.00.47:862][  0]LogEngine: Initializing Engine...
+[2020.04.14-19.00.47:876][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.14-19.00.49:070][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.14-19.00.49:419][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.14-19.00.49:563][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.14-19.00.49:563][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.14-19.00.49:563][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.14-19.00.49:563][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.14-19.00.49:563][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.14-19.00.49:563][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.14-19.00.49:563][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.14-19.00.49:563][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.14-19.00.49:581][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.14-19.00.49:581][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.14-19.00.49:696][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.14-19.00.49:696][  0]LogAudioMixer: Display: Name: Logitech Speakers (Realtek High Definition Audio)
+[2020.04.14-19.00.49:696][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.04.14-19.00.49:696][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.14-19.00.49:696][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.14-19.00.49:696][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.14-19.00.49:696][  0]LogAudioMixer: Display: Channel Order:
+[2020.04.14-19.00.49:696][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.14-19.00.49:696][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.04.14-19.00.49:777][  0]LogAudioMixer: Display: Using Audio Device Logitech Speakers (Realtek High Definition Audio)
+[2020.04.14-19.00.49:803][  0]LogInit: FAudioDevice initialized.
+[2020.04.14-19.00.49:803][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.14-19.00.49:925][  0]LogDerivedDataCache: Saved boot cache 0.12s 78MB C:/Users/Randy/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.14-19.00.49:928][  0]LogInit: Texture streaming: Enabled
+[2020.04.14-19.00.50:136][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.14-19.00.50:136][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.04.14-19.00.50:137][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.04.14-19.00.50:530][  0]LogInit: Transaction tracking system initialized
+[2020.04.14-19.00.50:983][  0]BlueprintLog: New page: Editor Load
+[2020.04.14-19.00.52:151][  0]LocalizationService: Localization service is disabled
+[2020.04.14-19.00.55:952][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/' took 0.00s
+[2020.04.14-19.00.55:952][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.14-19.00.55:952][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.14-19.00.56:880][  0]LogStats: FGameplayAbilitiesEditorModule::GameplayTagTreeChanged -  0.000 s
+[2020.04.14-19.01.01:935][  0]SourceControl: Source control is disabled
+[2020.04.14-19.01.01:960][  0]Cmd: MAP LOAD FILE="D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.14-19.01.01:974][  0]LightingResults: New page: Lighting Build
+[2020.04.14-19.01.02:079][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.04.14-19.01.02:095][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.14-19.01.02:102][  0]MapCheck: New page: Map Check
+[2020.04.14-19.01.02:102][  0]LightingResults: New page: Lighting Build
+[2020.04.14-19.01.02:323][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2020.04.14-19.01.04:699][  0]LogStaticMesh: Building static mesh bow_stick...
+[2020.04.14-19.01.04:775][  0]LogStaticMesh: Built static mesh [0.08s] /Game/Project_C/Meshes/bow_stick.bow_stick
+[2020.04.14-19.01.05:558][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.04.14-19.01.06:181][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.14-19.01.06:302][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.04.14-19.01.06:303][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.14-19.01.06:309][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 6.747ms to complete.
+[2020.04.14-19.01.06:309][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 4.362
+[2020.04.14-19.01.07:571][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.14-19.01.07:608][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.14-19.01.07:613][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.14-19.01.07:619][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.14-19.01.07:675][  0]LogCollectionManager: Loaded 0 collections in 0.000621 seconds
+[2020.04.14-19.01.07:763][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Collections/' took 0.00s
+[2020.04.14-19.01.07:763][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Developers/Randy/Collections/' took 0.00s
+[2020.04.14-19.01.07:763][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Collections/' took 0.00s
+[2020.04.14-19.01.07:763][  0]LogContentBrowser: Native class hierarchy populated in 0.0162 seconds. Added 3101 classes and 727 folders.
+[2020.04.14-19.01.07:827][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.04.14-19.01.09:793][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.04.14-19.01.09:873][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2020.04.14-19.01.10:618][  0]LogSlate: Took 0.021820 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.14-19.01.10:667][  0]LogSlate: Took 0.024574 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.14-19.01.10:707][  0]LogSlate: Took 0.013719 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.14-19.01.11:165][  0]LogRenderer: Reallocating scene render targets to support 976x576 Format 10 NumSamples 1 (Frame:1).
+[2020.04.14-19.01.11:587][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.04.14-19.01.11:587][  0]LogLoad: (Engine Initialization) Total time: 124.14 seconds
+[2020.04.14-19.01.11:587][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.14-19.01.11:768][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.04.14-19.01.11:928][  0]LogSlate: Took 0.013911 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.14-19.01.14:429][ 37]LogAssetRegistry: Asset discovery search completed in 73.2466 seconds
+[2020.04.14-19.01.14:433][ 37]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2020.04.14-19.15.33:392][ 58]LogSlate: Took 0.000120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.14-19.15.33:423][ 58]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Project_C/Materials/M_GlassBall.M_GlassBall
+[2020.04.14-19.15.33:479][ 58]LogMaterial: Display: Missing cached shader map for material M_GlassBall, compiling. 
+[2020.04.14-19.15.34:690][ 58]LogMaterial: Display: Missing cached shader map for material M_GlassBall, compiling. 
+[2020.04.14-19.15.34:744][ 58]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.04.14-19.15.34:744][ 58]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2020.04.14-19.15.34:744][ 58]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 13
+[2020.04.14-19.15.34:744][ 58]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2020.04.14-19.15.34:747][ 58]LogMaterial: Display: Missing cached shader map for material M_GlassBall, compiling. 
+[2020.04.14-19.15.34:766][ 58]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.04.14-19.15.34:774][ 58]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.04.14-19.15.34:782][ 58]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2020.04.14-19.15.34:791][ 58]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.04.14-19.15.34:800][ 58]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2020.04.14-19.15.35:167][ 58]LogSlate: Took 0.014416 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.04.14-19.15.37:112][134]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 35
+[2020.04.14-19.15.37:121][135]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 34
+[2020.04.14-19.15.37:196][144]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 33
+[2020.04.14-19.15.37:206][145]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 32
+[2020.04.14-19.15.37:272][146]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 31
+[2020.04.14-19.15.37:272][146]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 30
+[2020.04.14-19.15.37:307][146]LogSlate: Took 0.017425 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.04.14-19.15.37:425][160]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 29
+[2020.04.14-19.15.37:443][162]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 28
+[2020.04.14-19.15.37:718][189]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 27
+[2020.04.14-19.15.37:755][193]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 26
+[2020.04.14-19.15.37:893][208]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 25
+[2020.04.14-19.15.37:929][212]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 24
+[2020.04.14-19.15.37:978][216]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 23
+[2020.04.14-19.15.38:098][225]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 22
+[2020.04.14-19.15.38:129][228]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 21
+[2020.04.14-19.15.38:194][235]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 20
+[2020.04.14-19.15.38:223][238]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 19
+[2020.04.14-19.15.38:250][241]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 18
+[2020.04.14-19.15.38:266][243]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 17
+[2020.04.14-19.15.38:404][249]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+[2020.04.14-19.15.38:404][249]MaterialEditorStats: Default UI Vertex Shader: 17 instructions
+[2020.04.14-19.15.38:404][249]MaterialEditorStats: Instanced UI Vertex Shader: 17 instructions
+[2020.04.14-19.15.38:404][249]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.14-19.15.38:404][249]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.04.14-19.15.38:404][249]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.14-19.15.38:532][250]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 16
+[2020.04.14-19.15.38:543][251]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.04.14-19.15.38:555][252]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2020.04.14-19.15.38:564][253]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 13
+[2020.04.14-19.15.38:863][280]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 12
+[2020.04.14-19.15.38:882][282]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2020.04.14-19.15.38:930][287]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.04.14-19.15.38:963][290]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2020.04.14-19.15.39:280][318]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2020.04.14-19.15.39:301][320]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+[2020.04.14-19.15.39:322][322]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2020.04.14-19.15.39:322][322]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2020.04.14-19.15.39:675][355]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2020.04.14-19.15.39:704][358]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.04.14-19.15.39:731][361]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2020.04.14-19.15.39:758][364]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2020.04.14-19.19.25:581][362]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2020.04.14-19.19.25:814][363]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2020.04.14-19.19.25:814][363]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.04.14-19.20.13:151][604]LogMaterial: Display: Missing cached shader map for material M_GlassBall, compiling. 
+[2020.04.14-19.20.13:166][605]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.04.14-19.20.13:166][605]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2020.04.14-19.20.13:166][605]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 13
+[2020.04.14-19.20.13:166][605]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2020.04.14-19.20.13:445][636]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.04.14-19.20.13:454][637]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
+[2020.04.14-19.20.13:524][645]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2020.04.14-19.20.13:540][647]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2020.04.14-19.20.13:872][681]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 7
+[2020.04.14-19.20.13:893][683]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2020.04.14-19.20.13:964][691]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2020.04.14-19.20.14:062][702]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2020.04.14-19.20.14:106][707]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2020.04.14-19.20.14:165][714]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2020.04.14-19.20.14:261][724]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.04.14-19.20.14:366][736]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+[2020.04.14-19.20.14:366][736]MaterialEditorStats: Default UI Vertex Shader: 17 instructions
+[2020.04.14-19.20.14:366][736]MaterialEditorStats: Instanced UI Vertex Shader: 17 instructions
+[2020.04.14-19.20.14:366][736]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.14-19.20.14:366][736]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.04.14-19.20.14:366][736]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.14-19.20.14:796][784]LogMaterial: Display: Missing cached shader map for material M_GlassBall, compiling. 
+[2020.04.14-19.20.14:806][784]LogMaterial: Display: Missing cached shader map for material M_GlassBall, compiling. 
+[2020.04.14-19.20.14:826][785]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.04.14-19.20.14:826][785]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2020.04.14-19.20.14:826][785]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 13
+[2020.04.14-19.20.14:827][785]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2020.04.14-19.20.14:981][802]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2020.04.14-19.20.14:992][803]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2020.04.14-19.20.15:086][814]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2020.04.14-19.20.15:095][815]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2020.04.14-19.20.15:417][849]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+[2020.04.14-19.20.15:427][850]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2020.04.14-19.20.15:519][860]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2020.04.14-19.20.15:620][871]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2020.04.14-19.20.15:629][872]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2020.04.14-19.20.15:715][882]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2020.04.14-19.20.15:824][894]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2020.04.14-19.20.15:918][905]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+[2020.04.14-19.20.15:918][905]MaterialEditorStats: Default UI Vertex Shader: 17 instructions
+[2020.04.14-19.20.15:918][905]MaterialEditorStats: Instanced UI Vertex Shader: 17 instructions
+[2020.04.14-19.20.15:918][905]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.14-19.20.15:918][905]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.04.14-19.20.15:918][905]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.14-19.20.18:364][198]LogMaterial: Display: Missing cached shader map for material M_GlassBall, compiling. 
+[2020.04.14-19.20.18:374][198]LogMaterial: Display: Missing cached shader map for material M_GlassBall, compiling. 
+[2020.04.14-19.20.18:387][199]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.04.14-19.20.18:387][199]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2020.04.14-19.20.18:387][199]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 13
+[2020.04.14-19.20.18:387][199]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2020.04.14-19.20.18:560][218]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2020.04.14-19.20.18:560][218]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2020.04.14-19.20.18:663][230]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2020.04.14-19.20.18:670][231]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2020.04.14-19.20.18:991][264]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+[2020.04.14-19.20.19:008][266]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2020.04.14-19.20.19:101][276]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2020.04.14-19.20.19:189][286]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2020.04.14-19.20.19:207][288]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2020.04.14-19.20.19:296][298]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2020.04.14-19.20.19:386][308]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2020.04.14-19.20.19:490][320]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+[2020.04.14-19.20.19:490][320]MaterialEditorStats: Default UI Vertex Shader: 17 instructions
+[2020.04.14-19.20.19:490][320]MaterialEditorStats: Instanced UI Vertex Shader: 17 instructions
+[2020.04.14-19.20.19:490][320]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.14-19.20.19:490][320]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.04.14-19.20.19:490][320]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.14-19.20.22:287][655]LogMaterial: Display: Missing cached shader map for material M_GlassBall, compiling. 
+[2020.04.14-19.20.22:298][655]LogMaterial: Display: Missing cached shader map for material M_GlassBall, compiling. 
+[2020.04.14-19.20.22:320][657]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.04.14-19.20.22:320][657]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2020.04.14-19.20.22:320][657]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 13
+[2020.04.14-19.20.22:320][657]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2020.04.14-19.20.22:511][678]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2020.04.14-19.20.22:522][679]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2020.04.14-19.20.22:648][693]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.04.14-19.20.22:657][694]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2020.04.14-19.20.23:012][725]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+[2020.04.14-19.20.23:043][726]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2020.04.14-19.20.23:147][737]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2020.04.14-19.20.23:282][751]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2020.04.14-19.20.23:321][755]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2020.04.14-19.20.23:442][768]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2020.04.14-19.20.23:535][778]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2020.04.14-19.20.23:997][791]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+[2020.04.14-19.20.23:997][791]MaterialEditorStats: Default UI Vertex Shader: 17 instructions
+[2020.04.14-19.20.23:997][791]MaterialEditorStats: Instanced UI Vertex Shader: 17 instructions
+[2020.04.14-19.20.23:997][791]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.14-19.20.23:997][791]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.04.14-19.20.23:997][791]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.14-19.21.22:438][114]LogMaterial: Display: Missing cached shader map for material M_GlassBall, compiling. 
+[2020.04.14-19.21.22:748][115]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.04.14-19.21.22:748][115]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2020.04.14-19.21.22:748][115]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 13
+[2020.04.14-19.21.22:748][115]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2020.04.14-19.21.22:748][115]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2020.04.14-19.21.22:748][115]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2020.04.14-19.21.22:758][116]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.04.14-19.21.22:767][117]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2020.04.14-19.21.23:082][148]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+[2020.04.14-19.21.23:118][152]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2020.04.14-19.21.23:197][161]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2020.04.14-19.21.23:284][171]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2020.04.14-19.21.23:311][174]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2020.04.14-19.21.23:423][186]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2020.04.14-19.21.23:485][193]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2020.04.14-19.21.23:597][206]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+[2020.04.14-19.21.23:597][206]MaterialEditorStats: Default UI Vertex Shader: 17 instructions
+[2020.04.14-19.21.23:597][206]MaterialEditorStats: Instanced UI Vertex Shader: 17 instructions
+[2020.04.14-19.21.23:597][206]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.14-19.21.23:597][206]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.04.14-19.21.23:597][206]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.14-19.27.36:533][421]LogSlate: Window 'Message' being destroyed
+[2020.04.14-19.27.36:538][421]LogSlate: Window 'M_GlassBall' being destroyed
+[2020.04.14-19.27.36:539][421]LogSlate: Window 'M_GlassBall' being destroyed
+[2020.04.14-19.27.36:675][421]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.04.14-19.27.36:675][421]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.14-19.27.43:383][173]LogSlate: Took 0.022636 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.04.14-19.33.12:893][602]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Project_C/Blueprints/Widgets/WBP_Glassball.WBP_Glassball
+[2020.04.14-19.33.13:547][602]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 121 classes and 0 folders.
+[2020.04.14-19.33.37:087][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2020.04.14-19.33.37:088][ 49]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.147
+[2020.04.14-19.33.37:114][ 49]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Project_C/Blueprints/Widgets/WBP_Glassball] ([1] browsable assets)...
+[2020.04.14-19.33.37:115][ 49]OBJ SavePackage: Finished generating thumbnails for package [/Game/Project_C/Blueprints/Widgets/WBP_Glassball]
+[2020.04.14-19.33.37:334][ 49]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/WBP_Glassball_Auto1D1440AC54CF37682774FE9BCBDABC801.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Autosaves/Game/Project_C/Blueprints/Widgets/WBP_Glassball_Auto1.uasset'
+[2020.04.14-19.33.37:351][ 49]LogFileHelpers: Auto-saving content packages took 0.263
+[2020.04.14-19.34.26:958][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Project_C/Materials/MI_Glassball" FILE="D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Materials/MI_Glassball.uasset" SILENT=true
+[2020.04.14-19.34.26:983][588]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/MI_Glassball2CED993140036C5030766A9B800A94C4.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Materials/MI_Glassball.uasset'
+[2020.04.14-19.34.27:292][588]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2020.04.14-19.34.27:361][588]AssetCheck: New page: Asset Save: MI_GlassBall
+[2020.04.14-19.34.27:362][588]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Project_C/Materials/MI_Glassball.MI_GlassBall
+[2020.04.14-19.34.42:429][924]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Project_C/Blueprints/Widgets/WBP_Glassball" FILE="D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Widgets/WBP_Glassball.uasset" SILENT=true
+[2020.04.14-19.34.42:445][924]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.04.14-19.34.44:136][924]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.691 s
+[2020.04.14-19.34.44:136][924]LogOutputDevice: Error: === Handled ensure: ===
+[2020.04.14-19.34.44:136][924]LogOutputDevice: Error: 
+[2020.04.14-19.34.44:136][924]LogOutputDevice: Error: Ensure condition failed: !SeenPaths.Contains(NewPath) [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/CoreUObject/Private/Misc/RedirectCollector.cpp] [Line: 222]
+[2020.04.14-19.34.44:136][924]LogOutputDevice: Error: Found circular redirect from /Game/Project_C/Blueprints/Widgets/WBP_GlassBall.WBP_GlassBall to /Game/Project_C/Blueprints/Widgets/WBP_GlassBall.WBP_GlassBall! Returning None instead
+[2020.04.14-19.34.44:136][924]LogOutputDevice: Error: Stack: 
+[2020.04.14-19.34.44:136][924]LogOutputDevice: Error: [Callstack] 0x00007ff8658e7b80 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.14-19.34.44:136][924]LogOutputDevice: Error: [Callstack] 0x00007ff865550c54 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.14-19.34.44:136][924]LogOutputDevice: Error: [Callstack] 0x00007ff86581e2d6 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.14-19.34.44:136][924]LogOutputDevice: Error: [Callstack] 0x00007ff865834e49 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.14-19.34.44:136][924]LogOutputDevice: Error: [Callstack] 0x00007ff8655848c7 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.14-19.34.44:136][924]LogOutputDevice: Error: [Callstack] 0x00007ff864b1ce42 UE4Editor-Core.dll!UnknownFunction []
+[2020.04.14-19.34.44:136][924]LogOutputDevice: Error: [Callstack] 0x00007ff86582c483 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.14-19.34.44:136][924]LogOutputDevice: Error: [Callstack] 0x00007ff86572e359 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.14-19.34.44:136][924]LogOutputDevice: Error: [Callstack] 0x00007ff8655fc25c UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.14-19.34.44:136][924]LogOutputDevice: Error: [Callstack] 0x00007ff8657df3d9 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.14-19.34.44:136][924]LogOutputDevice: Error: [Callstack] 0x00007ff8657df913 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.14-19.34.44:136][924]LogOutputDevice: Error: [Callstack] 0x00007ff8655fe155 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.14-19.34.44:136][924]LogOutputDevice: Error: [Callstack] 0x00007ff8655fc37a UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.14-19.34.44:136][924]LogOutputDevice: Error: [Callstack] 0x00007ff8657df3d9 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.14-19.34.44:136][924]LogOutputDevice: Error: [Callstack] 0x00007ff86577e6ec UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.14-19.34.44:136][924]LogOutputDevice: Error: [Callstack] 0x00007ff8657df913 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.14-19.34.44:136][924]LogOutputDevice: Error: [Callstack] 0x00007ff8655fe155 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff86577ed54 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff86577d18a UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff86577cd12 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff857387b65 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff85738762c UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff8411fab3f UE4Editor-UMGEditor.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff8657c14f9 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff8657e3428 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff8657c9bfa UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff850934125 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff850934a5a UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff85096f909 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff85096c0fb UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff851131892 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff850cabebe UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff850caa8ba UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff850cbeea6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff840e9ac52 UE4Editor-AssetTools.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff840e4de63 UE4Editor-AssetTools.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff840eb0eb0 UE4Editor-AssetTools.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff84b03d2f4 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff84b0a411e UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff84b0f0324 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff84b01886d UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff84affabd9 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff855a4c32b UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff855a39869 UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff85595e957 UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff855a3fa4d UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff855a40e1e UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff85595729d UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff8557b1041 UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff85582224d UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff855817b0f UE4Editor-Slate.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff864614918 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff86460242f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff864617195 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff8645fec40 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff8cc3074d6 USER32.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff8cc306ff2 USER32.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff864618699 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff776bc6db0 UE4Editor.exe!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff776bdc3ec UE4Editor.exe!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff776bdc4ca UE4Editor.exe!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff776beceae UE4Editor.exe!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff776befcbe UE4Editor.exe!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff8cc247974 KERNEL32.DLL!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: [Callstack] 0x00007ff8cc66a261 ntdll.dll!UnknownFunction []
+[2020.04.14-19.34.44:137][924]LogOutputDevice: Error: 
+[2020.04.14-19.34.44:139][924]LogStats:                SubmitErrorReport -  0.000 s
+[2020.04.14-19.34.54:321][924]LogStats:                    SendNewReport - 10.183 s
+[2020.04.14-19.34.54:321][924]LogStats:             FDebug::EnsureFailed - 11.876 s
+[2020.04.14-19.34.54:335][924]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/WBP_GlassballC2219ED740D79A2952EA549568EFE2B6.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Widgets/WBP_Glassball.uasset'
+[2020.04.14-19.34.54:697][924]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.04.14-19.34.54:735][924]AssetCheck: New page: Asset Save: WBP_GlassBall
+[2020.04.14-19.34.54:735][924]LogContentValidation: Display: Validating WidgetBlueprint /Game/Project_C/Blueprints/Widgets/WBP_Glassball.WBP_GlassBall
+[2020.04.14-19.34.57:891][259]LogSlate: Window 'WBP_GlassBall' being destroyed
+[2020.04.14-19.34.58:848][363]BlueprintLog: New page: Compile WBP_GlassBall
+[2020.04.14-19.34.58:898][363]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2020.04.14-19.36.08:624][563]BlueprintLog: New page: Compile WBP_GlassBall
+[2020.04.14-19.36.08:674][563]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2020.04.14-19.36.33:962][ 95]BlueprintLog: New page: Compile WBP_GlassBall
+[2020.04.14-19.36.33:996][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2020.04.14-19.37.38:182][525]BlueprintLog: New page: Compile WBP_GlassBall
+[2020.04.14-19.37.38:216][525]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2020.04.14-19.37.38:418][541]BlueprintLog: New page: Compile WBP_GlassBall
+[2020.04.14-19.37.38:453][541]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2020.04.14-19.38.09:317][151]LogSlate: Took 0.012399 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.04.14-19.38.11:334][372]BlueprintLog: New page: Compile WBP_GlassBall
+[2020.04.14-19.38.11:371][372]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2020.04.14-19.38.49:461][ 93]BlueprintLog: New page: Compile WBP_GlassBall
+[2020.04.14-19.38.49:505][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   5.30ms
+[2020.04.14-19.38.58:712][917]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Project_C/Materials/M_GlassBall.M_GlassBall
+[2020.04.14-19.38.58:716][917]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.04.14-19.38.58:775][917]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.04.14-19.38.58:783][917]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.04.14-19.38.58:783][917]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2020.04.14-19.38.58:783][917]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 13
+[2020.04.14-19.38.58:783][917]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2020.04.14-19.38.58:786][917]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.04.14-19.38.58:804][917]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.04.14-19.38.58:814][917]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.04.14-19.38.58:822][917]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2020.04.14-19.38.58:830][917]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.04.14-19.38.58:839][917]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2020.04.14-19.38.59:085][938]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 35
+[2020.04.14-19.38.59:134][944]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 34
+[2020.04.14-19.38.59:219][954]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 33
+[2020.04.14-19.38.59:227][955]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 32
+[2020.04.14-19.38.59:244][957]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 31
+[2020.04.14-19.38.59:301][964]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 30
+[2020.04.14-19.38.59:485][986]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 29
+[2020.04.14-19.38.59:495][987]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 28
+[2020.04.14-19.38.59:678][  9]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 27
+[2020.04.14-19.38.59:735][ 16]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 26
+[2020.04.14-19.38.59:870][ 32]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 25
+[2020.04.14-19.38.59:927][ 39]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 24
+[2020.04.14-19.38.59:935][ 40]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 23
+[2020.04.14-19.39.00:097][ 59]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 22
+[2020.04.14-19.39.00:128][ 63]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 21
+[2020.04.14-19.39.00:152][ 66]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 20
+[2020.04.14-19.39.00:211][ 73]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 19
+[2020.04.14-19.39.00:254][ 78]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 18
+[2020.04.14-19.39.00:254][ 78]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 17
+[2020.04.14-19.39.00:267][ 79]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+[2020.04.14-19.39.00:267][ 79]MaterialEditorStats: Default UI Vertex Shader: 17 instructions
+[2020.04.14-19.39.00:267][ 79]MaterialEditorStats: Instanced UI Vertex Shader: 17 instructions
+[2020.04.14-19.39.00:267][ 79]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.14-19.39.00:267][ 79]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.04.14-19.39.00:267][ 79]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.14-19.39.00:569][115]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 16
+[2020.04.14-19.39.00:611][118]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 15
+[2020.04.14-19.39.00:628][119]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 14
+[2020.04.14-19.39.00:661][121]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 13
+[2020.04.14-19.39.00:976][156]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2020.04.14-19.39.00:992][158]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.04.14-19.39.01:002][159]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
+[2020.04.14-19.39.01:042][164]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2020.04.14-19.39.01:379][198]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2020.04.14-19.39.01:426][204]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2020.04.14-19.39.01:462][206]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2020.04.14-19.39.01:462][206]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2020.04.14-19.39.01:818][245]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2020.04.14-19.39.01:841][248]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2020.04.14-19.39.01:850][249]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2020.04.14-19.39.01:887][253]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2020.04.14-19.39.04:764][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Project_C/Blueprints/Widgets/WBP_Glassball" FILE="D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Widgets/WBP_Glassball.uasset" SILENT=true
+[2020.04.14-19.39.04:888][574]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/WBP_Glassball82EA2153424958BF85D015A932A04232.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Widgets/WBP_Glassball.uasset'
+[2020.04.14-19.39.04:900][574]AssetCheck: New page: Asset Save: WBP_GlassBall
+[2020.04.14-19.39.04:900][574]LogContentValidation: Display: Validating WidgetBlueprint /Game/Project_C/Blueprints/Widgets/WBP_Glassball.WBP_GlassBall
+[2020.04.14-19.39.17:584][ 71]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.04.14-19.39.17:596][ 71]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.04.14-19.39.17:608][ 72]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.04.14-19.39.17:608][ 72]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2020.04.14-19.39.17:608][ 72]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 13
+[2020.04.14-19.39.17:608][ 72]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2020.04.14-19.39.17:788][ 94]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2020.04.14-19.39.17:804][ 96]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2020.04.14-19.39.17:904][108]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.04.14-19.39.17:913][109]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2020.04.14-19.39.18:313][147]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+[2020.04.14-19.39.18:313][147]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2020.04.14-19.39.18:446][156]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2020.04.14-19.39.18:533][167]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2020.04.14-19.39.18:541][168]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2020.04.14-19.39.18:650][181]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2020.04.14-19.39.18:764][191]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2020.04.14-19.39.18:900][206]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+[2020.04.14-19.39.18:900][206]MaterialEditorStats: Default UI Vertex Shader: 17 instructions
+[2020.04.14-19.39.18:900][206]MaterialEditorStats: Instanced UI Vertex Shader: 17 instructions
+[2020.04.14-19.39.18:900][206]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.14-19.39.18:900][206]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.04.14-19.39.18:900][206]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.14-19.39.19:275][245]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.04.14-19.39.19:288][246]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.04.14-19.39.19:288][246]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2020.04.14-19.39.19:288][246]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 13
+[2020.04.14-19.39.19:288][246]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2020.04.14-19.39.19:372][254]LogMaterialEditor: Saving and Compiling material M_GlassBall
+[2020.04.14-19.39.19:948][254]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2020.04.14-19.39.19:948][254]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2020.04.14-19.39.19:948][254]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2020.04.14-19.39.19:948][254]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2020.04.14-19.39.19:948][254]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+[2020.04.14-19.39.19:948][254]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2020.04.14-19.39.19:971][254]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.04.14-19.39.20:005][254]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 15
+[2020.04.14-19.39.20:074][254]LogMaterial: Display: Missing cached shader map for material M_GlassBall, compiling. 
+[2020.04.14-19.39.20:087][254]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 14
+[2020.04.14-19.39.20:124][254]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 30
+[2020.04.14-19.39.20:130][254]LogUObjectHash: Compacting FUObjectHashTables data took   5.84ms
+[2020.04.14-19.39.20:131][254]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2020.04.14-19.39.20:176][254]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2020.04.14-19.39.20:196][254]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 29
+[2020.04.14-19.39.22:283][254]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 28
+[2020.04.14-19.39.22:283][254]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 27
+[2020.04.14-19.39.22:283][254]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 26
+[2020.04.14-19.39.22:283][254]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 25
+[2020.04.14-19.39.22:283][254]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 24
+[2020.04.14-19.39.22:283][254]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 23
+[2020.04.14-19.39.22:284][254]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 22
+[2020.04.14-19.39.22:284][254]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 21
+[2020.04.14-19.39.22:284][254]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 20
+[2020.04.14-19.39.22:284][254]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 19
+[2020.04.14-19.39.22:284][254]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 18
+[2020.04.14-19.39.22:284][254]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 17
+[2020.04.14-19.39.22:284][254]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 12
+[2020.04.14-19.39.22:284][254]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2020.04.14-19.39.22:284][254]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2020.04.14-19.39.22:284][254]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2020.04.14-19.39.22:284][254]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2020.04.14-19.39.22:293][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Project_C/Materials/M_GlassBall" FILE="D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Materials/M_GlassBall.uasset" SILENT=true
+[2020.04.14-19.39.22:313][254]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/M_GlassBall79BAB48B4FCC29397B8AF8BA99F3BF0E.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Materials/M_GlassBall.uasset'
+[2020.04.14-19.39.22:350][254]AssetCheck: New page: Asset Save: M_GlassBall
+[2020.04.14-19.39.22:350][254]LogContentValidation: Display: Validating Material /Game/Project_C/Materials/M_GlassBall.M_GlassBall
+[2020.04.14-19.39.33:114][180]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Project_C/Blueprints/Widgets/WBP_PrimaryUI.WBP_PrimaryUI
+[2020.04.14-19.40.17:128][341]LogEditorTransaction: Undo Edit Right
+[2020.04.14-19.40.17:222][341]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.04.14-19.40.17:235][341]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.04.14-19.40.17:236][341]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2020.04.14-19.40.17:236][341]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 13
+[2020.04.14-19.40.17:236][341]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2020.04.14-19.40.17:502][347]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2020.04.14-19.40.17:535][348]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2020.04.14-19.40.17:602][350]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2020.04.14-19.40.17:605][351]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2020.04.14-19.40.17:990][391]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+[2020.04.14-19.40.18:006][393]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2020.04.14-19.40.18:118][406]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2020.04.14-19.40.18:221][418]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2020.04.14-19.40.18:229][419]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2020.04.14-19.40.18:348][433]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2020.04.14-19.40.18:445][444]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2020.04.14-19.40.22:703][954]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+[2020.04.14-19.40.22:703][954]MaterialEditorStats: Default UI Vertex Shader: 17 instructions
+[2020.04.14-19.40.22:703][954]MaterialEditorStats: Instanced UI Vertex Shader: 17 instructions
+[2020.04.14-19.40.22:703][954]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.14-19.40.22:703][954]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.04.14-19.40.22:703][954]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.14-19.40.45:978][712]BlueprintLog: New page: Compile WBP_PrimaryUI
+[2020.04.14-19.40.46:023][712]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2020.04.14-19.41.33:590][ 28]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Player_C /Engine/Transient.World_10:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Player_C_0
+	Function /Game/Project_C/Blueprints/Player/ABP_Player.ABP_Player_C:ExecuteUbergraph_ABP_Player:00BF
+[2020.04.14-19.41.44:441][283]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.BP_Enemy_C' ref from Metadata '/Game/Project_C/Blueprints/Enemies/BP_Enemy.PackageMetaData'
+[2020.04.14-19.41.44:441][283]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.BP_Enemy:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Project_C/Blueprints/Enemies/BP_Enemy.PackageMetaData'
+[2020.04.14-19.41.44:441][283]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.BP_Enemy:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Project_C/Blueprints/Enemies/BP_Enemy.PackageMetaData'
+[2020.04.14-19.41.44:441][283]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.BP_Enemy:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/Project_C/Blueprints/Enemies/BP_Enemy.PackageMetaData'
+[2020.04.14-19.41.44:441][283]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.BP_Enemy:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Project_C/Blueprints/Enemies/BP_Enemy.PackageMetaData'
+[2020.04.14-19.41.44:442][283]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.BP_Enemy:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Project_C/Blueprints/Enemies/BP_Enemy.PackageMetaData'
+[2020.04.14-19.41.44:442][283]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.BP_Enemy:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/Project_C/Blueprints/Enemies/BP_Enemy.PackageMetaData'
+[2020.04.14-19.41.44:442][283]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.SKEL_BP_Enemy_C:ReceiveBeginPlay' ref from Metadata '/Game/Project_C/Blueprints/Enemies/BP_Enemy.PackageMetaData'
+[2020.04.14-19.41.44:442][283]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.SKEL_BP_Enemy_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Project_C/Blueprints/Enemies/BP_Enemy.PackageMetaData'
+[2020.04.14-19.41.44:442][283]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.SKEL_BP_Enemy_C:ReceiveTick' ref from Metadata '/Game/Project_C/Blueprints/Enemies/BP_Enemy.PackageMetaData'
+[2020.04.14-19.41.44:442][283]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.SKEL_BP_Enemy_C:BP_OnhealthChanged' ref from Metadata '/Game/Project_C/Blueprints/Enemies/BP_Enemy.PackageMetaData'
+[2020.04.14-19.41.44:442][283]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.SKEL_BP_Enemy_C:HealthBar' ref from Metadata '/Game/Project_C/Blueprints/Enemies/BP_Enemy.PackageMetaData'
+[2020.04.14-19.41.44:442][283]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.SKEL_BP_Enemy_C:UserConstructionScript' ref from Metadata '/Game/Project_C/Blueprints/Enemies/BP_Enemy.PackageMetaData'
+[2020.04.14-19.41.44:442][283]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.SKEL_BP_Enemy_C' ref from Metadata '/Game/Project_C/Blueprints/Enemies/BP_Enemy.PackageMetaData'
+[2020.04.14-19.41.44:442][283]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.BP_Enemy_C:HealthBar' ref from Metadata '/Game/Project_C/Blueprints/Enemies/BP_Enemy.PackageMetaData'
+[2020.04.14-19.41.44:442][283]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.BP_Enemy_C:BP_OnhealthChanged' ref from Metadata '/Game/Project_C/Blueprints/Enemies/BP_Enemy.PackageMetaData'
+[2020.04.14-19.41.44:505][283]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/BP_Enemy72EC704C4C94B983B32EF7A1E9B64ABF.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Characters/Enemies/BP_Enemy.uasset'
+[2020.04.14-19.41.44:506][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Project_C/Blueprints/Enemies/BP_Enemy" FILE="D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Enemies/BP_Enemy.uasset" SILENT=true
+[2020.04.14-19.41.44:554][283]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/BP_Enemy443516F24CD5D5C2FA99BA87D9C0D339.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Enemies/BP_Enemy.uasset'
+[2020.04.14-19.41.44:603][283]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.14-19.41.44:603][283]LogContentValidation: Display: Validating Blueprint /Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.BP_Enemy
+[2020.04.14-19.41.44:616][283]LogContentValidation: Display: Validating ObjectRedirector /Game/Project_C/Blueprints/Enemies/BP_Enemy.BP_Enemy
+[2020.04.14-19.41.44:616][283]LogContentValidation: Display: Validating ObjectRedirector /Game/Project_C/Blueprints/Enemies/BP_Enemy.Default__BP_Enemy_C
+[2020.04.14-19.41.44:616][283]LogContentValidation: Display: Validating ObjectRedirector /Game/Project_C/Blueprints/Enemies/BP_Enemy.BP_Enemy_C
+[2020.04.14-19.41.58:143][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/ABP_Player.ABP_Player:AnimGraph.AnimGraphNode_Root_0' ref from Metadata '/Game/Project_C/Blueprints/Player/ABP_Player.PackageMetaData'
+[2020.04.14-19.41.58:143][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/ABP_Player.ABP_Player_C' ref from Metadata '/Game/Project_C/Blueprints/Player/ABP_Player.PackageMetaData'
+[2020.04.14-19.41.58:143][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/ABP_Player.ABP_Player:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Project_C/Blueprints/Player/ABP_Player.PackageMetaData'
+[2020.04.14-19.41.58:143][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/ABP_Player.ABP_Player:EventGraph.K2Node_CallFunction_0' ref from Metadata '/Game/Project_C/Blueprints/Player/ABP_Player.PackageMetaData'
+[2020.04.14-19.41.58:143][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/ABP_Player.ABP_Player:AnimGraph.AnimGraphNode_StateMachine_0.Locomotion.AnimStateEntryNode_0' ref from Metadata '/Game/Project_C/Blueprints/Player/ABP_Player.PackageMetaData'
+[2020.04.14-19.41.58:143][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/ABP_Player.ABP_Player:AnimGraph.AnimGraphNode_StateMachine_0.Locomotion.AnimStateNode_0.IdleRun.AnimGraphNode_StateResult_0' ref from Metadata '/Game/Project_C/Blueprints/Player/ABP_Player.PackageMetaData'
+[2020.04.14-19.41.58:143][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/ABP_Player.SKEL_ABP_Player_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Project_C/Blueprints/Player/ABP_Player.PackageMetaData'
+[2020.04.14-19.41.58:143][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/ABP_Player.SKEL_ABP_Player_C:bDoFullBody' ref from Metadata '/Game/Project_C/Blueprints/Player/ABP_Player.PackageMetaData'
+[2020.04.14-19.41.58:143][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/ABP_Player.SKEL_ABP_Player_C:Speed' ref from Metadata '/Game/Project_C/Blueprints/Player/ABP_Player.PackageMetaData'
+[2020.04.14-19.41.58:143][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/ABP_Player.SKEL_ABP_Player_C:AnimGraph' ref from Metadata '/Game/Project_C/Blueprints/Player/ABP_Player.PackageMetaData'
+[2020.04.14-19.41.58:143][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/ABP_Player.SKEL_ABP_Player_C' ref from Metadata '/Game/Project_C/Blueprints/Player/ABP_Player.PackageMetaData'
+[2020.04.14-19.41.58:143][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/ABP_Player.ABP_Player_C:bDoFullBody' ref from Metadata '/Game/Project_C/Blueprints/Player/ABP_Player.PackageMetaData'
+[2020.04.14-19.41.58:143][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/ABP_Player.ABP_Player_C:Speed' ref from Metadata '/Game/Project_C/Blueprints/Player/ABP_Player.PackageMetaData'
+[2020.04.14-19.41.58:143][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/ABP_Player.ABP_Player_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Project_C/Blueprints/Player/ABP_Player.PackageMetaData'
+[2020.04.14-19.41.58:143][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/ABP_Player.ABP_Player_C:AnimGraph' ref from Metadata '/Game/Project_C/Blueprints/Player/ABP_Player.PackageMetaData'
+[2020.04.14-19.41.58:149][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/BP_Player.BP_Player:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Project_C/Blueprints/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.41.58:149][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/BP_Player.BP_Player_C' ref from Metadata '/Game/Project_C/Blueprints/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.41.58:149][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/BP_Player.BP_Player:OnDeath.K2Node_FunctionEntry_0' ref from Metadata '/Game/Project_C/Blueprints/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.41.58:149][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/BP_Player.SKEL_BP_Player_C:InpAxisEvt_MoveForward_K2Node_InputAxisEvent_0' ref from Metadata '/Game/Project_C/Blueprints/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.41.58:149][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/BP_Player.SKEL_BP_Player_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_2' ref from Metadata '/Game/Project_C/Blueprints/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.41.58:149][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/BP_Player.SKEL_BP_Player_C:Melee Attack' ref from Metadata '/Game/Project_C/Blueprints/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.41.58:149][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/BP_Player.SKEL_BP_Player_C:ReceiveBeginPlay' ref from Metadata '/Game/Project_C/Blueprints/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.41.58:150][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/BP_Player.SKEL_BP_Player_C:BP_Die' ref from Metadata '/Game/Project_C/Blueprints/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.41.58:150][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/BP_Player.SKEL_BP_Player_C:PrimaryWeapon' ref from Metadata '/Game/Project_C/Blueprints/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.41.58:150][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/BP_Player.SKEL_BP_Player_C:SpringArm' ref from Metadata '/Game/Project_C/Blueprints/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.41.58:150][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/BP_Player.SKEL_BP_Player_C:Camera' ref from Metadata '/Game/Project_C/Blueprints/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.41.58:150][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/BP_Player.SKEL_BP_Player_C:HeadMesh' ref from Metadata '/Game/Project_C/Blueprints/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.41.58:150][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/BP_Player.SKEL_BP_Player_C:ArmMesh' ref from Metadata '/Game/Project_C/Blueprints/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.41.58:150][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/BP_Player.SKEL_BP_Player_C:LegMesh' ref from Metadata '/Game/Project_C/Blueprints/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.41.58:150][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/BP_Player.SKEL_BP_Player_C:UserConstructionScript' ref from Metadata '/Game/Project_C/Blueprints/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.41.58:150][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/BP_Player.SKEL_BP_Player_C' ref from Metadata '/Game/Project_C/Blueprints/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.41.58:150][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/BP_Player.BP_Player_C:PrimaryWeapon' ref from Metadata '/Game/Project_C/Blueprints/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.41.58:150][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/BP_Player.BP_Player_C:SpringArm' ref from Metadata '/Game/Project_C/Blueprints/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.41.58:150][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/BP_Player.BP_Player_C:Camera' ref from Metadata '/Game/Project_C/Blueprints/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.41.58:150][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/BP_Player.BP_Player_C:HeadMesh' ref from Metadata '/Game/Project_C/Blueprints/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.41.58:150][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/BP_Player.BP_Player_C:ArmMesh' ref from Metadata '/Game/Project_C/Blueprints/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.41.58:150][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/BP_Player.BP_Player_C:LegMesh' ref from Metadata '/Game/Project_C/Blueprints/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.41.58:150][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/BP_Player.BP_Player_C:BP_Die' ref from Metadata '/Game/Project_C/Blueprints/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.41.58:150][875]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/Player/BP_Player.BP_Player_C:ReceiveBeginPlay' ref from Metadata '/Game/Project_C/Blueprints/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.41.58:279][875]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/ABP_Player970676B34B6658ACA1C7F0935178D0D9.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Characters/Player/ABP_Player.uasset'
+[2020.04.14-19.41.58:318][875]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/BP_Player98DC446B49A5C19A023316BEA2A41F3E.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Characters/Player/BP_Player.uasset'
+[2020.04.14-19.41.58:623][875]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2020.04.14-19.41.58:656][875]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.04.14-19.41.58:691][875]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2020.04.14-19.41.58:723][875]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.04.14-19.41.58:755][875]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Project_C/Blueprints/bow_stick" FILE="D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/bow_stick.uasset" SILENT=true
+[2020.04.14-19.41.58:780][875]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/bow_stickC6C487BB44512DD26405E09E2F608559.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/bow_stick.uasset'
+[2020.04.14-19.41.58:781][875]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Project_C/Blueprints/AI/BTTask_Attack" FILE="D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/AI/BTTask_Attack.uasset" SILENT=true
+[2020.04.14-19.41.58:895][875]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/BTTask_Attack137AC2C14C472A62B830EB91B9F29ECA.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/AI/BTTask_Attack.uasset'
+[2020.04.14-19.41.58:896][875]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Project_C/Blueprints/Core/GM_Project_C" FILE="D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Core/GM_Project_C.uasset" SILENT=true
+[2020.04.14-19.41.58:923][875]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/GM_Project_C594B0F3340F7BCEDEB86D6B06119A3E2.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Core/GM_Project_C.uasset'
+[2020.04.14-19.41.58:925][875]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Project_C/Blueprints/Core/PC_Player" FILE="D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Core/PC_Player.uasset" SILENT=true
+[2020.04.14-19.41.58:966][875]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/PC_PlayerD7BA6CFA403458ADDA238186577EF4D6.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Core/PC_Player.uasset'
+[2020.04.14-19.41.58:967][875]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Project_C/Blueprints/Player/CH_Player" FILE="D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Player/CH_Player.uasset" SILENT=true
+[2020.04.14-19.41.58:974][875]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/CH_PlayerA4E2C56F416CAA5FDB817BBCB2B10CFE.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Player/CH_Player.uasset'
+[2020.04.14-19.41.59:038][875]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/ANS_MeleeAttackDF4AAE854BAD5F4D134A9188EF98B7DF.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/CuteCharacter/Animations/ANS_MeleeAttack.uasset'
+[2020.04.14-19.41.59:074][875]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/BP_EnemyB858D7634C544C40C17449987B6A0E08.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Characters/Enemies/BP_Enemy.uasset'
+[2020.04.14-19.41.59:147][875]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.14-19.41.59:147][875]LogContentValidation: Display: Validating AnimBlueprint /Game/Project_C/Blueprints/Characters/Player/ABP_Player.ABP_Player
+[2020.04.14-19.41.59:147][875]LogContentValidation: Display: Validating Blueprint /Game/Project_C/Blueprints/Characters/Player/BP_Player.BP_Player
+[2020.04.14-19.41.59:147][875]LogContentValidation: Display: Validating Blueprint /Game/Project_C/Blueprints/bow_stick.bow_stick
+[2020.04.14-19.41.59:147][875]LogContentValidation: Display: Validating Blueprint /Game/Project_C/Blueprints/AI/BTTask_Attack.BTTask_Attack
+[2020.04.14-19.41.59:147][875]LogContentValidation: Display: Validating Blueprint /Game/Project_C/Blueprints/Core/GM_Project_C.GM_Project_C
+[2020.04.14-19.41.59:147][875]LogContentValidation: Display: Validating Blueprint /Game/Project_C/Blueprints/Core/PC_Player.PC_Player
+[2020.04.14-19.41.59:147][875]LogContentValidation: Display: Validating ObjectRedirector /Game/Project_C/Blueprints/Player/CH_Player.ObjectRedirector_1
+[2020.04.14-19.41.59:147][875]LogContentValidation: Display: Validating ObjectRedirector /Game/Project_C/Blueprints/Player/CH_Player.CH_Player
+[2020.04.14-19.41.59:147][875]LogContentValidation: Display: Validating Blueprint /Game/Project_C/CuteCharacter/Animations/ANS_MeleeAttack.ANS_MeleeAttack
+[2020.04.14-19.41.59:147][875]LogContentValidation: Display: Validating Blueprint /Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.BP_Enemy
+[2020.04.14-19.42.10:841][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/ABP_Player.ABP_Player_C' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/ABP_Player.PackageMetaData'
+[2020.04.14-19.42.10:841][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/ABP_Player.ABP_Player_C:bDoFullBody' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/ABP_Player.PackageMetaData'
+[2020.04.14-19.42.10:841][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/ABP_Player.ABP_Player_C:Speed' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/ABP_Player.PackageMetaData'
+[2020.04.14-19.42.10:841][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/ABP_Player.ABP_Player_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/ABP_Player.PackageMetaData'
+[2020.04.14-19.42.10:841][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/ABP_Player.ABP_Player_C:AnimGraph' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/ABP_Player.PackageMetaData'
+[2020.04.14-19.42.10:841][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/ABP_Player.SKEL_ABP_Player_C' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/ABP_Player.PackageMetaData'
+[2020.04.14-19.42.10:841][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/ABP_Player.SKEL_ABP_Player_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/ABP_Player.PackageMetaData'
+[2020.04.14-19.42.10:841][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/ABP_Player.SKEL_ABP_Player_C:bDoFullBody' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/ABP_Player.PackageMetaData'
+[2020.04.14-19.42.10:841][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/ABP_Player.SKEL_ABP_Player_C:Speed' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/ABP_Player.PackageMetaData'
+[2020.04.14-19.42.10:841][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/ABP_Player.SKEL_ABP_Player_C:AnimGraph' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/ABP_Player.PackageMetaData'
+[2020.04.14-19.42.10:841][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/ABP_Player.ABP_Player:AnimGraph.AnimGraphNode_Root_0' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/ABP_Player.PackageMetaData'
+[2020.04.14-19.42.10:841][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/ABP_Player.ABP_Player:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/ABP_Player.PackageMetaData'
+[2020.04.14-19.42.10:841][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/ABP_Player.ABP_Player:EventGraph.K2Node_CallFunction_0' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/ABP_Player.PackageMetaData'
+[2020.04.14-19.42.10:841][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/ABP_Player.ABP_Player:AnimGraph.AnimGraphNode_StateMachine_0.Locomotion.AnimStateEntryNode_0' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/ABP_Player.PackageMetaData'
+[2020.04.14-19.42.10:841][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/ABP_Player.ABP_Player:AnimGraph.AnimGraphNode_StateMachine_0.Locomotion.AnimStateNode_0.IdleRun.AnimGraphNode_StateResult_0' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/ABP_Player.PackageMetaData'
+[2020.04.14-19.42.10:846][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Player.BP_Player_C' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.42.10:846][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Player.BP_Player_C:ReceiveBeginPlay' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.42.10:846][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Player.BP_Player_C:BP_Die' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.42.10:846][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Player.BP_Player_C:LegMesh' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.42.10:846][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Player.BP_Player_C:ArmMesh' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.42.10:846][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Player.BP_Player_C:HeadMesh' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.42.10:846][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Player.BP_Player_C:Camera' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.42.10:846][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Player.BP_Player_C:SpringArm' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.42.10:846][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Player.BP_Player_C:PrimaryWeapon' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.42.10:846][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Player.SKEL_BP_Player_C' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.42.10:846][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Player.SKEL_BP_Player_C:InpAxisEvt_MoveForward_K2Node_InputAxisEvent_0' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.42.10:846][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Player.SKEL_BP_Player_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_2' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.42.10:846][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Player.SKEL_BP_Player_C:Melee Attack' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.42.10:846][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Player.SKEL_BP_Player_C:ReceiveBeginPlay' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.42.10:846][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Player.SKEL_BP_Player_C:BP_Die' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.42.10:846][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Player.SKEL_BP_Player_C:PrimaryWeapon' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.42.10:846][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Player.SKEL_BP_Player_C:SpringArm' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.42.10:846][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Player.SKEL_BP_Player_C:Camera' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.42.10:846][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Player.SKEL_BP_Player_C:HeadMesh' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.42.10:846][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Player.SKEL_BP_Player_C:ArmMesh' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.42.10:846][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Player.SKEL_BP_Player_C:LegMesh' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.42.10:846][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Player.SKEL_BP_Player_C:UserConstructionScript' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.42.10:846][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Player.BP_Player:OnDeath.K2Node_FunctionEntry_0' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.42.10:846][202]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Player.BP_Player:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Project_C/Blueprints/Characters/Player/BP_Player.PackageMetaData'
+[2020.04.14-19.42.10:881][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Project_C/Blueprints/Characters/ABP_Player" FILE="D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Characters/ABP_Player.uasset" SILENT=true
+[2020.04.14-19.42.10:905][202]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/ABP_Player391E6E7C4F770130DFC70BAF31BCE5F3.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Characters/ABP_Player.uasset'
+[2020.04.14-19.42.10:913][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Project_C/Blueprints/Characters/BP_Player" FILE="D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Characters/BP_Player.uasset" SILENT=true
+[2020.04.14-19.42.10:944][202]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/BP_Player43BB15EA4B7F5AB258AB7AA197DA305A.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Characters/BP_Player.uasset'
+[2020.04.14-19.42.11:191][202]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2020.04.14-19.42.11:224][202]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.04.14-19.42.11:262][202]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2020.04.14-19.42.11:295][202]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.04.14-19.42.11:322][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Project_C/Blueprints/bow_stick" FILE="D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/bow_stick.uasset" SILENT=true
+[2020.04.14-19.42.11:341][202]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/bow_stickA0D9003B4DA782BEBE9D45B61420B3B5.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/bow_stick.uasset'
+[2020.04.14-19.42.11:342][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Project_C/Blueprints/AI/BTTask_Attack" FILE="D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/AI/BTTask_Attack.uasset" SILENT=true
+[2020.04.14-19.42.11:351][202]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/BTTask_Attack640D9D734A43A1D0209C8DBA951222FE.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/AI/BTTask_Attack.uasset'
+[2020.04.14-19.42.11:353][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Project_C/Blueprints/Core/GM_Project_C" FILE="D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Core/GM_Project_C.uasset" SILENT=true
+[2020.04.14-19.42.11:361][202]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/GM_Project_CA48D41E544A2A39B51C22588120540D3.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Core/GM_Project_C.uasset'
+[2020.04.14-19.42.11:362][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Project_C/Blueprints/Core/PC_Player" FILE="D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Core/PC_Player.uasset" SILENT=true
+[2020.04.14-19.42.11:374][202]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/PC_PlayerCF22F27644DE97C8DBE682AC6EB9FF18.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Core/PC_Player.uasset'
+[2020.04.14-19.42.11:375][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Project_C/Blueprints/Player/CH_Player" FILE="D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Player/CH_Player.uasset" SILENT=true
+[2020.04.14-19.42.11:380][202]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/CH_PlayerD85778394728F7A19F3D5F9314E52C79.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Player/CH_Player.uasset'
+[2020.04.14-19.42.11:392][202]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/ANS_MeleeAttack47D732DD4B1658602D178FB1DAE0B06E.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/CuteCharacter/Animations/ANS_MeleeAttack.uasset'
+[2020.04.14-19.42.11:426][202]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/BP_EnemyE516E96F4E7ADA66B9453180B15BCF71.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Characters/Enemies/BP_Enemy.uasset'
+[2020.04.14-19.42.11:497][202]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.14-19.42.11:497][202]LogContentValidation: Display: Validating AnimBlueprint /Game/Project_C/Blueprints/Characters/ABP_Player.ABP_Player
+[2020.04.14-19.42.11:497][202]LogContentValidation: Display: Validating Blueprint /Game/Project_C/Blueprints/Characters/BP_Player.BP_Player
+[2020.04.14-19.42.11:497][202]LogContentValidation: Display: Validating Blueprint /Game/Project_C/Blueprints/bow_stick.bow_stick
+[2020.04.14-19.42.11:497][202]LogContentValidation: Display: Validating Blueprint /Game/Project_C/Blueprints/AI/BTTask_Attack.BTTask_Attack
+[2020.04.14-19.42.11:497][202]LogContentValidation: Display: Validating Blueprint /Game/Project_C/Blueprints/Core/GM_Project_C.GM_Project_C
+[2020.04.14-19.42.11:497][202]LogContentValidation: Display: Validating Blueprint /Game/Project_C/Blueprints/Core/PC_Player.PC_Player
+[2020.04.14-19.42.11:497][202]LogContentValidation: Display: Validating ObjectRedirector /Game/Project_C/Blueprints/Player/CH_Player.ObjectRedirector_1
+[2020.04.14-19.42.11:497][202]LogContentValidation: Display: Validating ObjectRedirector /Game/Project_C/Blueprints/Player/CH_Player.CH_Player
+[2020.04.14-19.42.11:497][202]LogContentValidation: Display: Validating Blueprint /Game/Project_C/CuteCharacter/Animations/ANS_MeleeAttack.ANS_MeleeAttack
+[2020.04.14-19.42.11:497][202]LogContentValidation: Display: Validating Blueprint /Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.BP_Enemy
+[2020.04.14-19.42.15:108][597]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Enemy.BP_Enemy_C' ref from Metadata '/Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.PackageMetaData'
+[2020.04.14-19.42.15:108][597]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Enemy.BP_Enemy_C:HealthBar' ref from Metadata '/Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.PackageMetaData'
+[2020.04.14-19.42.15:108][597]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Enemy.BP_Enemy_C:BP_OnhealthChanged' ref from Metadata '/Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.PackageMetaData'
+[2020.04.14-19.42.15:108][597]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Enemy.SKEL_BP_Enemy_C' ref from Metadata '/Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.PackageMetaData'
+[2020.04.14-19.42.15:108][597]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Enemy.SKEL_BP_Enemy_C:ReceiveBeginPlay' ref from Metadata '/Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.PackageMetaData'
+[2020.04.14-19.42.15:108][597]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Enemy.SKEL_BP_Enemy_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.PackageMetaData'
+[2020.04.14-19.42.15:108][597]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Enemy.SKEL_BP_Enemy_C:ReceiveTick' ref from Metadata '/Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.PackageMetaData'
+[2020.04.14-19.42.15:108][597]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Enemy.SKEL_BP_Enemy_C:BP_OnhealthChanged' ref from Metadata '/Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.PackageMetaData'
+[2020.04.14-19.42.15:108][597]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Enemy.SKEL_BP_Enemy_C:HealthBar' ref from Metadata '/Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.PackageMetaData'
+[2020.04.14-19.42.15:108][597]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Enemy.SKEL_BP_Enemy_C:UserConstructionScript' ref from Metadata '/Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.PackageMetaData'
+[2020.04.14-19.42.15:108][597]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Enemy.BP_Enemy:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.PackageMetaData'
+[2020.04.14-19.42.15:108][597]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Enemy.BP_Enemy:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.PackageMetaData'
+[2020.04.14-19.42.15:108][597]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Enemy.BP_Enemy:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.PackageMetaData'
+[2020.04.14-19.42.15:108][597]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Enemy.BP_Enemy:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.PackageMetaData'
+[2020.04.14-19.42.15:108][597]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Enemy.BP_Enemy:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.PackageMetaData'
+[2020.04.14-19.42.15:108][597]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_Enemy.BP_Enemy:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Project_C/Blueprints/Characters/Enemies/BP_Enemy.PackageMetaData'
+[2020.04.14-19.42.15:132][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Project_C/Blueprints/Characters/BP_Enemy" FILE="D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Characters/BP_Enemy.uasset" SILENT=true
+[2020.04.14-19.42.15:151][597]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/BP_Enemy00CA490C42796EE45784D7B293CF59F8.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Characters/BP_Enemy.uasset'
+[2020.04.14-19.42.15:324][597]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2020.04.14-19.42.15:360][597]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2020.04.14-19.42.15:392][597]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.04.14-19.42.15:407][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Project_C/Blueprints/Enemies/BP_Enemy" FILE="D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Enemies/BP_Enemy.uasset" SILENT=true
+[2020.04.14-19.42.15:414][597]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/BP_Enemy64191ED1468931823D7A48BF08FEDC86.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Enemies/BP_Enemy.uasset'
+[2020.04.14-19.42.15:454][597]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.14-19.42.15:454][597]LogContentValidation: Display: Validating Blueprint /Game/Project_C/Blueprints/Characters/BP_Enemy.BP_Enemy
+[2020.04.14-19.42.15:454][597]LogContentValidation: Display: Validating ObjectRedirector /Game/Project_C/Blueprints/Enemies/BP_Enemy.BP_Enemy
+[2020.04.14-19.42.15:454][597]LogContentValidation: Display: Validating ObjectRedirector /Game/Project_C/Blueprints/Enemies/BP_Enemy.Default__BP_Enemy_C
+[2020.04.14-19.42.15:454][597]LogContentValidation: Display: Validating ObjectRedirector /Game/Project_C/Blueprints/Enemies/BP_Enemy.BP_Enemy_C
+[2020.04.14-19.42.27:535][868]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2020.04.14-19.42.27:727][868]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2020.04.14-19.42.27:909][868]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2020.04.14-19.42.28:091][868]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2020.04.14-19.42.28:130][868]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2020.04.14-19.42.28:335][868]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2020.04.14-19.42.28:336][868]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_BaseCharacter.BP_BaseCharacter_C' ref from Metadata '/Game/Project_C/Blueprints/Characters/BP_Player.PackageMetaData'
+[2020.04.14-19.42.28:336][868]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_BaseCharacter.SKEL_BP_BaseCharacter_C' ref from Metadata '/Game/Project_C/Blueprints/Characters/BP_Player.PackageMetaData'
+[2020.04.14-19.42.28:336][868]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_BaseCharacter.BP_BaseCharacter:OnDeath.K2Node_FunctionEntry_0' ref from Metadata '/Game/Project_C/Blueprints/Characters/BP_Player.PackageMetaData'
+[2020.04.14-19.42.28:336][868]LogMetaData: Removing '/Game/Project_C/Blueprints/Characters/BP_BaseCharacter.BP_BaseCharacter:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Project_C/Blueprints/Characters/BP_Player.PackageMetaData'
+[2020.04.14-19.42.28:417][868]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/BP_BaseCharacterC9DF787D42F94FE63CFB69A36652007C.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Characters/BP_BaseCharacter.uasset'
+[2020.04.14-19.42.28:593][868]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2020.04.14-19.42.28:629][868]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2020.04.14-19.42.28:662][868]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.04.14-19.42.28:698][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Project_C/Blueprints/bow_stick" FILE="D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/bow_stick.uasset" SILENT=true
+[2020.04.14-19.42.28:719][868]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/bow_stickA83C857940D3380A5FB0A9A38EF6DE7C.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/bow_stick.uasset'
+[2020.04.14-19.42.28:721][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Project_C/Blueprints/AI/BTTask_Attack" FILE="D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/AI/BTTask_Attack.uasset" SILENT=true
+[2020.04.14-19.42.28:730][868]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/BTTask_Attack43D8B7CD413EE15BAB7FC6A522A3F873.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/AI/BTTask_Attack.uasset'
+[2020.04.14-19.42.28:732][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Project_C/Blueprints/Core/GM_Project_C" FILE="D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Core/GM_Project_C.uasset" SILENT=true
+[2020.04.14-19.42.28:740][868]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/GM_Project_CB4252004427444F6A91AC5A6143DA75B.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Core/GM_Project_C.uasset'
+[2020.04.14-19.42.28:741][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Project_C/Blueprints/Core/PC_Player" FILE="D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Core/PC_Player.uasset" SILENT=true
+[2020.04.14-19.42.28:754][868]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/PC_Player0639BAAD43B121564C37B5AFE84B15F4.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Core/PC_Player.uasset'
+[2020.04.14-19.42.28:755][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Project_C/Blueprints/Player/CH_Player" FILE="D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Player/CH_Player.uasset" SILENT=true
+[2020.04.14-19.42.28:761][868]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/CH_PlayerCBF5910641A3D5FD8857419BFB2B05D3.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Player/CH_Player.uasset'
+[2020.04.14-19.42.28:774][868]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/ANS_MeleeAttack8893311D41FE8BD700CE319EF83C22D8.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/CuteCharacter/Animations/ANS_MeleeAttack.uasset'
+[2020.04.14-19.42.28:790][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Project_C/Blueprints/Characters/BP_Enemy" FILE="D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Characters/BP_Enemy.uasset" SILENT=true
+[2020.04.14-19.42.28:810][868]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/BP_Enemy0C22926344E585F9A9CD488970BEC4DD.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Content/Project_C/Blueprints/Characters/BP_Enemy.uasset'
+[2020.04.14-19.42.28:880][868]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.14-19.42.28:880][868]LogContentValidation: Display: Validating Blueprint /Game/Project_C/Blueprints/Characters/BP_BaseCharacter.BP_BaseCharacter
+[2020.04.14-19.42.28:880][868]LogContentValidation: Display: Validating Blueprint /Game/Project_C/Blueprints/bow_stick.bow_stick
+[2020.04.14-19.42.28:880][868]LogContentValidation: Display: Validating Blueprint /Game/Project_C/Blueprints/AI/BTTask_Attack.BTTask_Attack
+[2020.04.14-19.42.28:880][868]LogContentValidation: Display: Validating Blueprint /Game/Project_C/Blueprints/Core/GM_Project_C.GM_Project_C
+[2020.04.14-19.42.28:880][868]LogContentValidation: Display: Validating Blueprint /Game/Project_C/Blueprints/Core/PC_Player.PC_Player
+[2020.04.14-19.42.28:880][868]LogContentValidation: Display: Validating ObjectRedirector /Game/Project_C/Blueprints/Player/CH_Player.ObjectRedirector_1
+[2020.04.14-19.42.28:880][868]LogContentValidation: Display: Validating ObjectRedirector /Game/Project_C/Blueprints/Player/CH_Player.CH_Player
+[2020.04.14-19.42.28:880][868]LogContentValidation: Display: Validating Blueprint /Game/Project_C/CuteCharacter/Animations/ANS_MeleeAttack.ANS_MeleeAttack
+[2020.04.14-19.42.28:880][868]LogContentValidation: Display: Validating Blueprint /Game/Project_C/Blueprints/Characters/BP_Enemy.BP_Enemy
+[2020.04.14-19.43.20:412][910]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Project_C/Blueprints/Characters/BP_Player.BP_Player
+[2020.04.14-19.43.21:021][911]LogRenderer: Reallocating scene render targets to support 976x708 Format 10 NumSamples 1 (Frame:1).
+[2020.04.14-19.43.22:720][ 94]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.04.14-19.43.22:768][ 94]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.14-19.43.22:837][ 94]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.04.14-19.43.22:840][ 94]LogPlayLevel: [PlayLevel] Compiling bow_stick before play...
+[2020.04.14-19.43.23:012][ 94]LogPlayLevel: [PlayLevel] Compiling ANS_MeleeAttack before play...
+[2020.04.14-19.43.23:173][ 94]LogPlayLevel: [PlayLevel] Compiling BTTask_Attack before play...
+[2020.04.14-19.43.23:332][ 94]LogPlayLevel: [PlayLevel] Compiling PC_Player before play...
+[2020.04.14-19.43.23:337][ 94]LogPlayLevel: [PlayLevel] Compiling BP_Enemy before play...
+[2020.04.14-19.43.23:521][ 94]LogPlayLevel: [PlayLevel] Compiling WBP_PrimaryUI before play...
+[2020.04.14-19.43.23:780][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2020.04.14-19.43.23:781][ 94]LogPlayLevel: PlayLevel: Blueprint regeneration took 944 ms (6 blueprints)
+[2020.04.14-19.43.23:829][ 94]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 14, 2020, 5:43:23 AM)
+[2020.04.14-19.43.23:915][ 94]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.04.14-19.43.23:916][ 94]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.04.14-19.43.23:943][ 94]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.04.14-19.43.24:015][ 94]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071440s)
+[2020.04.14-19.43.24:031][ 94]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.04.14-19.43.24:039][ 94]LogPlayLevel: PIE: World Init took: (0.023942s)
+[2020.04.14-19.43.24:039][ 94]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.095645s)
+[2020.04.14-19.43.24:073][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2020.04.14-19.43.24:075][ 94]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.14-19.43.24:075][ 94]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.14-19.43.24:075][ 94]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.14-19.43.24:075][ 94]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.14-19.43.24:075][ 94]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.14-19.43.24:075][ 94]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.14-19.43.24:075][ 94]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.14-19.43.24:075][ 94]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.14-19.43.24:075][ 94]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.14-19.43.24:075][ 94]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.14-19.43.24:124][ 94]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.14-19.43.24:124][ 94]LogAudioMixer: Display: Name: Logitech Speakers (Realtek High Definition Audio)
+[2020.04.14-19.43.24:124][ 94]LogAudioMixer: Display: Is Default: Yes
+[2020.04.14-19.43.24:124][ 94]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.14-19.43.24:124][ 94]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.14-19.43.24:124][ 94]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.14-19.43.24:124][ 94]LogAudioMixer: Display: Channel Order:
+[2020.04.14-19.43.24:124][ 94]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.14-19.43.24:124][ 94]LogAudioMixer: Display: 1: FrontRight
+[2020.04.14-19.43.24:156][ 94]LogAudioMixer: Display: Using Audio Device Logitech Speakers (Realtek High Definition Audio)
+[2020.04.14-19.43.24:173][ 94]LogInit: FAudioDevice initialized.
+[2020.04.14-19.43.24:229][ 94]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.14-19.43.24:240][ 94]LogLoad: Game class is 'GM_Project_C_C'
+[2020.04.14-19.43.24:244][ 94]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.04.14-12.43.24
+[2020.04.14-19.43.24:340][ 94]LogWorld: Bringing up level for play took: 0.099887
+[2020.04.14-19.43.24:359][ 94]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2020.04.14-19.43.24:493][ 94]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2020.04.14-19.43.24:673][ 94]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 2.653
+[2020.04.14-19.43.24:686][ 94]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.14-19.43.24:984][ 95]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2020.04.14-19.43.25:407][ 97]LogStats: UGameplayCueManager::InitializeEditorObjectLibrary -  0.019 s
+[2020.04.14-19.43.25:407][ 97]LogAbilitySystem: Warning: No GameplayCueNotifyPaths were specified in DefaultGame.ini under [/Script/GameplayAbilities.AbilitySystemGlobals]. Falling back to using all of /Game/. This may be slow on large projects. Consider specifying which paths are to be searched.
+[2020.04.14-19.43.35:897][306]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.14-19.43.35:897][306]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.14-19.43.35:919][306]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.14-19.43.35:961][306]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.14-19.43.35:961][306]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.04.14-19.43.35:981][306]LogSlate: Window 'Project_C Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.14-19.43.35:985][306]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.14-19.43.35:985][306]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.14-19.43.36:002][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.14-19.43.36:009][306]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.14-19.43.36:009][306]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.14-19.43.36:020][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.14-19.43.36:076][306]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.14-19.43.36:206][306]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2020.04.14-19.43.36:219][307]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.04.14-19.45.20:296][ 28]BlueprintLog: New page: Compile BP_Player
+[2020.04.14-19.45.20:580][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2020.04.14-19.45.26:352][347]BlueprintLog: New page: Compile BP_Player
+[2020.04.14-19.45.26:354][347]LogBlueprint: Error: [Compiler BP_Player] The property associated with  Health Glass Ball  could not be found in '/Game/Project_C/Blueprints/Characters/BP_Player.BP_Player_C'
+[2020.04.14-19.45.26:590][347]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2020.04.14-19.45.28:277][539]BlueprintLog: New page: Compile BP_Player
+[2020.04.14-19.45.28:279][539]LogBlueprint: Error: [Compiler BP_Player] The property associated with  Health Glass Ball  could not be found in '/Game/Project_C/Blueprints/Characters/BP_Player.BP_Player_C'
+[2020.04.14-19.45.28:518][539]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2020.04.14-19.45.45:953][555]BlueprintLog: New page: Compile BP_Player
+[2020.04.14-19.45.45:955][555]LogBlueprint: Error: [Compiler BP_Player] The property associated with  Health Glass Ball  could not be found in '/Game/Project_C/Blueprints/Characters/BP_Player.BP_Player_C'
+[2020.04.14-19.45.46:181][555]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2020.04.14-19.45.49:453][919]BlueprintLog: New page: Compile WBP_PrimaryUI
+[2020.04.14-19.45.49:497][919]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2020.04.14-19.45.51:954][193]BlueprintLog: New page: Compile BP_Player
+[2020.04.14-19.45.52:187][193]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2020.04.14-19.45.53:787][371]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.04.14-19.45.53:810][371]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.14-19.45.53:810][371]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.14-19.45.53:810][371]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 14, 2020, 5:45:53 AM)
+[2020.04.14-19.45.53:810][371]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.04.14-19.45.53:822][371]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011737s)
+[2020.04.14-19.45.53:823][371]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.04.14-19.45.53:823][371]LogPlayLevel: PIE: World Init took: (0.000712s)
+[2020.04.14-19.45.53:823][371]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012567s)
+[2020.04.14-19.45.53:862][371]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2020.04.14-19.45.53:863][371]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.14-19.45.53:864][371]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.14-19.45.53:864][371]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.14-19.45.53:864][371]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.14-19.45.53:864][371]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.14-19.45.53:864][371]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.14-19.45.53:864][371]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.14-19.45.53:864][371]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.14-19.45.53:864][371]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.14-19.45.53:864][371]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.14-19.45.53:912][371]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.14-19.45.53:912][371]LogAudioMixer: Display: Name: Logitech Speakers (Realtek High Definition Audio)
+[2020.04.14-19.45.53:912][371]LogAudioMixer: Display: Is Default: Yes
+[2020.04.14-19.45.53:912][371]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.14-19.45.53:912][371]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.14-19.45.53:912][371]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.14-19.45.53:912][371]LogAudioMixer: Display: Channel Order:
+[2020.04.14-19.45.53:912][371]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.14-19.45.53:912][371]LogAudioMixer: Display: 1: FrontRight
+[2020.04.14-19.45.53:942][371]LogAudioMixer: Display: Using Audio Device Logitech Speakers (Realtek High Definition Audio)
+[2020.04.14-19.45.53:943][371]LogInit: FAudioDevice initialized.
+[2020.04.14-19.45.53:971][371]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.14-19.45.53:971][371]LogLoad: Game class is 'GM_Project_C_C'
+[2020.04.14-19.45.53:975][371]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.04.14-12.45.53
+[2020.04.14-19.45.53:976][371]LogWorld: Bringing up level for play took: 0.004855
+[2020.04.14-19.45.53:977][371]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2020.04.14-19.45.53:983][371]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.037
+[2020.04.14-19.45.53:983][371]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.14-19.45.56:577][673]LogTemp: Warning: Ouch, I took damage now my health is: 80.000000
+[2020.04.14-19.45.57:618][790]LogTemp: Warning: Ouch, I took damage now my health is: 60.000000
+[2020.04.14-19.45.59:277][989]LogTemp: Warning: Ouch, I took damage now my health is: 80.000000
+[2020.04.14-19.45.59:413][  3]LogTemp: Warning: Ouch, I took damage now my health is: 40.000000
+[2020.04.14-19.46.02:681][395]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.14-19.46.02:681][395]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.14-19.46.02:681][395]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.14-19.46.02:681][395]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.14-19.46.02:681][395]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.04.14-19.46.02:692][395]LogSlate: Window 'Project_C Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.14-19.46.02:696][395]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.14-19.46.02:697][395]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.14-19.46.02:697][395]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.14-19.46.02:705][395]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.14-19.46.02:705][395]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.14-19.46.02:710][395]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.14-19.46.02:746][395]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.14-19.46.02:753][395]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2020.04.14-19.46.02:787][397]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.04.14-19.46.07:018][878]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall9)
+[2020.04.14-19.46.08:538][  8]Cmd: DELETE
+[2020.04.14-19.46.08:538][  8]Cmd: ACTOR DELETE
+[2020.04.14-19.46.08:783][  8]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.04.14-19.46.08:820][  8]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.04.14-19.46.08:829][  8]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2020.04.14-19.46.09:707][ 90]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.04.14-19.46.09:729][ 90]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.14-19.46.09:729][ 90]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.14-19.46.09:729][ 90]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 14, 2020, 5:46:09 AM)
+[2020.04.14-19.46.09:729][ 90]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.04.14-19.46.09:741][ 90]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012273s)
+[2020.04.14-19.46.09:742][ 90]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.04.14-19.46.09:742][ 90]LogPlayLevel: PIE: World Init took: (0.000961s)
+[2020.04.14-19.46.09:742][ 90]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013361s)
+[2020.04.14-19.46.09:782][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2020.04.14-19.46.09:782][ 90]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.14-19.46.09:782][ 90]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.14-19.46.09:782][ 90]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.14-19.46.09:782][ 90]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.14-19.46.09:782][ 90]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.14-19.46.09:782][ 90]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.14-19.46.09:782][ 90]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.14-19.46.09:782][ 90]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.14-19.46.09:782][ 90]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.14-19.46.09:782][ 90]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.14-19.46.09:831][ 90]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.14-19.46.09:831][ 90]LogAudioMixer: Display: Name: Logitech Speakers (Realtek High Definition Audio)
+[2020.04.14-19.46.09:831][ 90]LogAudioMixer: Display: Is Default: Yes
+[2020.04.14-19.46.09:831][ 90]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.14-19.46.09:831][ 90]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.14-19.46.09:831][ 90]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.14-19.46.09:831][ 90]LogAudioMixer: Display: Channel Order:
+[2020.04.14-19.46.09:831][ 90]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.14-19.46.09:831][ 90]LogAudioMixer: Display: 1: FrontRight
+[2020.04.14-19.46.09:861][ 90]LogAudioMixer: Display: Using Audio Device Logitech Speakers (Realtek High Definition Audio)
+[2020.04.14-19.46.09:862][ 90]LogInit: FAudioDevice initialized.
+[2020.04.14-19.46.09:904][ 90]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.14-19.46.09:904][ 90]LogLoad: Game class is 'GM_Project_C_C'
+[2020.04.14-19.46.09:908][ 90]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.04.14-12.46.09
+[2020.04.14-19.46.09:909][ 90]LogWorld: Bringing up level for play took: 0.004374
+[2020.04.14-19.46.09:909][ 90]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2020.04.14-19.46.09:936][ 90]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.084
+[2020.04.14-19.46.09:936][ 90]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.14-19.46.11:982][327]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.14-19.46.11:982][327]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.14-19.46.11:982][327]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.14-19.46.11:982][327]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.14-19.46.11:982][327]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.04.14-19.46.11:993][327]LogSlate: Window 'Project_C Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.14-19.46.11:996][327]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.14-19.46.11:997][327]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.14-19.46.11:997][327]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.14-19.46.12:001][327]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.14-19.46.12:001][327]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.14-19.46.12:007][327]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.14-19.46.12:045][327]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.14-19.46.12:053][327]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2020.04.14-19.46.12:098][329]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.04.14-19.46.13:073][446]Cmd: TRANSACTION UNDO
+[2020.04.14-19.46.13:073][446]LogEditorTransaction: Undo Delete Actors
+[2020.04.14-19.46.13:255][446]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.04.14-19.46.13:275][446]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.04.14-19.46.13:275][446]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2020.04.14-19.46.13:275][446]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 13
+[2020.04.14-19.46.13:275][446]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2020.04.14-19.46.13:523][450]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.04.14-19.46.13:523][450]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
+[2020.04.14-19.46.13:619][456]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2020.04.14-19.46.13:627][457]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2020.04.14-19.46.13:984][493]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 7
+[2020.04.14-19.46.14:011][496]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2020.04.14-19.46.14:147][507]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2020.04.14-19.46.14:217][513]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2020.04.14-19.46.14:240][515]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2020.04.14-19.46.14:371][526]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2020.04.14-19.46.14:457][530]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.04.14-19.46.14:557][540]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+[2020.04.14-19.46.14:557][540]MaterialEditorStats: Default UI Vertex Shader: 17 instructions
+[2020.04.14-19.46.14:557][540]MaterialEditorStats: Instanced UI Vertex Shader: 17 instructions
+[2020.04.14-19.46.14:557][540]MaterialEditorStats: Texture samplers: 4/16
+[2020.04.14-19.46.14:557][540]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2020.04.14-19.46.14:557][540]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.04.14-19.46.26:890][956]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.04.14-19.46.26:912][956]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.14-19.46.26:912][956]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.14-19.46.26:912][956]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 14, 2020, 5:46:26 AM)
+[2020.04.14-19.46.26:913][956]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.04.14-19.46.26:923][956]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010786s)
+[2020.04.14-19.46.26:924][956]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.04.14-19.46.26:924][956]LogPlayLevel: PIE: World Init took: (0.000791s)
+[2020.04.14-19.46.26:924][956]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011720s)
+[2020.04.14-19.46.26:960][956]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2020.04.14-19.46.26:962][956]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.14-19.46.26:962][956]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.14-19.46.26:962][956]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.14-19.46.26:962][956]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.14-19.46.26:962][956]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.14-19.46.26:962][956]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.14-19.46.26:962][956]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.14-19.46.26:962][956]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.14-19.46.26:963][956]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.14-19.46.26:963][956]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.14-19.46.27:008][956]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.14-19.46.27:008][956]LogAudioMixer: Display: Name: Logitech Speakers (Realtek High Definition Audio)
+[2020.04.14-19.46.27:008][956]LogAudioMixer: Display: Is Default: Yes
+[2020.04.14-19.46.27:008][956]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.14-19.46.27:008][956]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.14-19.46.27:008][956]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.14-19.46.27:008][956]LogAudioMixer: Display: Channel Order:
+[2020.04.14-19.46.27:008][956]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.14-19.46.27:008][956]LogAudioMixer: Display: 1: FrontRight
+[2020.04.14-19.46.27:038][956]LogAudioMixer: Display: Using Audio Device Logitech Speakers (Realtek High Definition Audio)
+[2020.04.14-19.46.27:039][956]LogInit: FAudioDevice initialized.
+[2020.04.14-19.46.27:089][956]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.14-19.46.27:089][956]LogLoad: Game class is 'GM_Project_C_C'
+[2020.04.14-19.46.27:093][956]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.04.14-12.46.27
+[2020.04.14-19.46.27:094][956]LogWorld: Bringing up level for play took: 0.003847
+[2020.04.14-19.46.27:094][956]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2020.04.14-19.46.27:100][956]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.08
+[2020.04.14-19.46.27:100][956]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.14-19.46.33:531][720]LogTemp: Warning: Ouch, I took damage now my health is: 80.000000
+[2020.04.14-19.46.35:265][928]LogTemp: Warning: Ouch, I took damage now my health is: 80.000000
+[2020.04.14-19.46.35:341][937]LogTemp: Warning: Ouch, I took damage now my health is: 80.000000
+[2020.04.14-19.46.41:438][664]LogTemp: Warning: Ouch, I took damage now my health is: 80.000000
+[2020.04.14-19.46.41:530][675]LogTemp: Warning: Ouch, I took damage now my health is: 60.000000
+[2020.04.14-19.46.56:958][526]LogTemp: Warning: Ouch, I took damage now my health is: 60.000000
+[2020.04.14-19.46.57:129][544]LogCharacterMovement: BP_Enemy3 is stuck and failed to move! Velocity: X=35.54 Y=4.19 Z=0.00 Location: X=-897.48 Y=396.16 Z=227.91 Normal: X=-0.99 Y=0.11 Z=0.12 PenetrationDepth:0.027 Actor:CuteCharacterPhysicsAsset_2 Component:SkeletalMeshComponent0 BoneName:Head (0 other events since notify)
+[2020.04.14-19.46.57:252][559]LogTemp: Warning: Ouch, I took damage now my health is: 40.000000
+[2020.04.14-19.46.57:494][588]LogTemp: Warning: Ouch, I took damage now my health is: 40.000000
+[2020.04.14-19.47.01:663][ 88]LogTemp: Warning: Ouch, I took damage now my health is: 20.000000
+[2020.04.14-19.47.03:610][321]LogTemp: Warning: Ouch, I took damage now my health is: 0.000000
+[2020.04.14-19.47.05:155][496]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.14-19.47.05:165][496]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.14-19.47.05:185][496]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.14-19.47.05:185][496]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.14-19.47.05:185][496]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.14-19.47.05:185][496]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.04.14-19.47.05:195][496]LogSlate: Window 'Project_C Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.14-19.47.05:198][496]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.14-19.47.05:198][496]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.14-19.47.05:199][496]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.14-19.47.05:207][496]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.14-19.47.05:208][496]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.14-19.47.05:212][496]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.14-19.47.05:249][496]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.14-19.47.05:257][496]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2020.04.14-19.47.05:268][497]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2020.04.14-19.47.50:941][455]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2020.04.14-19.47.51:220][455]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/ThirdPersonExampleMap_Auto255E7592342C007AD5F687F96CE94C248.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2020.04.14-19.47.51:224][455]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.320
+[2020.04.14-19.47.51:224][455]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.320
+[2020.04.14-19.47.51:224][455]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Project_C/Blueprints/Widgets/WBP_PrimaryUI] ([1] browsable assets)...
+[2020.04.14-19.47.51:224][455]OBJ SavePackage: Finished generating thumbnails for package [/Game/Project_C/Blueprints/Widgets/WBP_PrimaryUI]
+[2020.04.14-19.47.51:239][455]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/WBP_PrimaryUI_Auto2A256AC6047365252ABAA4B88591F21E1.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Autosaves/Game/Project_C/Blueprints/Widgets/WBP_PrimaryUI_Auto2.uasset'
+[2020.04.14-19.47.51:239][455]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Project_C/Blueprints/Core/GM_Project_C] ([1] browsable assets)...
+[2020.04.14-19.47.51:239][455]OBJ SavePackage: Finished generating thumbnails for package [/Game/Project_C/Blueprints/Core/GM_Project_C]
+[2020.04.14-19.47.51:275][455]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/GM_Project_C_Auto2F7CB89EC458808EDE69089A6275539D9.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Autosaves/Game/Project_C/Blueprints/Core/GM_Project_C_Auto2.uasset'
+[2020.04.14-19.47.51:276][455]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Project_C/Blueprints/Characters/BP_Player] ([1] browsable assets)...
+[2020.04.14-19.47.51:290][455]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Project_C/Blueprints/Characters/BP_Player.BP_Player]
+[2020.04.14-19.47.51:290][455]OBJ SavePackage: Finished generating thumbnails for package [/Game/Project_C/Blueprints/Characters/BP_Player]
+[2020.04.14-19.47.51:308][455]LogSavePackage: Moving 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/BP_Player_Auto2C9D209054BE3755E2F8EEFB7DF10EAAF.tmp' to 'D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Autosaves/Game/Project_C/Blueprints/Characters/BP_Player_Auto2.uasset'
+[2020.04.14-19.47.51:309][455]LogFileHelpers: Auto-saving content packages took 0.085
+[2020.04.15-01.40.38:276][149]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.04.15-01.40.38:776][150]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.04.15-01.40.49:313][151]LogRHI: Error: SyncInterval 0
+[2020.04.15-01.40.49:313][151]LogRHI: Error: SwapChainDesc.BufferDesc.Width 1936
+[2020.04.15-01.40.49:313][151]LogRHI: Error: SwapChainDesc.BufferDesc.Height 1056
+[2020.04.15-01.40.49:313][151]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2020.04.15-01.40.49:313][151]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2020.04.15-01.40.49:313][151]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2020.04.15-01.40.49:313][151]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2020.04.15-01.40.49:313][151]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2020.04.15-01.40.49:313][151]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2020.04.15-01.40.49:313][151]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2020.04.15-01.40.49:313][151]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2020.04.15-01.40.49:313][151]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2020.04.15-01.40.49:313][151]LogRHI: Error: SwapChainDesc.OutputWindow 00000000000707C0
+[2020.04.15-01.40.49:313][151]LogRHI: Error: SwapChainDesc.Windowed true
+[2020.04.15-01.40.49:313][151]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2020.04.15-01.40.49:313][151]LogRHI: Error: SwapChainDesc.Flags 2050
+[2020.04.15-01.40.49:347][151]LogD3D11RHI: Error: Result failed 
+ at D:/Build/++UE4/Sync/Engine/Source/Runtime/Windows/D3D11RHI/Private/D3D11Viewport.cpp:389 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_RESET
+[2020.04.15-01.40.49:347][151]LogD3D11RHI: [Aftermath] GDynamicRHI=000001B5001AE0C0, GDX11NVAfterMathEnabled=0, Result=0xFFFFFFFF, bDeviceActive=0
+[2020.04.15-01.40.49:347][151]LogWindows: Windows GetLastError: The operation completed successfully. (0)

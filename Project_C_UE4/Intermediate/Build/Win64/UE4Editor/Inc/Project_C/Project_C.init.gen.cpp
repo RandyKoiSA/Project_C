@@ -11,22 +11,22 @@
 #endif
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeProject_C_init() {}
-	PROJECT_C_API UFunction* Z_Construct_UDelegateFunction_Project_C_OnHealthChangeDelegate__DelegateSignature();
+	PROJECT_C_API UFunction* Z_Construct_UDelegateFunction_Project_C_OnAttributeChangeDelegate__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_Project_C()
 	{
 		static UPackage* ReturnPackage = nullptr;
 		if (!ReturnPackage)
 		{
 			static UObject* (*const SingletonFuncArray[])() = {
-				(UObject* (*)())Z_Construct_UDelegateFunction_Project_C_OnHealthChangeDelegate__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_Project_C_OnAttributeChangeDelegate__DelegateSignature,
 			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/Project_C",
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0xFD06E51D,
-				0x717FEC90,
+				0x4A3F3C86,
+				0xFAABF4CF,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

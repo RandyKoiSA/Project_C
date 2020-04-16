@@ -13,25 +13,25 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PROJECT_C_AttributeSetBase_generated_h
 
-#define Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_12_DELEGATE \
-struct _Script_Project_C_eventOnHealthChangeDelegate_Parms \
+#define Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_17_DELEGATE \
+struct _Script_Project_C_eventOnAttributeChangeDelegate_Parms \
 { \
 	float Health; \
 	float MaxHealth; \
 }; \
-static inline void FOnHealthChangeDelegate_DelegateWrapper(const FMulticastScriptDelegate& OnHealthChangeDelegate, float Health, float MaxHealth) \
+static inline void FOnAttributeChangeDelegate_DelegateWrapper(const FMulticastScriptDelegate& OnAttributeChangeDelegate, float Health, float MaxHealth) \
 { \
-	_Script_Project_C_eventOnHealthChangeDelegate_Parms Parms; \
+	_Script_Project_C_eventOnAttributeChangeDelegate_Parms Parms; \
 	Parms.Health=Health; \
 	Parms.MaxHealth=MaxHealth; \
-	OnHealthChangeDelegate.ProcessMulticastDelegate<UObject>(&Parms); \
+	OnAttributeChangeDelegate.ProcessMulticastDelegate<UObject>(&Parms); \
 }
 
 
-#define Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_17_SPARSE_DATA
-#define Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_17_RPC_WRAPPERS
-#define Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_17_RPC_WRAPPERS_NO_PURE_DECLS
-#define Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_17_INCLASS_NO_PURE_DECLS \
+#define Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_22_SPARSE_DATA
+#define Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_22_RPC_WRAPPERS
+#define Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_22_RPC_WRAPPERS_NO_PURE_DECLS
+#define Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_22_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUAttributeSetBase(); \
 	friend struct Z_Construct_UClass_UAttributeSetBase_Statics; \
@@ -40,7 +40,7 @@ public: \
 	DECLARE_SERIALIZER(UAttributeSetBase)
 
 
-#define Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_17_INCLASS \
+#define Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_22_INCLASS \
 private: \
 	static void StaticRegisterNativesUAttributeSetBase(); \
 	friend struct Z_Construct_UClass_UAttributeSetBase_Statics; \
@@ -49,7 +49,7 @@ public: \
 	DECLARE_SERIALIZER(UAttributeSetBase)
 
 
-#define Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_17_STANDARD_CONSTRUCTORS \
+#define Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_22_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UAttributeSetBase(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAttributeSetBase) \
@@ -62,7 +62,7 @@ private: \
 public:
 
 
-#define Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_17_ENHANCED_CONSTRUCTORS \
+#define Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_22_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UAttributeSetBase(UAttributeSetBase&&); \
@@ -73,28 +73,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAttributeSetBase); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UAttributeSetBase)
 
 
-#define Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_17_PRIVATE_PROPERTY_OFFSET
-#define Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_14_PROLOG
-#define Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_17_GENERATED_BODY_LEGACY \
+#define Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_22_PRIVATE_PROPERTY_OFFSET
+#define Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_19_PROLOG
+#define Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_22_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_17_PRIVATE_PROPERTY_OFFSET \
-	Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_17_SPARSE_DATA \
-	Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_17_RPC_WRAPPERS \
-	Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_17_INCLASS \
-	Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_17_STANDARD_CONSTRUCTORS \
+	Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_22_PRIVATE_PROPERTY_OFFSET \
+	Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_22_SPARSE_DATA \
+	Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_22_RPC_WRAPPERS \
+	Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_22_INCLASS \
+	Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_22_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_17_GENERATED_BODY \
+#define Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_22_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_17_PRIVATE_PROPERTY_OFFSET \
-	Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_17_SPARSE_DATA \
-	Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_17_INCLASS_NO_PURE_DECLS \
-	Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_17_ENHANCED_CONSTRUCTORS \
+	Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_22_PRIVATE_PROPERTY_OFFSET \
+	Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_22_SPARSE_DATA \
+	Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+	Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_22_INCLASS_NO_PURE_DECLS \
+	Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_22_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
