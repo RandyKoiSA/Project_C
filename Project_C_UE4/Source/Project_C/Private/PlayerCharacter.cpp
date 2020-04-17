@@ -28,6 +28,8 @@ void APlayerCharacter::BeginPlay()
 	AttributeBaseComp->OnStrengthChange.AddDynamic(this, &APlayerCharacter::OnStrengthChanged);
 
 	AutoDetermineTeamIDbyControllerType();
+
+	/* If default abilities were selected in the blueprint we can set it to the ability slots right away. */
 	RefreshAbilities();
 }
 

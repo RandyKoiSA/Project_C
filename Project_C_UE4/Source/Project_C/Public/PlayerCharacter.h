@@ -98,34 +98,34 @@ protected:
 	void AutoDetermineTeamIDbyControllerType();
 	void Dead();
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CharacterBase")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Abilities")
 		TSubclassOf<UGameplayAbility> PrimarySlot;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CharacterBase")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Abilities")
 		TSubclassOf<UGameplayAbility> SecondarySlot;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CharacterBase")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Abilities")
 		TSubclassOf<UGameplayAbility> HeadSlot;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CharacterBase")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Abilities")
 		TSubclassOf<UGameplayAbility> ChestSlot;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CharacterBase")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Abilities")
 		TSubclassOf<UGameplayAbility> ArmsSlot;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CharacterBase")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Abilities")
 		TSubclassOf<UGameplayAbility> LegsSlot;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CharacterBase")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Abilities")
 		TSubclassOf<UGameplayAbility> SkillOneSlot;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CharacterBase")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Abilities")
 		TSubclassOf<UGameplayAbility> SkillTwoSlot;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CharacterBase")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Abilities")
 		TSubclassOf<UGameplayAbility> SkillThreeSlot;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CharacterBase")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Abilities")
 		TSubclassOf<UGameplayAbility> SkillFourSlot;
 
 };
