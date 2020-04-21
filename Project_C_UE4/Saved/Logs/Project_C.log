@@ -1,9 +1,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿Log file open, 04/21/20 12:24:39
 =======
 ﻿Log file open, 04/19/20 15:50:52
 >>>>>>> parent of 737bbc2... update
+=======
+﻿Log file open, 04/20/20 01:44:27
+>>>>>>> parent of 7f3c3bd... replace cute character with new one, whole implementation fixed just need to fix animations
 =======
 ﻿Log file open, 04/20/20 01:44:27
 >>>>>>> parent of 7f3c3bd... replace cute character with new one, whole implementation fixed just need to fix animations
@@ -19,10 +23,14 @@ LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 LogStats: Stats thread started at 0.140860
 =======
 LogStats: Stats thread started at 0.167243
 >>>>>>> parent of 737bbc2... update
+=======
+LogStats: Stats thread started at 0.195991
+>>>>>>> parent of 7f3c3bd... replace cute character with new one, whole implementation fixed just need to fix animations
 =======
 LogStats: Stats thread started at 0.195991
 >>>>>>> parent of 7f3c3bd... replace cute character with new one, whole implementation fixed just need to fix animations
@@ -180,6 +188,7 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 [2020.04.21-19.24.39:503][  0]LogConfig: Setting CVar [[r.VSync:0]]
@@ -3605,6 +3614,8 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.19-23.09.42:751][790]Log file closed, 04/19/20 16:09:42
 >>>>>>> parent of 737bbc2... update
 =======
+=======
+>>>>>>> parent of 7f3c3bd... replace cute character with new one, whole implementation fixed just need to fix animations
 [2020.04.20-08.44.28:077][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2020.04.20-08.44.28:077][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2020.04.20-08.44.28:077][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Users/Randy/Desktop/Project_C/Project_C_UE4/Saved/Config/Windows/Engine.ini]
@@ -4680,4 +4691,7 @@ Make sure 'BP_EnemyBase' has been compiled for  Get
 [2020.04.20-08.50.46:532][826]LogD3D11RHI: CleanupD3DDevice
 [2020.04.20-08.50.46:543][826]LogExit: Exiting.
 [2020.04.20-08.50.46:579][826]Log file closed, 04/20/20 01:50:46
+<<<<<<< HEAD
+>>>>>>> parent of 7f3c3bd... replace cute character with new one, whole implementation fixed just need to fix animations
+=======
 >>>>>>> parent of 7f3c3bd... replace cute character with new one, whole implementation fixed just need to fix animations
