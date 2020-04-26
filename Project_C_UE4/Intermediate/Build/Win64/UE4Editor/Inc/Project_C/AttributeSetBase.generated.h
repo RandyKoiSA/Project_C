@@ -16,14 +16,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define Project_C_UE4_Source_Project_C_Public_AttributeSetBase_h_17_DELEGATE \
 struct _Script_Project_C_eventOnAttributeChangeDelegate_Parms \
 { \
-	float Health; \
-	float MaxHealth; \
+	float Attr; \
+	float MaxAttr; \
 }; \
-static inline void FOnAttributeChangeDelegate_DelegateWrapper(const FMulticastScriptDelegate& OnAttributeChangeDelegate, float Health, float MaxHealth) \
+static inline void FOnAttributeChangeDelegate_DelegateWrapper(const FMulticastScriptDelegate& OnAttributeChangeDelegate, float Attr, float MaxAttr) \
 { \
 	_Script_Project_C_eventOnAttributeChangeDelegate_Parms Parms; \
-	Parms.Health=Health; \
-	Parms.MaxHealth=MaxHealth; \
+	Parms.Attr=Attr; \
+	Parms.MaxAttr=MaxAttr; \
 	OnAttributeChangeDelegate.ProcessMulticastDelegate<UObject>(&Parms); \
 }
 

@@ -275,10 +275,12 @@
     <None Include="..\..\Config\DefaultInput.ini" />
     <None Include="..\..\Source\Project_C\Project_C.Build.cs" />
     <ClCompile Include="..\..\Source\Project_C\Private\AttributeSetBase.cpp" />
+    <ClCompile Include="..\..\Source\Project_C\Private\DamageExecutionCalculation.cpp" />
     <ClCompile Include="..\..\Source\Project_C\Project_C.cpp" />
     <ClInclude Include="..\..\Source\Project_C\Project_C.h" />
     <ClCompile Include="..\..\Source\Project_C\Private\PlayerCharacter.cpp" />
     <ClInclude Include="..\..\Source\Project_C\Public\AttributeSetBase.h" />
+    <ClInclude Include="..\..\Source\Project_C\Public\DamageExecutionCalculation.h" />
     <ClInclude Include="..\..\Source\Project_C\Public\PlayerCharacter.h" />
   </ItemGroup>
   <PropertyGroup>

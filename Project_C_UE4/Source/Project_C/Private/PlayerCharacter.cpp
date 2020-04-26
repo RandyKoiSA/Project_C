@@ -26,7 +26,7 @@ void APlayerCharacter::BeginPlay()
 	AttributeBaseComp->OnHealthChange.AddDynamic(this, &APlayerCharacter::OnHealthChanged);
 	AttributeBaseComp->OnManaChange.AddDynamic(this, &APlayerCharacter::OnManaChanged);
 	AttributeBaseComp->OnStrengthChange.AddDynamic(this, &APlayerCharacter::OnStrengthChanged);
-
+	AddGameplayTag(FullHealthTag);
 	AutoDetermineTeamIDbyControllerType();
 
 	/* If default abilities were selected in the blueprint we can set it to the ability slots right away. */
@@ -209,6 +209,18 @@ void APlayerCharacter::EquipSkillFourSlot(TSubclassOf<UGameplayAbility> Ability)
 uint8 APlayerCharacter::GetTeamID() const
 {
 	return TeamID;
+}
+
+void APlayerCharacter::AddGameplayTag(FGameplayTag& TagToAdd)
+{
+	GetAbilitySystemComponent()->AddLooseGameplayTag(TagToAdd);
+	// SetTagMapCount prevent the tag to be stacked more than one. So when we remove the tag, we know it will be remove completely.
+	GetAbilitySystemComponent()->SetTagMapCount(TagToAdd, 1);
+}
+
+void APlayerCharacter::RemoveGameplayTag(FGameplayTag& TagToRemove)
+{
+	GetAbilitySystemComponent()->RemoveLooseGameplayTag(TagToRemove);
 }
 
 void APlayerCharacter::AutoDetermineTeamIDbyControllerType()

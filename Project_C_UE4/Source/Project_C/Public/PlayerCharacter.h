@@ -60,15 +60,16 @@ public:
 	UFUNCTION(BlueprintImplementableEvent, Category = "CharacterBase", meta = (DisplayName = "OnStrengthChanged"))
 		void BP_OnStrengthChanged(float Strength, float MaxStrength);
 
+	/* Death Function*/
 	UFUNCTION(BlueprintImplementableEvent, Category = "CharacterBase", meta = (DisplayName = "Die"))
 		void BP_Die();
 
 	UFUNCTION(BlueprintCallable, Category = "CharacterBase")
 		bool IsOtherHostile(APlayerCharacter* Other);
 	
+	/* Equipment Functions*/
 	UFUNCTION(BlueprintCallable, Category = "CharacterBase")
 		void RefreshAbilities();
-
 	UFUNCTION(BlueprintCallable, Category = "CharacterBase")
 		void EquipPrimaryAbility(TSubclassOf<UGameplayAbility> Ability);
 	UFUNCTION(BlueprintCallable, Category = "CharacterBase")
@@ -90,8 +91,15 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "CharacterBase")
 		void EquipSkillFourSlot(TSubclassOf<UGameplayAbility> Ability);
 
-
 	uint8 GetTeamID() const;
+
+	UFUNCTION(BlueprintCallable, Category = "CharacterBase")
+		void AddGameplayTag(FGameplayTag& TagToAdd);
+	UFUNCTION(BlueprintCallable, Category = "CharacterBase")
+		void RemoveGameplayTag(FGameplayTag& TagToRemove);
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CharacterBase")
+		FGameplayTag FullHealthTag;
+
 protected:
 	bool bIsDead;
 	uint8 TeamID;

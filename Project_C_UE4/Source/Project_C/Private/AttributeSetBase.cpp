@@ -3,14 +3,17 @@
 #include "AttributeSetBase.h"
 #include "GameplayEffectExtension.h"
 #include "GameplayEffect.h"
+#include "PlayerCharacter.h"
 
-UAttributeSetBase::UAttributeSetBase() : 
+UAttributeSetBase::UAttributeSetBase() :
 	Health(100.0f),
 	MaxHealth(100.0f),
 	Mana(100.0f),
 	MaxMana(100.0f),
 	Strength(1.0f),
-	MaxStrength(1.0f)
+	MaxStrength(10000000.0f),
+	AttackDamage(20.0f),
+	Armor(5.0f)
 {}
 
 void UAttributeSetBase::PostGameplayEffectExecute(const struct FGameplayEffectModCallbackData& Data)
@@ -24,6 +27,23 @@ void UAttributeSetBase::PostGameplayEffectExecute(const struct FGameplayEffectMo
 		UE_LOG(LogTemp, Warning, TEXT("Ouch, I took damage now my health is: %f"), Health.GetCurrentValue());
 		// Send a broadcast to OnHealthChange
 		OnHealthChange.Broadcast(Health.GetCurrentValue(), MaxHealth.GetCurrentValue());
+
+		// Check if health is full
+		APlayerCharacter* CharacterOwner = Cast<APlayerCharacter>(GetOwningActor());
+		if (Health.GetCurrentValue() == MaxHealth.GetCurrentValue())
+		{
+			if (CharacterOwner)
+			{
+				CharacterOwner->AddGameplayTag(CharacterOwner->FullHealthTag);
+			}
+		}
+		else
+		{
+			if (CharacterOwner)
+			{
+				CharacterOwner->RemoveGameplayTag(CharacterOwner->FullHealthTag);
+			}
+		}
 	}
 
 	/* Determine is the data being evaluated is Mana*/

@@ -34,3 +34,33 @@ E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Sou
 E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Intermediate\Build\Win64\UE4Editor\Inc\GameplayAbilities\GameplayAbilitySpec.generated.h
 E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\ActiveGameplayEffectIterator.h
 E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Intermediate\Build\Win64\UE4Editor\Inc\GameplayAbilities\GameplayEffect.generated.h
+D:\Users\Randy\Desktop\Project_C\Project_C_UE4\Source\Project_C\Public\PlayerCharacter.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Intermediate\Build\Win64\UE4Editor\Inc\GameplayAbilities\AbilitySystemInterface.generated.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemComponent.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\GameplayCueInterface.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Intermediate\Build\Win64\UE4Editor\Inc\GameplayAbilities\GameplayCueInterface.generated.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\Abilities/GameplayAbilityTypes.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\Abilities/GameplayAbilityTargetTypes.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Intermediate\Build\Win64\UE4Editor\Inc\GameplayAbilities\GameplayAbilityTargetTypes.generated.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Intermediate\Build\Win64\UE4Editor\Inc\GameplayAbilities\GameplayAbilityTypes.generated.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\GameplayTasks\Classes\GameplayTasksComponent.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\GameplayTasks\Classes\GameplayTaskOwnerInterface.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\GameplayTasks\Public\GameplayTaskTypes.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTasks\GameplayTaskOwnerInterface.generated.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\GameplayTasks\Classes\GameplayTask.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/WeakInterfacePtr.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTasks\GameplayTask.generated.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\GameplayTasks\Classes\GameplayTaskResource.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTasks\GameplayTaskResource.generated.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTasks\GameplayTasksComponent.generated.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\Abilities/GameplayAbility.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Intermediate\Build\Win64\UE4Editor\Inc\GameplayAbilities\GameplayAbility.generated.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemReplicationProxyInterface.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Intermediate\Build\Win64\UE4Editor\Inc\GameplayAbilities\AbilitySystemReplicationProxyInterface.generated.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Intermediate\Build\Win64\UE4Editor\Inc\GameplayAbilities\AbilitySystemComponent.generated.h
+D:\Users\Randy\Desktop\Project_C\Project_C_UE4\Intermediate\Build\Win64\UE4Editor\Inc\Project_C\PlayerCharacter.generated.h

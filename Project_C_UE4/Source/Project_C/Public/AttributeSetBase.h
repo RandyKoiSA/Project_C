@@ -14,7 +14,7 @@
 	GAMEPLAYATTRIBUTE_VALUE_INITTER(PropertyName)
 
 /* Create a broadcast channel to use*/
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnAttributeChangeDelegate, float, Health, float, MaxHealth);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnAttributeChangeDelegate, float, Attr, float, MaxAttr);
 
 UCLASS()
 class PROJECT_C_API UAttributeSetBase : public UAttributeSet
@@ -33,7 +33,6 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AttributeSetBase")
 		FGameplayAttributeData MaxHealth;
-
 	/*
 	Mana Attribute
 	*/
@@ -42,16 +41,27 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AttributeSetBase")
 		FGameplayAttributeData MaxMana;
-
 	/*
 	Strength Attribute
-	Unsure whether to keep the attribute, this is a temporary placeholder.
+	(Have no use yet)
 	*/
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AttributeSetBase")
 		FGameplayAttributeData Strength;
-
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AttributeSetBase")
 		FGameplayAttributeData MaxStrength;
+
+	/*
+	Armor Attribute
+	Reduce damage output
+	*/
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AttributeSetBase")
+		FGameplayAttributeData Armor;
+	/*
+	Attack Attribute
+	Increase attack damage
+	*/
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AttributeSetBase")
+		FGameplayAttributeData AttackDamage;
 
 	/* Override Function PostGameplayEffectExecute */
 	void PostGameplayEffectExecute(const struct FGameplayEffectModCallbackData& Data) override;
@@ -62,5 +72,6 @@ public:
 	FOnAttributeChangeDelegate OnHealthChange;
 	FOnAttributeChangeDelegate OnManaChange;
 	FOnAttributeChangeDelegate OnStrengthChange;
+	FOnAttributeChangeDelegate OnDefenseChange;
 
 };

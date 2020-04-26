@@ -58,9 +58,15 @@
     <ClInclude Include="..\..\Source\Project_C\Public\AttributeSetBase.h">
       <Filter>Source\Project_C\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Project_C\Public\DamageExecutionCalculation.h">
+      <Filter>Source\Project_C\Public</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\Project_C\Private\AttributeSetBase.cpp">
+      <Filter>Source\Project_C\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project_C\Private\DamageExecutionCalculation.cpp">
       <Filter>Source\Project_C\Private</Filter>
     </ClCompile>
   </ItemGroup>

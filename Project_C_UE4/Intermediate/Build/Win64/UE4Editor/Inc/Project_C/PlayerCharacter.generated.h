@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FGameplayTag;
 class UGameplayAbility;
 class APlayerCharacter;
 #ifdef PROJECT_C_PlayerCharacter_generated_h
@@ -17,6 +18,24 @@ class APlayerCharacter;
 
 #define Project_C_UE4_Source_Project_C_Public_PlayerCharacter_h_17_SPARSE_DATA
 #define Project_C_UE4_Source_Project_C_Public_PlayerCharacter_h_17_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execRemoveGameplayTag) \
+	{ \
+		P_GET_STRUCT_REF(FGameplayTag,Z_Param_Out_TagToRemove); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->RemoveGameplayTag(Z_Param_Out_TagToRemove); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execAddGameplayTag) \
+	{ \
+		P_GET_STRUCT_REF(FGameplayTag,Z_Param_Out_TagToAdd); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->AddGameplayTag(Z_Param_Out_TagToAdd); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execEquipSkillFourSlot) \
 	{ \
@@ -166,6 +185,24 @@ class APlayerCharacter;
 
 
 #define Project_C_UE4_Source_Project_C_Public_PlayerCharacter_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execRemoveGameplayTag) \
+	{ \
+		P_GET_STRUCT_REF(FGameplayTag,Z_Param_Out_TagToRemove); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->RemoveGameplayTag(Z_Param_Out_TagToRemove); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execAddGameplayTag) \
+	{ \
+		P_GET_STRUCT_REF(FGameplayTag,Z_Param_Out_TagToAdd); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->AddGameplayTag(Z_Param_Out_TagToAdd); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execEquipSkillFourSlot) \
 	{ \

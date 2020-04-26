@@ -24,22 +24,22 @@ void EmptyLinkFunctionForGeneratedCodeAttributeSetBase() {}
 	{
 		struct _Script_Project_C_eventOnAttributeChangeDelegate_Parms
 		{
-			float Health;
-			float MaxHealth;
+			float Attr;
+			float MaxAttr;
 		};
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxHealth;
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Health;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxAttr;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Attr;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UDelegateFunction_Project_C_OnAttributeChangeDelegate__DelegateSignature_Statics::NewProp_MaxHealth = { "MaxHealth", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_Project_C_eventOnAttributeChangeDelegate_Parms, MaxHealth), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UDelegateFunction_Project_C_OnAttributeChangeDelegate__DelegateSignature_Statics::NewProp_Health = { "Health", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_Project_C_eventOnAttributeChangeDelegate_Parms, Health), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UDelegateFunction_Project_C_OnAttributeChangeDelegate__DelegateSignature_Statics::NewProp_MaxAttr = { "MaxAttr", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_Project_C_eventOnAttributeChangeDelegate_Parms, MaxAttr), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UDelegateFunction_Project_C_OnAttributeChangeDelegate__DelegateSignature_Statics::NewProp_Attr = { "Attr", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_Project_C_eventOnAttributeChangeDelegate_Parms, Attr), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_Project_C_OnAttributeChangeDelegate__DelegateSignature_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_Project_C_OnAttributeChangeDelegate__DelegateSignature_Statics::NewProp_MaxHealth,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_Project_C_OnAttributeChangeDelegate__DelegateSignature_Statics::NewProp_Health,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_Project_C_OnAttributeChangeDelegate__DelegateSignature_Statics::NewProp_MaxAttr,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_Project_C_OnAttributeChangeDelegate__DelegateSignature_Statics::NewProp_Attr,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_Project_C_OnAttributeChangeDelegate__DelegateSignature_Statics::Function_MetaDataParams[] = {
@@ -71,6 +71,14 @@ void EmptyLinkFunctionForGeneratedCodeAttributeSetBase() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AttackDamage_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_AttackDamage;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Armor_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Armor;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxStrength_MetaData[];
 #endif
@@ -110,6 +118,24 @@ void EmptyLinkFunctionForGeneratedCodeAttributeSetBase() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAttributeSetBase_Statics::NewProp_AttackDamage_MetaData[] = {
+		{ "Category", "AttributeSetBase" },
+		{ "Comment", "/*\n\x09""Attack Attribute\n\x09Increase attack damage\n\x09*/" },
+		{ "ModuleRelativePath", "Public/AttributeSetBase.h" },
+		{ "ToolTip", "Attack Attribute\nIncrease attack damage" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UAttributeSetBase_Statics::NewProp_AttackDamage = { "AttackDamage", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UAttributeSetBase, AttackDamage), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(Z_Construct_UClass_UAttributeSetBase_Statics::NewProp_AttackDamage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UAttributeSetBase_Statics::NewProp_AttackDamage_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAttributeSetBase_Statics::NewProp_Armor_MetaData[] = {
+		{ "Category", "AttributeSetBase" },
+		{ "Comment", "/*\n\x09""Armor Attribute\n\x09Reduce damage output\n\x09*/" },
+		{ "ModuleRelativePath", "Public/AttributeSetBase.h" },
+		{ "ToolTip", "Armor Attribute\nReduce damage output" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UAttributeSetBase_Statics::NewProp_Armor = { "Armor", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UAttributeSetBase, Armor), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(Z_Construct_UClass_UAttributeSetBase_Statics::NewProp_Armor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UAttributeSetBase_Statics::NewProp_Armor_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAttributeSetBase_Statics::NewProp_MaxStrength_MetaData[] = {
 		{ "Category", "AttributeSetBase" },
 		{ "ModuleRelativePath", "Public/AttributeSetBase.h" },
@@ -119,9 +145,9 @@ void EmptyLinkFunctionForGeneratedCodeAttributeSetBase() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAttributeSetBase_Statics::NewProp_Strength_MetaData[] = {
 		{ "Category", "AttributeSetBase" },
-		{ "Comment", "/*\n\x09Strength Attribute\n\x09Unsure whether to keep the attribute, this is a temporary placeholder.\n\x09*/" },
+		{ "Comment", "/*\n\x09Strength Attribute\n\x09(Have no use yet)\n\x09*/" },
 		{ "ModuleRelativePath", "Public/AttributeSetBase.h" },
-		{ "ToolTip", "Strength Attribute\nUnsure whether to keep the attribute, this is a temporary placeholder." },
+		{ "ToolTip", "Strength Attribute\n(Have no use yet)" },
 	};
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UAttributeSetBase_Statics::NewProp_Strength = { "Strength", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UAttributeSetBase, Strength), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(Z_Construct_UClass_UAttributeSetBase_Statics::NewProp_Strength_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UAttributeSetBase_Statics::NewProp_Strength_MetaData)) };
@@ -158,6 +184,8 @@ void EmptyLinkFunctionForGeneratedCodeAttributeSetBase() {}
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UAttributeSetBase_Statics::NewProp_Health = { "Health", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UAttributeSetBase, Health), Z_Construct_UScriptStruct_FGameplayAttributeData, METADATA_PARAMS(Z_Construct_UClass_UAttributeSetBase_Statics::NewProp_Health_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UAttributeSetBase_Statics::NewProp_Health_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UAttributeSetBase_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAttributeSetBase_Statics::NewProp_AttackDamage,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAttributeSetBase_Statics::NewProp_Armor,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAttributeSetBase_Statics::NewProp_MaxStrength,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAttributeSetBase_Statics::NewProp_Strength,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAttributeSetBase_Statics::NewProp_MaxMana,
@@ -192,7 +220,7 @@ void EmptyLinkFunctionForGeneratedCodeAttributeSetBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UAttributeSetBase, 3656378406);
+	IMPLEMENT_CLASS(UAttributeSetBase, 2354825529);
 	template<> PROJECT_C_API UClass* StaticClass<UAttributeSetBase>()
 	{
 		return UAttributeSetBase::StaticClass();

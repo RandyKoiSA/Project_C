@@ -20,6 +20,8 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 	PROJECT_C_API UFunction* Z_Construct_UFunction_APlayerCharacter_AcquireAbility();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	GAMEPLAYABILITIES_API UClass* Z_Construct_UClass_UGameplayAbility_NoRegister();
+	PROJECT_C_API UFunction* Z_Construct_UFunction_APlayerCharacter_AddGameplayTag();
+	GAMEPLAYTAGS_API UScriptStruct* Z_Construct_UScriptStruct_FGameplayTag();
 	PROJECT_C_API UFunction* Z_Construct_UFunction_APlayerCharacter_BP_Die();
 	PROJECT_C_API UFunction* Z_Construct_UFunction_APlayerCharacter_BP_OnhealthChanged();
 	PROJECT_C_API UFunction* Z_Construct_UFunction_APlayerCharacter_BP_OnManaChanged();
@@ -39,6 +41,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 	PROJECT_C_API UFunction* Z_Construct_UFunction_APlayerCharacter_OnManaChanged();
 	PROJECT_C_API UFunction* Z_Construct_UFunction_APlayerCharacter_OnStrengthChanged();
 	PROJECT_C_API UFunction* Z_Construct_UFunction_APlayerCharacter_RefreshAbilities();
+	PROJECT_C_API UFunction* Z_Construct_UFunction_APlayerCharacter_RemoveGameplayTag();
 	PROJECT_C_API UClass* Z_Construct_UClass_UAttributeSetBase_NoRegister();
 	GAMEPLAYABILITIES_API UClass* Z_Construct_UClass_UAbilitySystemComponent_NoRegister();
 	GAMEPLAYABILITIES_API UClass* Z_Construct_UClass_UAbilitySystemInterface_NoRegister();
@@ -77,6 +80,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		UClass* Class = APlayerCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "AcquireAbility", &APlayerCharacter::execAcquireAbility },
+			{ "AddGameplayTag", &APlayerCharacter::execAddGameplayTag },
 			{ "EquipArmsSlot", &APlayerCharacter::execEquipArmsSlot },
 			{ "EquipChestSlot", &APlayerCharacter::execEquipChestSlot },
 			{ "EquipHeadSlot", &APlayerCharacter::execEquipHeadSlot },
@@ -92,6 +96,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 			{ "OnManaChanged", &APlayerCharacter::execOnManaChanged },
 			{ "OnStrengthChanged", &APlayerCharacter::execOnStrengthChanged },
 			{ "RefreshAbilities", &APlayerCharacter::execRefreshAbilities },
+			{ "RemoveGameplayTag", &APlayerCharacter::execRemoveGameplayTag },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -128,6 +133,39 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_APlayerCharacter_AddGameplayTag_Statics
+	{
+		struct PlayerCharacter_eventAddGameplayTag_Parms
+		{
+			FGameplayTag TagToAdd;
+		};
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_TagToAdd;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_APlayerCharacter_AddGameplayTag_Statics::NewProp_TagToAdd = { "TagToAdd", nullptr, (EPropertyFlags)0x0010000000000180, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(PlayerCharacter_eventAddGameplayTag_Parms, TagToAdd), Z_Construct_UScriptStruct_FGameplayTag, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APlayerCharacter_AddGameplayTag_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APlayerCharacter_AddGameplayTag_Statics::NewProp_TagToAdd,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APlayerCharacter_AddGameplayTag_Statics::Function_MetaDataParams[] = {
+		{ "Category", "CharacterBase" },
+		{ "ModuleRelativePath", "Public/PlayerCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayerCharacter_AddGameplayTag_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayerCharacter, nullptr, "AddGameplayTag", nullptr, nullptr, sizeof(PlayerCharacter_eventAddGameplayTag_Parms), Z_Construct_UFunction_APlayerCharacter_AddGameplayTag_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerCharacter_AddGameplayTag_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APlayerCharacter_AddGameplayTag_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerCharacter_AddGameplayTag_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APlayerCharacter_AddGameplayTag()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APlayerCharacter_AddGameplayTag_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_APlayerCharacter_BP_Die_Statics
 	{
 #if WITH_METADATA
@@ -138,8 +176,10 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APlayerCharacter_BP_Die_Statics::Function_MetaDataParams[] = {
 		{ "Category", "CharacterBase" },
+		{ "Comment", "/* Death Function*/" },
 		{ "DisplayName", "Die" },
 		{ "ModuleRelativePath", "Public/PlayerCharacter.h" },
+		{ "ToolTip", "Death Function" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayerCharacter_BP_Die_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayerCharacter, nullptr, "BP_Die", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APlayerCharacter_BP_Die_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerCharacter_BP_Die_Statics::Function_MetaDataParams)) };
@@ -747,7 +787,9 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APlayerCharacter_RefreshAbilities_Statics::Function_MetaDataParams[] = {
 		{ "Category", "CharacterBase" },
+		{ "Comment", "/* Equipment Functions*/" },
 		{ "ModuleRelativePath", "Public/PlayerCharacter.h" },
+		{ "ToolTip", "Equipment Functions" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayerCharacter_RefreshAbilities_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayerCharacter, nullptr, "RefreshAbilities", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APlayerCharacter_RefreshAbilities_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerCharacter_RefreshAbilities_Statics::Function_MetaDataParams)) };
@@ -757,6 +799,39 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APlayerCharacter_RefreshAbilities_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_APlayerCharacter_RemoveGameplayTag_Statics
+	{
+		struct PlayerCharacter_eventRemoveGameplayTag_Parms
+		{
+			FGameplayTag TagToRemove;
+		};
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_TagToRemove;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_APlayerCharacter_RemoveGameplayTag_Statics::NewProp_TagToRemove = { "TagToRemove", nullptr, (EPropertyFlags)0x0010000000000180, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(PlayerCharacter_eventRemoveGameplayTag_Parms, TagToRemove), Z_Construct_UScriptStruct_FGameplayTag, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APlayerCharacter_RemoveGameplayTag_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APlayerCharacter_RemoveGameplayTag_Statics::NewProp_TagToRemove,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APlayerCharacter_RemoveGameplayTag_Statics::Function_MetaDataParams[] = {
+		{ "Category", "CharacterBase" },
+		{ "ModuleRelativePath", "Public/PlayerCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayerCharacter_RemoveGameplayTag_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayerCharacter, nullptr, "RemoveGameplayTag", nullptr, nullptr, sizeof(PlayerCharacter_eventRemoveGameplayTag_Parms), Z_Construct_UFunction_APlayerCharacter_RemoveGameplayTag_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerCharacter_RemoveGameplayTag_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APlayerCharacter_RemoveGameplayTag_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerCharacter_RemoveGameplayTag_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APlayerCharacter_RemoveGameplayTag()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APlayerCharacter_RemoveGameplayTag_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -812,6 +887,10 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_PrimarySlot;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FullHealthTag_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_FullHealthTag;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AttributeBaseComp_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_AttributeBaseComp;
@@ -830,7 +909,8 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_APlayerCharacter_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_APlayerCharacter_AcquireAbility, "AcquireAbility" }, // 1582153872
-		{ &Z_Construct_UFunction_APlayerCharacter_BP_Die, "BP_Die" }, // 1465750956
+		{ &Z_Construct_UFunction_APlayerCharacter_AddGameplayTag, "AddGameplayTag" }, // 112306111
+		{ &Z_Construct_UFunction_APlayerCharacter_BP_Die, "BP_Die" }, // 2534183896
 		{ &Z_Construct_UFunction_APlayerCharacter_BP_OnhealthChanged, "BP_OnhealthChanged" }, // 3373628426
 		{ &Z_Construct_UFunction_APlayerCharacter_BP_OnManaChanged, "BP_OnManaChanged" }, // 3542304970
 		{ &Z_Construct_UFunction_APlayerCharacter_BP_OnStrengthChanged, "BP_OnStrengthChanged" }, // 4270430825
@@ -848,7 +928,8 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		{ &Z_Construct_UFunction_APlayerCharacter_OnHealthChanged, "OnHealthChanged" }, // 785761700
 		{ &Z_Construct_UFunction_APlayerCharacter_OnManaChanged, "OnManaChanged" }, // 3009496731
 		{ &Z_Construct_UFunction_APlayerCharacter_OnStrengthChanged, "OnStrengthChanged" }, // 1974029409
-		{ &Z_Construct_UFunction_APlayerCharacter_RefreshAbilities, "RefreshAbilities" }, // 1832365551
+		{ &Z_Construct_UFunction_APlayerCharacter_RefreshAbilities, "RefreshAbilities" }, // 3124389193
+		{ &Z_Construct_UFunction_APlayerCharacter_RemoveGameplayTag, "RemoveGameplayTag" }, // 3248230925
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCharacter_Statics::Class_MetaDataParams[] = {
@@ -928,6 +1009,13 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_PrimarySlot = { "PrimarySlot", nullptr, (EPropertyFlags)0x0024080000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerCharacter, PrimarySlot), Z_Construct_UClass_UGameplayAbility_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_PrimarySlot_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_PrimarySlot_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCharacter_Statics::NewProp_FullHealthTag_MetaData[] = {
+		{ "Category", "CharacterBase" },
+		{ "ModuleRelativePath", "Public/PlayerCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_FullHealthTag = { "FullHealthTag", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerCharacter, FullHealthTag), Z_Construct_UScriptStruct_FGameplayTag, METADATA_PARAMS(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_FullHealthTag_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_FullHealthTag_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCharacter_Statics::NewProp_AttributeBaseComp_MetaData[] = {
 		{ "Category", "CharacterBase" },
 		{ "EditInline", "true" },
@@ -954,6 +1042,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_HeadSlot,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_SecondarySlot,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_PrimarySlot,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_FullHealthTag,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_AttributeBaseComp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_AbilitySystemComp,
 	};
@@ -987,7 +1076,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerCharacter, 1148729566);
+	IMPLEMENT_CLASS(APlayerCharacter, 1228930391);
 	template<> PROJECT_C_API UClass* StaticClass<APlayerCharacter>()
 	{
 		return APlayerCharacter::StaticClass();
