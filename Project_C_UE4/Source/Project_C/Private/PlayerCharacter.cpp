@@ -67,6 +67,31 @@ void APlayerCharacter::AcquireAbility(TSubclassOf<UGameplayAbility> AbilityToAcq
 	}
 }
 
+void APlayerCharacter::AcquireAbilityWithHandle(TSubclassOf<UGameplayAbility> AbilityToAcquire, FGameplayAbilitySpecHandle& slothandle)
+{
+	// Make sure Ability System Component is valid
+	if (AbilitySystemComp)
+	{
+		// Remove ability in previous slot if any
+		if (slothandle.IsValid())
+		{
+			UE_LOG(LogTemp, Warning, TEXT("Existing Ability was in this slot, removing it now !"))
+			AbilitySystemComp->ClearAbility(slothandle);
+		}
+		// If we have authority and the ability is valid, we then set the ability onto our slot
+		if (HasAuthority() && AbilityToAcquire)
+		{
+			FGameplayAbilitySpecDef SpecDef = FGameplayAbilitySpecDef();
+			SpecDef.Ability = AbilityToAcquire;
+			FGameplayAbilitySpec AbilitySpec = FGameplayAbilitySpec(SpecDef, 1);
+			// set new ability to slot handle
+			slothandle = AbilitySystemComp->GiveAbility(AbilitySpec);
+			UE_LOG(LogTemp, Warning, TEXT("New Ability was set onto the slot handle!"));
+		}
+		AbilitySystemComp->InitAbilityActorInfo(this, this);
+	}
+}
+
 void APlayerCharacter::OnHealthChanged(float Health, float MaxHealth)
 {
 	UE_LOG(LogTemp, Warning, TEXT("I've been hit."));
@@ -82,11 +107,6 @@ void APlayerCharacter::OnHealthChanged(float Health, float MaxHealth)
 void APlayerCharacter::OnManaChanged(float Mana, float MaxMana)
 {
 	BP_OnManaChanged(Mana, MaxMana);
-}
-
-void APlayerCharacter::OnStrengthChanged(float Strength, float MaxStrength)
-{
-	BP_OnStrengthChanged(Strength, MaxStrength);
 }
 
 /* Checks if the target interacting is hostile */
@@ -146,63 +166,71 @@ void APlayerCharacter::EquipPrimaryAbility(TSubclassOf<UGameplayAbility> Ability
 {
 	UE_LOG(LogTemp, Warning, TEXT("EquipingPrimaryAbility"));
 	this->PrimarySlot = Ability;
-	RefreshAbilities();
+	AcquireAbilityWithHandle(this->PrimarySlot, PrimaryAbilityHandle);
+	//RefreshAbilities();
 }
 
 void APlayerCharacter::EquipSecondaryAbility(TSubclassOf<UGameplayAbility> Ability)
 {
 	this->SecondarySlot = Ability;
-	RefreshAbilities();
+	AcquireAbilityWithHandle(this->SecondarySlot, SecondaryAbilityHandle);
+	//RefreshAbilities();
 }
 
 void APlayerCharacter::EquipHeadSlot(TSubclassOf<UGameplayAbility> Ability)
 {
 	this->HeadSlot = Ability;
-	RefreshAbilities();
+	AcquireAbilityWithHandle(this->HeadSlot, HeadAbilityHandle);
+	//RefreshAbilities();
 }
 
 void APlayerCharacter::EquipChestSlot(TSubclassOf<UGameplayAbility> Ability)
 {
 	this->ChestSlot = Ability;
-	AcquireAbility(ChestSlot);
-	RefreshAbilities();
+	AcquireAbilityWithHandle(this->ChestSlot, ChestAbilityHandle);
+	//RefreshAbilities();
 }
 
 void APlayerCharacter::EquipArmsSlot(TSubclassOf<UGameplayAbility> Ability)
 {
 	this->ArmsSlot = Ability;
-	AcquireAbility(ArmsSlot);
-	RefreshAbilities();
+	AcquireAbilityWithHandle(this->ArmsSlot, ArmsAbilityHandle);
+	//RefreshAbilities();
 }
 
 void APlayerCharacter::EquipLegsSlot(TSubclassOf<UGameplayAbility> Ability)
 {
 	this->LegsSlot = Ability;
-	RefreshAbilities();
+	AcquireAbilityWithHandle(this->LegsSlot, LegsAbilityHandle);
+	//RefreshAbilities();
 }
 
 void APlayerCharacter::EquipSkillOneSlot(TSubclassOf<UGameplayAbility> Ability)
 {
 	this->SkillOneSlot = Ability;
-	RefreshAbilities();
+	AcquireAbilityWithHandle(this->SkillOneSlot, SkillOneAbilityHandle);
+	//RefreshAbilities();
 }
 
 void APlayerCharacter::EquipSkillTwoSlot(TSubclassOf<UGameplayAbility> Ability)
 {
 	this->SkillTwoSlot = Ability;
-	RefreshAbilities();
+	AcquireAbilityWithHandle(this->SkillTwoSlot, SkillTwoAbilityHandle);
+	//RefreshAbilities();
 }
 
 void APlayerCharacter::EquipSkillThreeSlot(TSubclassOf<UGameplayAbility> Ability)
 {
 	this->SkillThreeSlot = Ability;
-	RefreshAbilities();
+	AcquireAbilityWithHandle(this->SkillThreeSlot, SkillThreeAbilityHandle);
+	//RefreshAbilities();
 }
 
 void APlayerCharacter::EquipSkillFourSlot(TSubclassOf<UGameplayAbility> Ability)
 {
 	this->SkillFourSlot = Ability;
-	RefreshAbilities();
+	AcquireAbilityWithHandle(this->SkillFourSlot, SkillFourAbilityHandle);
+	//RefreshAbilities();
 }
 
 uint8 APlayerCharacter::GetTeamID() const

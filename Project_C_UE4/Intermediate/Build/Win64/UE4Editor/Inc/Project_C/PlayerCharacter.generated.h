@@ -11,6 +11,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct FGameplayTag;
 class UGameplayAbility;
 class APlayerCharacter;
+struct FGameplayAbilitySpecHandle;
 #ifdef PROJECT_C_PlayerCharacter_generated_h
 #error "PlayerCharacter.generated.h already included, missing '#pragma once' in PlayerCharacter.h"
 #endif
@@ -144,16 +145,6 @@ class APlayerCharacter;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execOnStrengthChanged) \
-	{ \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_Strength); \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_MaxStrength); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->OnStrengthChanged(Z_Param_Strength,Z_Param_MaxStrength); \
-		P_NATIVE_END; \
-	} \
- \
 	DECLARE_FUNCTION(execOnManaChanged) \
 	{ \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_Mana); \
@@ -171,6 +162,16 @@ class APlayerCharacter;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->OnHealthChanged(Z_Param_Health,Z_Param_MaxHealth); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execAcquireAbilityWithHandle) \
+	{ \
+		P_GET_OBJECT(UClass,Z_Param_AbilityToAcquire); \
+		P_GET_STRUCT_REF(FGameplayAbilitySpecHandle,Z_Param_Out_slothandle); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->AcquireAbilityWithHandle(Z_Param_AbilityToAcquire,Z_Param_Out_slothandle); \
 		P_NATIVE_END; \
 	} \
  \
@@ -311,16 +312,6 @@ class APlayerCharacter;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execOnStrengthChanged) \
-	{ \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_Strength); \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_MaxStrength); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->OnStrengthChanged(Z_Param_Strength,Z_Param_MaxStrength); \
-		P_NATIVE_END; \
-	} \
- \
 	DECLARE_FUNCTION(execOnManaChanged) \
 	{ \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_Mana); \
@@ -338,6 +329,16 @@ class APlayerCharacter;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->OnHealthChanged(Z_Param_Health,Z_Param_MaxHealth); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execAcquireAbilityWithHandle) \
+	{ \
+		P_GET_OBJECT(UClass,Z_Param_AbilityToAcquire); \
+		P_GET_STRUCT_REF(FGameplayAbilitySpecHandle,Z_Param_Out_slothandle); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->AcquireAbilityWithHandle(Z_Param_AbilityToAcquire,Z_Param_Out_slothandle); \
 		P_NATIVE_END; \
 	} \
  \
@@ -361,11 +362,6 @@ class APlayerCharacter;
 	{ \
 		float Mana; \
 		float MaxMana; \
-	}; \
-	struct PlayerCharacter_eventBP_OnStrengthChanged_Parms \
-	{ \
-		float Strength; \
-		float MaxStrength; \
 	};
 
 
@@ -416,15 +412,25 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlayerCharacter); \
 
 #define Project_C_UE4_Source_Project_C_Public_PlayerCharacter_h_17_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__PrimarySlot() { return STRUCT_OFFSET(APlayerCharacter, PrimarySlot); } \
+	FORCEINLINE static uint32 __PPO__PrimaryAbilityHandle() { return STRUCT_OFFSET(APlayerCharacter, PrimaryAbilityHandle); } \
 	FORCEINLINE static uint32 __PPO__SecondarySlot() { return STRUCT_OFFSET(APlayerCharacter, SecondarySlot); } \
+	FORCEINLINE static uint32 __PPO__SecondaryAbilityHandle() { return STRUCT_OFFSET(APlayerCharacter, SecondaryAbilityHandle); } \
 	FORCEINLINE static uint32 __PPO__HeadSlot() { return STRUCT_OFFSET(APlayerCharacter, HeadSlot); } \
+	FORCEINLINE static uint32 __PPO__HeadAbilityHandle() { return STRUCT_OFFSET(APlayerCharacter, HeadAbilityHandle); } \
 	FORCEINLINE static uint32 __PPO__ChestSlot() { return STRUCT_OFFSET(APlayerCharacter, ChestSlot); } \
+	FORCEINLINE static uint32 __PPO__ChestAbilityHandle() { return STRUCT_OFFSET(APlayerCharacter, ChestAbilityHandle); } \
 	FORCEINLINE static uint32 __PPO__ArmsSlot() { return STRUCT_OFFSET(APlayerCharacter, ArmsSlot); } \
+	FORCEINLINE static uint32 __PPO__ArmsAbilityHandle() { return STRUCT_OFFSET(APlayerCharacter, ArmsAbilityHandle); } \
 	FORCEINLINE static uint32 __PPO__LegsSlot() { return STRUCT_OFFSET(APlayerCharacter, LegsSlot); } \
+	FORCEINLINE static uint32 __PPO__LegsAbilityHandle() { return STRUCT_OFFSET(APlayerCharacter, LegsAbilityHandle); } \
 	FORCEINLINE static uint32 __PPO__SkillOneSlot() { return STRUCT_OFFSET(APlayerCharacter, SkillOneSlot); } \
+	FORCEINLINE static uint32 __PPO__SkillOneAbilityHandle() { return STRUCT_OFFSET(APlayerCharacter, SkillOneAbilityHandle); } \
 	FORCEINLINE static uint32 __PPO__SkillTwoSlot() { return STRUCT_OFFSET(APlayerCharacter, SkillTwoSlot); } \
+	FORCEINLINE static uint32 __PPO__SkillTwoAbilityHandle() { return STRUCT_OFFSET(APlayerCharacter, SkillTwoAbilityHandle); } \
 	FORCEINLINE static uint32 __PPO__SkillThreeSlot() { return STRUCT_OFFSET(APlayerCharacter, SkillThreeSlot); } \
-	FORCEINLINE static uint32 __PPO__SkillFourSlot() { return STRUCT_OFFSET(APlayerCharacter, SkillFourSlot); }
+	FORCEINLINE static uint32 __PPO__SkillThreeAbilityHandle() { return STRUCT_OFFSET(APlayerCharacter, SkillThreeAbilityHandle); } \
+	FORCEINLINE static uint32 __PPO__SkillFourSlot() { return STRUCT_OFFSET(APlayerCharacter, SkillFourSlot); } \
+	FORCEINLINE static uint32 __PPO__SkillFourAbilityHandle() { return STRUCT_OFFSET(APlayerCharacter, SkillFourAbilityHandle); }
 
 
 #define Project_C_UE4_Source_Project_C_Public_PlayerCharacter_h_14_PROLOG \

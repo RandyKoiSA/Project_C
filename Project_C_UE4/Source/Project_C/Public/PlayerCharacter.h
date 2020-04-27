@@ -39,8 +39,12 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "CharacterBase")
 		UAttributeSetBase* AttributeBaseComp;
 
+
 	UFUNCTION(Category = "CharacterBase")
-		void AcquireAbility(TSubclassOf<UGameplayAbility> AbilityToAcquire);
+		void AcquireAbility(TSubclassOf<UGameplayAbility> AbilityToAcquire); /* Deprecated */
+
+	UFUNCTION(Category = "CharacterBase")
+		void AcquireAbilityWithHandle(TSubclassOf<UGameplayAbility> AbilityToAcquire, FGameplayAbilitySpecHandle& slothandle);
 
 	/* Health Attribute Functions */
 	UFUNCTION()
@@ -54,12 +58,6 @@ public:
 	UFUNCTION(BlueprintImplementableEvent, Category = "CharacterBase", meta = (DisplayName = "OnManaChanged"))
 		void BP_OnManaChanged(float Mana, float MaxMana);
 
-	/* Strength Attribute Functions */
-	UFUNCTION()
-		void OnStrengthChanged(float Strength, float MaxStrength);
-	UFUNCTION(BlueprintImplementableEvent, Category = "CharacterBase", meta = (DisplayName = "OnStrengthChanged"))
-		void BP_OnStrengthChanged(float Strength, float MaxStrength);
-
 	/* Death Function*/
 	UFUNCTION(BlueprintImplementableEvent, Category = "CharacterBase", meta = (DisplayName = "Die"))
 		void BP_Die();
@@ -69,7 +67,8 @@ public:
 	
 	/* Equipment Functions*/
 	UFUNCTION(BlueprintCallable, Category = "CharacterBase")
-		void RefreshAbilities();
+		void RefreshAbilities();	/* Deprecated */
+
 	UFUNCTION(BlueprintCallable, Category = "CharacterBase")
 		void EquipPrimaryAbility(TSubclassOf<UGameplayAbility> Ability);
 	UFUNCTION(BlueprintCallable, Category = "CharacterBase")
@@ -110,31 +109,51 @@ protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Abilities")
 		TSubclassOf<UGameplayAbility> PrimarySlot;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Abilities")
+		FGameplayAbilitySpecHandle PrimaryAbilityHandle;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Abilities")
 		TSubclassOf<UGameplayAbility> SecondarySlot;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Abilities")
+		FGameplayAbilitySpecHandle SecondaryAbilityHandle;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Abilities")
 		TSubclassOf<UGameplayAbility> HeadSlot;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Abilities")
+		FGameplayAbilitySpecHandle HeadAbilityHandle;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Abilities")
 		TSubclassOf<UGameplayAbility> ChestSlot;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Abilities")
+		FGameplayAbilitySpecHandle ChestAbilityHandle;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Abilities")
 		TSubclassOf<UGameplayAbility> ArmsSlot;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Abilities")
+		FGameplayAbilitySpecHandle ArmsAbilityHandle;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Abilities")
 		TSubclassOf<UGameplayAbility> LegsSlot;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Abilities")
+		FGameplayAbilitySpecHandle LegsAbilityHandle;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Abilities")
 		TSubclassOf<UGameplayAbility> SkillOneSlot;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Abilities")
+		FGameplayAbilitySpecHandle SkillOneAbilityHandle;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Abilities")
 		TSubclassOf<UGameplayAbility> SkillTwoSlot;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Abilities")
+		FGameplayAbilitySpecHandle SkillTwoAbilityHandle;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Abilities")
 		TSubclassOf<UGameplayAbility> SkillThreeSlot;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Abilities")
+		FGameplayAbilitySpecHandle SkillThreeAbilityHandle;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Abilities")
 		TSubclassOf<UGameplayAbility> SkillFourSlot;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Abilities")
+		FGameplayAbilitySpecHandle SkillFourAbilityHandle;
 };

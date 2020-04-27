@@ -2,11 +2,11 @@
   Building Project_CEditor...
   Using Visual Studio 2019 14.22.27905 toolchain (E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 8 processes...
-    [1/4] DamageExecutionCalculation.cpp
-    [2/4] UE4Editor-Project_C-0107.lib
-       Creating library D:\Users\Randy\Desktop\Project_C\Project_C_UE4\Intermediate\Build\Win64\UE4Editor\Development\Project_C\UE4Editor-Project_C-0107.lib and object D:\Users\Randy\Desktop\Project_C\Project_C_UE4\Intermediate\Build\Win64\UE4Editor\Development\Project_C\UE4Editor-Project_C-0107.exp
-    [3/4] UE4Editor-Project_C-0107.dll
-       Creating library D:\Users\Randy\Desktop\Project_C\Project_C_UE4\Intermediate\Build\Win64\UE4Editor\Development\Project_C\UE4Editor-Project_C-0107.suppressed.lib and object D:\Users\Randy\Desktop\Project_C\Project_C_UE4\Intermediate\Build\Win64\UE4Editor\Development\Project_C\UE4Editor-Project_C-0107.suppressed.exp
+    [1/4] PlayerCharacter.cpp
+    [2/4] UE4Editor-Project_C-0113.lib
+       Creating library D:\Users\Randy\Desktop\Project_C\Project_C_UE4\Intermediate\Build\Win64\UE4Editor\Development\Project_C\UE4Editor-Project_C-0113.lib and object D:\Users\Randy\Desktop\Project_C\Project_C_UE4\Intermediate\Build\Win64\UE4Editor\Development\Project_C\UE4Editor-Project_C-0113.exp
+    [3/4] UE4Editor-Project_C-0113.dll
+       Creating library D:\Users\Randy\Desktop\Project_C\Project_C_UE4\Intermediate\Build\Win64\UE4Editor\Development\Project_C\UE4Editor-Project_C-0113.suppressed.lib and object D:\Users\Randy\Desktop\Project_C\Project_C_UE4\Intermediate\Build\Win64\UE4Editor\Development\Project_C\UE4Editor-Project_C-0113.suppressed.exp
     [4/4] Project_CEditor.target
-  Total time in Parallel executor: 5.06 seconds
-  Total execution time: 5.66 seconds
+  Total time in Parallel executor: 5.44 seconds
+  Total execution time: 6.02 seconds
