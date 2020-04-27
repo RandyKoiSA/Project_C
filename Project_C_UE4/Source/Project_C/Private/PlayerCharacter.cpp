@@ -25,7 +25,6 @@ void APlayerCharacter::BeginPlay()
 	// Have the function OnHealthChange subscribe to the broadcast of OnhealthChange in the AttributeBaseComponent
 	AttributeBaseComp->OnHealthChange.AddDynamic(this, &APlayerCharacter::OnHealthChanged);
 	AttributeBaseComp->OnManaChange.AddDynamic(this, &APlayerCharacter::OnManaChanged);
-	AttributeBaseComp->OnStrengthChange.AddDynamic(this, &APlayerCharacter::OnStrengthChanged);
 	AddGameplayTag(FullHealthTag);
 	AutoDetermineTeamIDbyControllerType();
 
@@ -203,7 +202,7 @@ void APlayerCharacter::EquipSkillThreeSlot(TSubclassOf<UGameplayAbility> Ability
 void APlayerCharacter::EquipSkillFourSlot(TSubclassOf<UGameplayAbility> Ability)
 {
 	this->SkillFourSlot = Ability;
-	//RefreshAbilities();
+	RefreshAbilities();
 }
 
 uint8 APlayerCharacter::GetTeamID() const

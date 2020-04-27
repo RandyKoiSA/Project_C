@@ -93,10 +93,12 @@ public:
 
 	uint8 GetTeamID() const;
 
+	/* Add/Remove Gameplay Tags*/
 	UFUNCTION(BlueprintCallable, Category = "CharacterBase")
 		void AddGameplayTag(FGameplayTag& TagToAdd);
 	UFUNCTION(BlueprintCallable, Category = "CharacterBase")
 		void RemoveGameplayTag(FGameplayTag& TagToRemove);
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CharacterBase")
 		FGameplayTag FullHealthTag;
 
@@ -135,5 +137,4 @@ protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Abilities")
 		TSubclassOf<UGameplayAbility> SkillFourSlot;
-
 };

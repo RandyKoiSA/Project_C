@@ -10,10 +10,9 @@ UAttributeSetBase::UAttributeSetBase() :
 	MaxHealth(100.0f),
 	Mana(100.0f),
 	MaxMana(100.0f),
-	Strength(1.0f),
-	MaxStrength(10000000.0f),
-	AttackDamage(20.0f),
-	Armor(5.0f)
+	Strength(0.0f),
+	AttackDamage(0.0f),
+	Armor(0.0f)
 {}
 
 void UAttributeSetBase::PostGameplayEffectExecute(const struct FGameplayEffectModCallbackData& Data)
@@ -56,15 +55,6 @@ void UAttributeSetBase::PostGameplayEffectExecute(const struct FGameplayEffectMo
 		OnManaChange.Broadcast(Mana.GetCurrentValue(), MaxMana.GetCurrentValue());
 	}
 
-	/* Determine is the data being evaluated is Strength */
-	if (Data.EvaluatedData.Attribute.GetUProperty() == FindFieldChecked<UProperty>(UAttributeSetBase::StaticClass(), GET_MEMBER_NAME_CHECKED(UAttributeSetBase, Strength)))
-	{
-		// Clamp the strength to only be between 0 and max strength given
-		Strength.SetCurrentValue(FMath::Clamp(Strength.GetCurrentValue(), 0.0f, MaxStrength.GetCurrentValue()));
-		Strength.SetBaseValue(FMath::Clamp(Strength.GetBaseValue(), 0.0f, MaxStrength.GetBaseValue()));
-		// Send a broadcast to OnStrengthChange
-		OnStrengthChange.Broadcast(Strength.GetCurrentValue(), MaxStrength.GetCurrentValue());
-	}
 }
 
 bool UAttributeSetBase::PreGameplayEffectExecute(FGameplayEffectModCallbackData& Data)

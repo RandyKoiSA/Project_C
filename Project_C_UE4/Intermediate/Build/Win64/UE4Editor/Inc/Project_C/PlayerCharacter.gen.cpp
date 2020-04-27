@@ -153,7 +153,9 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APlayerCharacter_AddGameplayTag_Statics::Function_MetaDataParams[] = {
 		{ "Category", "CharacterBase" },
+		{ "Comment", "/* Add/Remove Gameplay Tags*/" },
 		{ "ModuleRelativePath", "Public/PlayerCharacter.h" },
+		{ "ToolTip", "Add/Remove Gameplay Tags" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayerCharacter_AddGameplayTag_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayerCharacter, nullptr, "AddGameplayTag", nullptr, nullptr, sizeof(PlayerCharacter_eventAddGameplayTag_Parms), Z_Construct_UFunction_APlayerCharacter_AddGameplayTag_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerCharacter_AddGameplayTag_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APlayerCharacter_AddGameplayTag_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerCharacter_AddGameplayTag_Statics::Function_MetaDataParams)) };
@@ -909,7 +911,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_APlayerCharacter_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_APlayerCharacter_AcquireAbility, "AcquireAbility" }, // 1582153872
-		{ &Z_Construct_UFunction_APlayerCharacter_AddGameplayTag, "AddGameplayTag" }, // 112306111
+		{ &Z_Construct_UFunction_APlayerCharacter_AddGameplayTag, "AddGameplayTag" }, // 133191397
 		{ &Z_Construct_UFunction_APlayerCharacter_BP_Die, "BP_Die" }, // 2534183896
 		{ &Z_Construct_UFunction_APlayerCharacter_BP_OnhealthChanged, "BP_OnhealthChanged" }, // 3373628426
 		{ &Z_Construct_UFunction_APlayerCharacter_BP_OnManaChanged, "BP_OnManaChanged" }, // 3542304970
@@ -1076,7 +1078,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerCharacter, 1228930391);
+	IMPLEMENT_CLASS(APlayerCharacter, 287892866);
 	template<> PROJECT_C_API UClass* StaticClass<APlayerCharacter>()
 	{
 		return APlayerCharacter::StaticClass();

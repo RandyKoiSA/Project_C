@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "AttributeSet.h"
+#include "AbilitySystemComponent.h"
 #include "AttributeSetBase.generated.h"
 
 // Uses macros from AttributeSet.h
@@ -30,25 +31,30 @@ public:
 	*/
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AttributeSetBase")
 		FGameplayAttributeData Health;
+	ATTRIBUTE_ACCESSORS(UAttributeSetBase, Health)
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AttributeSetBase")
 		FGameplayAttributeData MaxHealth;
+	ATTRIBUTE_ACCESSORS(UAttributeSetBase, MaxHealth)
+
 	/*
 	Mana Attribute
 	*/
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AttributeSetBase")
 		FGameplayAttributeData Mana;
+	ATTRIBUTE_ACCESSORS(UAttributeSetBase, Mana)
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AttributeSetBase")
 		FGameplayAttributeData MaxMana;
+	ATTRIBUTE_ACCESSORS(UAttributeSetBase, MaxMana)
+
 	/*
 	Strength Attribute
 	(Have no use yet)
 	*/
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AttributeSetBase")
 		FGameplayAttributeData Strength;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AttributeSetBase")
-		FGameplayAttributeData MaxStrength;
+	ATTRIBUTE_ACCESSORS(UAttributeSetBase, Strength)
 
 	/*
 	Armor Attribute
@@ -56,12 +62,14 @@ public:
 	*/
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AttributeSetBase")
 		FGameplayAttributeData Armor;
+	ATTRIBUTE_ACCESSORS(UAttributeSetBase, Armor)
 	/*
 	Attack Attribute
 	Increase attack damage
 	*/
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AttributeSetBase")
 		FGameplayAttributeData AttackDamage;
+	ATTRIBUTE_ACCESSORS(UAttributeSetBase, AttackDamage)
 
 	/* Override Function PostGameplayEffectExecute */
 	void PostGameplayEffectExecute(const struct FGameplayEffectModCallbackData& Data) override;
@@ -71,7 +79,6 @@ public:
 	/* Broadcast Channels */
 	FOnAttributeChangeDelegate OnHealthChange;
 	FOnAttributeChangeDelegate OnManaChange;
-	FOnAttributeChangeDelegate OnStrengthChange;
-	FOnAttributeChangeDelegate OnDefenseChange;
+
 
 };

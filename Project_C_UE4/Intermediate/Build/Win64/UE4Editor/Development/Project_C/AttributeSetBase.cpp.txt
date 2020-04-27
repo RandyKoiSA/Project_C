@@ -9,9 +9,7 @@ E:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/
 E:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\DataTableUtils.h
 E:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DataTable.generated.h
 E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Intermediate\Build\Win64\UE4Editor\Inc\GameplayAbilities\AttributeSet.generated.h
-D:\Users\Randy\Desktop\Project_C\Project_C_UE4\Intermediate\Build\Win64\UE4Editor\Inc\Project_C\AttributeSetBase.generated.h
-E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\GameplayEffectExtension.h
-E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\GameplayEffect.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemComponent.h
 E:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\GameplayTags\Classes\GameplayTagContainer.h
 E:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTags\GameplayTagContainer.generated.h
 E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\GameplayEffectTypes.h
@@ -25,25 +23,18 @@ E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Sou
 E:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\VisualLogger/VisualLogger.h
 E:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\VisualLogger/VisualLoggerTypes.h
 E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Intermediate\Build\Win64\UE4Editor\Inc\GameplayAbilities\GameplayEffectTypes.generated.h
-E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\GameplayEffectAggregator.h
 E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\GameplayPrediction.h
 E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Intermediate\Build\Win64\UE4Editor\Inc\GameplayAbilities\GameplayPrediction.generated.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\GameplayCueInterface.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Intermediate\Build\Win64\UE4Editor\Inc\GameplayAbilities\GameplayCueInterface.generated.h
 E:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\GameplayTags\Classes\GameplayTagAssetInterface.h
 E:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTags\GameplayTagAssetInterface.generated.h
 E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\GameplayAbilitySpec.h
 E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Intermediate\Build\Win64\UE4Editor\Inc\GameplayAbilities\GameplayAbilitySpec.generated.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\GameplayEffect.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\GameplayEffectAggregator.h
 E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\ActiveGameplayEffectIterator.h
 E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Intermediate\Build\Win64\UE4Editor\Inc\GameplayAbilities\GameplayEffect.generated.h
-D:\Users\Randy\Desktop\Project_C\Project_C_UE4\Source\Project_C\Public\PlayerCharacter.h
-E:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
-E:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
-E:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
-E:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h
-E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Intermediate\Build\Win64\UE4Editor\Inc\GameplayAbilities\AbilitySystemInterface.generated.h
-E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemComponent.h
-E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\GameplayCueInterface.h
-E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Intermediate\Build\Win64\UE4Editor\Inc\GameplayAbilities\GameplayCueInterface.generated.h
 E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\Abilities/GameplayAbilityTypes.h
 E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\Abilities/GameplayAbilityTargetTypes.h
 E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Intermediate\Build\Win64\UE4Editor\Inc\GameplayAbilities\GameplayAbilityTargetTypes.generated.h
@@ -63,4 +54,13 @@ E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Int
 E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemReplicationProxyInterface.h
 E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Intermediate\Build\Win64\UE4Editor\Inc\GameplayAbilities\AbilitySystemReplicationProxyInterface.generated.h
 E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Intermediate\Build\Win64\UE4Editor\Inc\GameplayAbilities\AbilitySystemComponent.generated.h
+D:\Users\Randy\Desktop\Project_C\Project_C_UE4\Intermediate\Build\Win64\UE4Editor\Inc\Project_C\AttributeSetBase.generated.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\GameplayEffectExtension.h
+D:\Users\Randy\Desktop\Project_C\Project_C_UE4\Source\Project_C\Public\PlayerCharacter.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemInterface.h
+E:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\GameplayAbilities\Intermediate\Build\Win64\UE4Editor\Inc\GameplayAbilities\AbilitySystemInterface.generated.h
 D:\Users\Randy\Desktop\Project_C\Project_C_UE4\Intermediate\Build\Win64\UE4Editor\Inc\Project_C\PlayerCharacter.generated.h

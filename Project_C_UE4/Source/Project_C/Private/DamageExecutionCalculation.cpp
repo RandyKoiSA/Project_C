@@ -8,10 +8,12 @@ struct DamageStatics
 {
 	DECLARE_ATTRIBUTE_CAPTUREDEF(AttackDamage)
 	DECLARE_ATTRIBUTE_CAPTUREDEF(Armor)
+	DECLARE_ATTRIBUTE_CAPTUREDEF(Strength)
 	DamageStatics()
 	{
 		DEFINE_ATTRIBUTE_CAPTUREDEF(UAttributeSetBase, AttackDamage, Source, true)
-			DEFINE_ATTRIBUTE_CAPTUREDEF(UAttributeSetBase, Armor, Target, true)
+		DEFINE_ATTRIBUTE_CAPTUREDEF(UAttributeSetBase, Armor, Target, true)
+		DEFINE_ATTRIBUTE_CAPTUREDEF(UAttributeSetBase, Strength, Source, true)
 	}
 };
 
@@ -31,6 +33,7 @@ UDamageExecutionCalculation::UDamageExecutionCalculation()
 
 	RelevantAttributesToCapture.Add(GetDamageStatics().AttackDamageDef);
 	RelevantAttributesToCapture.Add(GetDamageStatics().ArmorDef);
+	RelevantAttributesToCapture.Add(GetDamageStatics().StrengthDef);
 
 }
 
@@ -45,8 +48,19 @@ void UDamageExecutionCalculation::Execute_Implementation(const FGameplayEffectCu
 	float ArmorMagnitude = 0.0f;
 	ExecutionParams.AttemptCalculateCapturedAttributeMagnitude(GetDamageStatics().ArmorDef, FAggregatorEvaluateParameters(), ArmorMagnitude);
 
+	// This is how we get the Strength Attribute in AttributeSetBase
+	float StrengthMagnitude = 0.0f;
+	ExecutionParams.AttemptCalculateCapturedAttributeMagnitude(GetDamageStatics().StrengthDef, FAggregatorEvaluateParameters(), StrengthMagnitude);
+
 	// This is where we do out calculation
-	float finalDamage = FMath::Clamp(AttackDamageMagnitude - ArmorMagnitude, 0.0f, AttackDamageMagnitude);
-	UE_LOG(LogTemp, Warning, TEXT("Dealing %f Damage to Target!"), finalDamage);
+	//float finalDamage = FMath::Clamp(AttackDamageMagnitude - ArmorMagnitude, 0.0f, AttackDamageMagnitude);
+	float DamageMultiplier = (AttackDamageMagnitude + (FMath::Pow(StrengthMagnitude, 0.8))) / (AttackDamageMagnitude + ArmorMagnitude);
+	float finalDamage = DamageMultiplier * AttackDamageMagnitude;
+
+	UE_LOG(LogTemp, Warning, TEXT("Initial Attack Damage %f"), AttackDamageMagnitude);
+	UE_LOG(LogTemp, Warning, TEXT("Armor %f"), ArmorMagnitude);
+	UE_LOG(LogTemp, Warning, TEXT("Strength %f"), StrengthMagnitude);
+	UE_LOG(LogTemp, Warning, TEXT("Damage Multiplier %f"), DamageMultiplier);
+	UE_LOG(LogTemp, Warning, TEXT("Final Damage Output %f"), finalDamage);
 	OutExecutionOutput.AddOutputModifier(FGameplayModifierEvaluatedData(HealthProperty, EGameplayModOp::Additive, -finalDamage));
 }
